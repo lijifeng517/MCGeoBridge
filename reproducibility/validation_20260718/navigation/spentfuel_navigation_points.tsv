@@ -1,0 +1,5 @@
+label x_cm y_cm z_cm expected_logical_substring
+assembly_mm_mm 18 18 0 Vol_1015
+assembly_mp_mm 18 -18 0 Vol_1015
+assembly_pm_mm -18 18 0 Vol_1015
+assembly_pp_mm -18 -18 0 Vol_1015

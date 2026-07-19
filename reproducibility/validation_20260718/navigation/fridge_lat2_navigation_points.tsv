@@ -1,0 +1,4 @@
+label x_cm y_cm z_cm expected_logical_substring
+hex_0_0 0 0 -30.25 Vol_100
+hex_1_0 0.66144 0 -30.25 Vol_100
+hex_0_1 0.33072 0.572593073 -30.25 Vol_100

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "description": "Layered source-expression versus converted-solid membership validation; boundary points are two points per generated pair.",
+  "records": [
+    {
+      "case": "CASE-1-D",
+      "cells": 132,
+      "points": 56540,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 15840,
+        "cell_local": 31680,
+        "boundary": 9020
+      },
+      "boundary_pairs": 4510,
+      "active_boundary_pairs": 62,
+      "boundary_surfaces_exercised": 409,
+      "boundary_surfaces_skipped": 91
+    },
+    {
+      "case": "CASE_1",
+      "cells": 2,
+      "points": 768,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 240,
+        "cell_local": 480,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 24,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 0
+    },
+    {
+      "case": "CASE_10",
+      "cells": 4,
+      "points": 1710,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 480,
+        "cell_local": 960,
+        "boundary": 270
+      },
+      "boundary_pairs": 135,
+      "active_boundary_pairs": 77,
+      "boundary_surfaces_exercised": 14,
+      "boundary_surfaces_skipped": 1
+    },
+    {
+      "case": "CASE_14",
+      "cells": 10,
+      "points": 4918,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 1200,
+        "cell_local": 2400,
+        "boundary": 1318
+      },
+      "boundary_pairs": 659,
+      "active_boundary_pairs": 343,
+      "boundary_surfaces_exercised": 57,
+      "boundary_surfaces_skipped": 3
+    },
+    {
+      "case": "CASE_17",
+      "cells": 78,
+      "points": 34646,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 9360,
+        "cell_local": 18720,
+        "boundary": 6566
+      },
+      "boundary_pairs": 3283,
+      "active_boundary_pairs": 1105,
+      "boundary_surfaces_exercised": 310,
+      "boundary_surfaces_skipped": 0
+    },
+    {
+      "case": "CASE_1_2",
+      "cells": 3,
+      "points": 1176,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 360,
+        "cell_local": 720,
+        "boundary": 96
+      },
+      "boundary_pairs": 48,
+      "active_boundary_pairs": 48,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0
+    },
+    {
+      "case": "CASE_6",
+      "cells": 5,
+      "points": 2016,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 600,
+        "cell_local": 1200,
+        "boundary": 216
+      },
+      "boundary_pairs": 108,
+      "active_boundary_pairs": 72,
+      "boundary_surfaces_exercised": 9,
+      "boundary_surfaces_skipped": 0
+    },
+    {
+      "case": "M05",
+      "cells": 5,
+      "points": 2184,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 600,
+        "cell_local": 1200,
+        "boundary": 384
+      },
+      "boundary_pairs": 192,
+      "active_boundary_pairs": 175,
+      "boundary_surfaces_exercised": 16,
+      "boundary_surfaces_skipped": 0
+    },
+    {
+      "case": "ZPPR20C-B6",
+      "cells": 181,
+      "points": 85702,
+      "mismatches": 0,
+      "strategy_points": {
+        "global_uniform": 21720,
+        "cell_local": 43440,
+        "boundary": 20542
+      },
+      "boundary_pairs": 10271,
+      "active_boundary_pairs": 6030,
+      "boundary_surfaces_exercised": 875,
+      "boundary_surfaces_skipped": 101
+    }
+  ],
+  "aggregate": {
+    "cases": 9,
+    "cells": 420,
+    "points": 189660,
+    "mismatches": 0,
+    "strategy_points": {
+      "global_uniform": 50400,
+      "cell_local": 100800,
+      "boundary": 38460
+    },
+    "boundary_pairs": 19230,
+    "active_boundary_pairs": 7936,
+    "boundary_surfaces_exercised": 1696,
+    "boundary_surfaces_skipped": 196
+  }
+}

@@ -1,0 +1,2134 @@
+{
+  "schema_version": 2,
+  "sampling": {
+    "global_uniform_per_cell": 120,
+    "cell_local_per_cell": 240,
+    "boundary_pairs_per_surface": 12,
+    "boundary_delta": 9.999999999999999e-06
+  },
+  "samples": 120,
+  "seed": 0,
+  "eps": 1e-06,
+  "cells": [
+    {
+      "cell_id": 100,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 101,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 102,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 103,
+      "points": 490,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 130
+      },
+      "boundary_pairs": 65,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 110,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 111,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 112,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 113,
+      "points": 486,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 126
+      },
+      "boundary_pairs": 63,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 120,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 121,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 122,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 123,
+      "points": 480,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 120
+      },
+      "boundary_pairs": 60,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 130,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 131,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 132,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 133,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 140,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 141,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 142,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 143,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 150,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 151,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 152,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 153,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 160,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 161,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 162,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 163,
+      "points": 478,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 118
+      },
+      "boundary_pairs": 59,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 170,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 171,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 172,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 173,
+      "points": 490,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 130
+      },
+      "boundary_pairs": 65,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 180,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 181,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 182,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 183,
+      "points": 492,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 132
+      },
+      "boundary_pairs": 66,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 190,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 191,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 192,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 193,
+      "points": 480,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 120
+      },
+      "boundary_pairs": 60,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 200,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 201,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 202,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 203,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 210,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 211,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 212,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 213,
+      "points": 486,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 126
+      },
+      "boundary_pairs": 63,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 220,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 221,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 222,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 223,
+      "points": 484,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 124
+      },
+      "boundary_pairs": 62,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 230,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 231,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 232,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 233,
+      "points": 480,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 120
+      },
+      "boundary_pairs": 60,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 240,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 241,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 242,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 243,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 250,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 251,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 252,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 253,
+      "points": 480,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 120
+      },
+      "boundary_pairs": 60,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 260,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 261,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 262,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 263,
+      "points": 488,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 128
+      },
+      "boundary_pairs": 64,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 270,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 271,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 272,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 273,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 280,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 281,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 282,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 283,
+      "points": 488,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 128
+      },
+      "boundary_pairs": 64,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 290,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 291,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 292,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 293,
+      "points": 480,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 120
+      },
+      "boundary_pairs": 60,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 300,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 301,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 302,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 303,
+      "points": 490,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 130
+      },
+      "boundary_pairs": 65,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 310,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 311,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 312,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 313,
+      "points": 486,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 126
+      },
+      "boundary_pairs": 63,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 320,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 321,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 322,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 323,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 330,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 331,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 332,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 333,
+      "points": 472,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 112
+      },
+      "boundary_pairs": 56,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 340,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 341,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 342,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 343,
+      "points": 488,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 128
+      },
+      "boundary_pairs": 64,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 350,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 351,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 352,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 353,
+      "points": 488,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 128
+      },
+      "boundary_pairs": 64,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 360,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 361,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 362,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 363,
+      "points": 484,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 124
+      },
+      "boundary_pairs": 62,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 370,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 371,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 372,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 373,
+      "points": 482,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 122
+      },
+      "boundary_pairs": 61,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 380,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 381,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 382,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 383,
+      "points": 486,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 126
+      },
+      "boundary_pairs": 63,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 390,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 391,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 392,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 393,
+      "points": 484,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 124
+      },
+      "boundary_pairs": 62,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 1,
+      "points": 438,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 78
+      },
+      "boundary_pairs": 39,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 2,
+      "points": 484,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 124
+      },
+      "boundary_pairs": 62,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 3,
+      "points": 476,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 116
+      },
+      "boundary_pairs": 58,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 4,
+      "points": 438,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 78
+      },
+      "boundary_pairs": 39,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 5,
+      "points": 472,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 112
+      },
+      "boundary_pairs": 56,
+      "active_boundary_pairs": 2,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 6,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 0,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 1,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 7,
+      "points": 410,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 50
+      },
+      "boundary_pairs": 25,
+      "active_boundary_pairs": 1,
+      "boundary_surfaces_exercised": 3,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 8,
+      "points": 458,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 98
+      },
+      "boundary_pairs": 49,
+      "active_boundary_pairs": 3,
+      "boundary_surfaces_exercised": 5,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 9,
+      "points": 444,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 84
+      },
+      "boundary_pairs": 42,
+      "active_boundary_pairs": 6,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 10,
+      "points": 442,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 82
+      },
+      "boundary_pairs": 41,
+      "active_boundary_pairs": 11,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 11,
+      "points": 450,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 90
+      },
+      "boundary_pairs": 45,
+      "active_boundary_pairs": 19,
+      "boundary_surfaces_exercised": 4,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 12,
+      "points": 384,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 24
+      },
+      "boundary_pairs": 12,
+      "active_boundary_pairs": 12,
+      "boundary_surfaces_exercised": 1,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    }
+  ],
+  "totals": {
+    "points": 56540,
+    "mismatches": 0,
+    "boundary_pairs": 4510,
+    "active_boundary_pairs": 62,
+    "boundary_surfaces_exercised": 409,
+    "boundary_surfaces_skipped": 91
+  }
+}

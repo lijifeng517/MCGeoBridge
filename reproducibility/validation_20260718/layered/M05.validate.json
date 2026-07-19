@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "sampling": {
+    "global_uniform_per_cell": 120,
+    "cell_local_per_cell": 240,
+    "boundary_pairs_per_surface": 12,
+    "boundary_delta": 9.999999999999999e-06
+  },
+  "samples": 120,
+  "seed": 0,
+  "eps": 1e-06,
+  "cells": [
+    {
+      "cell_id": 1,
+      "points": 384,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 24
+      },
+      "boundary_pairs": 12,
+      "active_boundary_pairs": 12,
+      "boundary_surfaces_exercised": 1,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 2,
+      "points": 384,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 24
+      },
+      "boundary_pairs": 12,
+      "active_boundary_pairs": 12,
+      "boundary_surfaces_exercised": 1,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 3,
+      "points": 408,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 48
+      },
+      "boundary_pairs": 24,
+      "active_boundary_pairs": 24,
+      "boundary_surfaces_exercised": 2,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 4,
+      "points": 504,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 144
+      },
+      "boundary_pairs": 72,
+      "active_boundary_pairs": 72,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    },
+    {
+      "cell_id": 5,
+      "points": 504,
+      "strategy_points": {
+        "global_uniform": 120,
+        "cell_local": 240,
+        "boundary": 144
+      },
+      "boundary_pairs": 72,
+      "active_boundary_pairs": 55,
+      "boundary_surfaces_exercised": 6,
+      "boundary_surfaces_skipped": 0,
+      "mismatches": 0,
+      "ratio": 0.0,
+      "examples": []
+    }
+  ],
+  "totals": {
+    "points": 2184,
+    "mismatches": 0,
+    "boundary_pairs": 192,
+    "active_boundary_pairs": 175,
+    "boundary_surfaces_exercised": 16,
+    "boundary_surfaces_skipped": 0
+  }
+}
