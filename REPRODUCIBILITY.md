@@ -5,6 +5,12 @@ manuscript.  Commands are run from the repository root.  The public release
 will pin the repository revision, operating-system image and Geant4 version;
 the present file describes the working-draft layout.
 
+Machine-readable artefacts for the manuscript's current geometry results are
+frozen in `reproducibility/validation_20260718/`: the nine-case layered
+regression records, the 70-case Geant4 load report, and source-derived PWR and
+FRIDGe navigation controls.  They are evidence records, not substitutes for a
+clean-clone rerun of the commands below.
+
 ## 1. Core regression tests
 
 ```text
