@@ -223,7 +223,7 @@ def main() -> None:
         ("c", "Tokamak radial section", "nested toroidal material layers"),
         ("d", "PWR 17×17 assembly", "LAT=1 square repeated structure"),
         ("e", "FRIDGe fuel assembly", "LAT=2 indexed hexagonal fill"),
-        ("f", "Hemishell critical assembly", "HMF-048 Case 17 · U/steel shell stack"),
+        ("f", "Hemishell critical assembly", "nested shell layers and complements"),
     ]
     for box, args in zip(boxes, labels):
         label(draw, box, *args)
