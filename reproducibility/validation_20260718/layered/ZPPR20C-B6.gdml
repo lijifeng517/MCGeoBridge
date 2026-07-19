@@ -1,0 +1,4153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gdml.xsd">
+  <define>
+    <constant name="PI" value="3.14159265358979" />
+    <constant name="TWOPI" value="6.28318530717959" />
+    <constant name="HALFPI" value="1.5707963267949" />
+    <position name="center" unit="cm" x="0.0" y="0.0" z="0.0" />
+    <rotation name="identity" unit="deg" x="0.0" y="0.0" z="0.0" />
+    <position name="Pos_Cell_5" unit="cm" x="-9.620249999999999" y="-5.5245" z="10.48512" />
+    <position name="Pos_Cell_6" unit="cm" x="-9.620249999999999" y="0.0" z="5.12572" />
+    <position name="Pos_Cell_7" unit="cm" x="-9.620249999999999" y="0.0" z="15.61084" />
+    <position name="Pos_Cell_8" unit="cm" x="-9.620249999999999" y="5.5245" z="10.48512" />
+    <position name="Pos_Cell_15" unit="cm" x="0.0" y="-11.049" z="10.48512" />
+    <position name="Pos_Cell_16" unit="cm" x="0.0" y="-5.5245" z="5.12572" />
+    <position name="Pos_Cell_17" unit="cm" x="0.0" y="-5.5245" z="15.61084" />
+    <position name="Pos_Cell_18" unit="cm" x="0.0" y="0.0" z="10.48512" />
+    <position name="Pos_Cell_19" unit="cm" x="0.0" y="5.5245" z="5.12572" />
+    <position name="Pos_Cell_20" unit="cm" x="0.0" y="5.5245" z="15.61084" />
+    <position name="Pos_Cell_21" unit="cm" x="0.0" y="11.049" z="10.48512" />
+    <position name="Pos_Cell_28" unit="cm" x="9.620249999999999" y="-5.5245" z="10.48512" />
+    <position name="Pos_Cell_29" unit="cm" x="9.620249999999999" y="0.0" z="5.12572" />
+    <position name="Pos_Cell_30" unit="cm" x="9.620249999999999" y="0.0" z="15.61084" />
+    <position name="Pos_Cell_31" unit="cm" x="9.620249999999999" y="5.5245" z="10.48512" />
+    <position name="Pos_Cell_40" unit="cm" x="-9.620249999999999" y="-5.5245" z="-10.48512" />
+    <position name="Pos_Cell_41" unit="cm" x="-9.620249999999999" y="0.0" z="-5.12572" />
+    <position name="Pos_Cell_42" unit="cm" x="-9.620249999999999" y="0.0" z="-15.61084" />
+    <position name="Pos_Cell_43" unit="cm" x="-9.620249999999999" y="5.5245" z="-10.48512" />
+    <position name="Pos_Cell_50" unit="cm" x="0.0" y="-11.049" z="-10.48512" />
+    <position name="Pos_Cell_51" unit="cm" x="0.0" y="-5.5245" z="-5.12572" />
+    <position name="Pos_Cell_52" unit="cm" x="0.0" y="-5.5245" z="-15.61084" />
+    <position name="Pos_Cell_53" unit="cm" x="0.0" y="0.0" z="-10.48512" />
+    <position name="Pos_Cell_54" unit="cm" x="0.0" y="5.5245" z="-5.12572" />
+    <position name="Pos_Cell_55" unit="cm" x="0.0" y="5.5245" z="-15.61084" />
+    <position name="Pos_Cell_56" unit="cm" x="0.0" y="11.049" z="-10.48512" />
+    <position name="Pos_Cell_63" unit="cm" x="9.620249999999999" y="-5.5245" z="-10.48512" />
+    <position name="Pos_Cell_64" unit="cm" x="9.620249999999999" y="0.0" z="-5.12572" />
+    <position name="Pos_Cell_65" unit="cm" x="9.620249999999999" y="0.0" z="-15.61084" />
+    <position name="Pos_Cell_66" unit="cm" x="9.620249999999999" y="5.5245" z="-10.48512" />
+    <position name="Pos_Cell_73" unit="cm" x="-9.620249999999999" y="-5.5245" z="25.77084" />
+    <position name="Pos_Cell_74" unit="cm" x="-9.620249999999999" y="0.0" z="25.77084" />
+    <position name="Pos_Cell_75" unit="cm" x="-9.620249999999999" y="5.5245" z="25.77084" />
+    <position name="Pos_Cell_79" unit="cm" x="0.0" y="-11.049" z="25.77084" />
+    <position name="Pos_Cell_80" unit="cm" x="0.0" y="-5.5245" z="25.77084" />
+    <position name="Pos_Cell_81" unit="cm" x="0.0" y="0.0" z="25.77084" />
+    <position name="Pos_Cell_82" unit="cm" x="0.0" y="5.5245" z="25.77084" />
+    <position name="Pos_Cell_83" unit="cm" x="0.0" y="11.049" z="25.77084" />
+    <position name="Pos_Cell_87" unit="cm" x="9.620249999999999" y="-5.5245" z="25.77084" />
+    <position name="Pos_Cell_88" unit="cm" x="9.620249999999999" y="0.0" z="25.77084" />
+    <position name="Pos_Cell_89" unit="cm" x="9.620249999999999" y="5.5245" z="25.77084" />
+    <position name="Pos_Cell_92" unit="cm" x="-0.0" y="-0.0" z="34.38144" />
+    <position name="Pos_Cell_95" unit="cm" x="-9.620249999999999" y="-5.5245" z="-25.77084" />
+    <position name="Pos_Cell_96" unit="cm" x="-9.620249999999999" y="0.0" z="-25.77084" />
+    <position name="Pos_Cell_97" unit="cm" x="-9.620249999999999" y="5.5245" z="-25.77084" />
+    <position name="Pos_Cell_101" unit="cm" x="0.0" y="-11.049" z="-25.77084" />
+    <position name="Pos_Cell_102" unit="cm" x="0.0" y="-5.5245" z="-25.77084" />
+    <position name="Pos_Cell_103" unit="cm" x="0.0" y="0.0" z="-25.77084" />
+    <position name="Pos_Cell_104" unit="cm" x="0.0" y="5.5245" z="-25.77084" />
+    <position name="Pos_Cell_105" unit="cm" x="0.0" y="11.049" z="-25.77084" />
+    <position name="Pos_Cell_109" unit="cm" x="9.620249999999999" y="-5.5245" z="-25.77084" />
+    <position name="Pos_Cell_110" unit="cm" x="9.620249999999999" y="0.0" z="-25.77084" />
+    <position name="Pos_Cell_111" unit="cm" x="9.620249999999999" y="5.5245" z="-25.77084" />
+    <position name="Pos_Cell_116" unit="cm" x="-9.620249999999999" y="-5.5245" z="-31.84144" />
+    <position name="Pos_Cell_117" unit="cm" x="-9.620249999999999" y="0.0" z="-31.84144" />
+    <position name="Pos_Cell_118" unit="cm" x="-9.620249999999999" y="5.5245" z="-31.84144" />
+    <position name="Pos_Cell_122" unit="cm" x="0.0" y="-11.049" z="-31.84144" />
+    <position name="Pos_Cell_123" unit="cm" x="0.0" y="-5.5245" z="-31.84144" />
+    <position name="Pos_Cell_124" unit="cm" x="0.0" y="0.0" z="-31.84144" />
+    <position name="Pos_Cell_125" unit="cm" x="0.0" y="5.5245" z="-31.84144" />
+    <position name="Pos_Cell_126" unit="cm" x="0.0" y="11.049" z="-31.84144" />
+    <position name="Pos_Cell_130" unit="cm" x="9.620249999999999" y="-5.5245" z="-31.84144" />
+    <position name="Pos_Cell_131" unit="cm" x="9.620249999999999" y="0.0" z="-31.84144" />
+    <position name="Pos_Cell_132" unit="cm" x="9.620249999999999" y="5.5245" z="-31.84144" />
+    <position name="Pos_Cell_137" unit="cm" x="-9.620249999999999" y="-5.5245" z="-44.54144" />
+    <position name="Pos_Cell_138" unit="cm" x="-9.620249999999999" y="0.0" z="-44.54144" />
+    <position name="Pos_Cell_139" unit="cm" x="-9.620249999999999" y="5.5245" z="-44.54144" />
+    <position name="Pos_Cell_143" unit="cm" x="0.0" y="-11.049" z="-44.54144" />
+    <position name="Pos_Cell_144" unit="cm" x="0.0" y="-5.5245" z="-44.54144" />
+    <position name="Pos_Cell_145" unit="cm" x="0.0" y="0.0" z="-44.54144" />
+    <position name="Pos_Cell_146" unit="cm" x="0.0" y="5.5245" z="-44.54144" />
+    <position name="Pos_Cell_147" unit="cm" x="0.0" y="11.049" z="-44.54144" />
+    <position name="Pos_Cell_151" unit="cm" x="9.620249999999999" y="-5.5245" z="-44.54144" />
+    <position name="Pos_Cell_152" unit="cm" x="9.620249999999999" y="0.0" z="-44.54144" />
+    <position name="Pos_Cell_153" unit="cm" x="9.620249999999999" y="5.5245" z="-44.54144" />
+    <position name="Pos_Cell_156" unit="cm" x="-0.0" y="-0.0" z="10.48512" />
+    <position name="Pos_Cell_157" unit="cm" x="-0.0" y="-0.0" z="-10.48512" />
+    <position name="Pos_Cell_158" unit="cm" x="-0.0" y="-0.0" z="29.580840000000002" />
+    <position name="Pos_Cell_159" unit="cm" x="-0.0" y="-0.0" z="-38.47084" />
+    <position name="Pos_Cell_160" unit="cm" x="-0.0" y="-0.0" z="-57.24144" />
+    <position name="Pos_Cell_161" unit="cm" x="-0.0" y="-0.0" z="-85.50148" />
+    <position name="Pos_Cell_163" unit="cm" x="-0.0" y="-0.0" z="29.30144" />
+    <position name="Pos_Cell_164" unit="cm" x="-0.0" y="-0.0" z="-38.19144" />
+    <position name="Pos_Cell_165" unit="cm" x="-0.0" y="-0.0" z="-84.23148" />
+    <position name="Pos_Cell_166" unit="cm" x="-0.0" y="-0.0" z="43.27144" />
+    <position name="Pos_Cell_167" unit="cm" x="-0.0" y="-0.0" z="53.431439999999995" />
+    <position name="Pos_Cell_168" unit="cm" x="-0.0" y="-0.0" z="62.64148" />
+    <position name="Pos_Cell_169" unit="cm" x="-0.0" y="-0.0" z="82.01151999999999" />
+    <position name="Pos_Cell_170" unit="cm" x="-0.0" y="-0.0" z="-10.16" />
+    <position name="Pos_Cell_171" unit="cm" x="-0.0" y="-0.0" z="-85.50148" />
+    <position name="Pos_Cell_172" unit="cm" x="-0.0" y="-0.0" z="-13.065759999999997" />
+    <position name="Pos_Cell_173" unit="cm" x="-0.0" y="-0.0" z="-115.03152" />
+    <position name="Pos_Cell_175" unit="cm" x="-0.0" y="-0.0" z="76.2" />
+    <position name="Pos_Cell_176" unit="cm" x="-0.0" y="-0.0" z="-91.44" />
+    <position name="Pos_Cell_177" unit="cm" x="-0.0" y="-0.0" z="88.9" />
+    <position name="Pos_Cell_178" unit="cm" x="-0.0" y="-0.0" z="-119.74576" />
+    <position name="Pos_Cell_179" unit="cm" x="-0.0" y="-0.0" z="94.34576" />
+  </define>
+  <materials>
+    <element name="Oxygen" Z="8" formula="O">
+      <atom value="16.0" />
+    </element>
+    <element name="Nitrogen" Z="7" formula="N">
+      <atom value="14.01" />
+    </element>
+    <material name="Air">
+      <D value="0.001129" unit="g/cm3" />
+      <fraction ref="Oxygen" n="0.3" />
+      <fraction ref="Nitrogen" n="0.7" />
+    </material>
+    <element name="E092235" Z="92" formula="092">
+      <atom value="233.025921" />
+    </element>
+    <element name="E092238" Z="92" formula="092">
+      <atom value="236.006966" />
+    </element>
+    <element name="E092234" Z="92" formula="092">
+      <atom value="232.031554" />
+    </element>
+    <element name="E092236" Z="92" formula="092">
+      <atom value="234.018959" />
+    </element>
+    <element name="E024050" Z="24" formula="024">
+      <atom value="49.946" />
+    </element>
+    <element name="E024052" Z="24" formula="024">
+      <atom value="51.9405" />
+    </element>
+    <element name="E024053" Z="24" formula="024">
+      <atom value="52.9406" />
+    </element>
+    <element name="E024054" Z="24" formula="024">
+      <atom value="53.9389" />
+    </element>
+    <element name="E028058" Z="28" formula="028">
+      <atom value="57.9353" />
+    </element>
+    <element name="E028060" Z="28" formula="028">
+      <atom value="59.9308" />
+    </element>
+    <element name="E028061" Z="28" formula="028">
+      <atom value="60.9311" />
+    </element>
+    <element name="E028062" Z="28" formula="028">
+      <atom value="61.9283" />
+    </element>
+    <element name="E028064" Z="28" formula="028">
+      <atom value="63.928" />
+    </element>
+    <element name="E026054" Z="26" formula="026">
+      <atom value="53.9396" />
+    </element>
+    <element name="E026056" Z="26" formula="026">
+      <atom value="55.454" />
+    </element>
+    <element name="E026057" Z="26" formula="026">
+      <atom value="56.9354" />
+    </element>
+    <element name="E026058" Z="26" formula="026">
+      <atom value="57.9333" />
+    </element>
+    <element name="E013027" Z="13" formula="013">
+      <atom value="26.74975" />
+    </element>
+    <element name="E006000" Z="6" formula="006">
+      <atom value="11.907955" />
+    </element>
+    <element name="E042000" Z="42" formula="042">
+      <atom value="95.106691" />
+    </element>
+    <element name="E025055" Z="25" formula="025">
+      <atom value="54.466367" />
+    </element>
+    <element name="E029063" Z="29" formula="029">
+      <atom value="62.389" />
+    </element>
+    <element name="E029065" Z="29" formula="029">
+      <atom value="64.9278" />
+    </element>
+    <element name="E001001" Z="1" formula="001">
+      <atom value="0.999172" />
+    </element>
+    <element name="E014000" Z="14" formula="014">
+      <atom value="27.844241" />
+    </element>
+    <element name="E003006" Z="3" formula="003">
+      <atom value="5.963479" />
+    </element>
+    <element name="E003007" Z="3" formula="003">
+      <atom value="6.955768" />
+    </element>
+    <element name="E007014" Z="7" formula="007">
+      <atom value="13.882849" />
+    </element>
+    <element name="E017000" Z="17" formula="017">
+      <atom value="35.14818" />
+    </element>
+    <element name="E027059" Z="27" formula="027">
+      <atom value="58.427218" />
+    </element>
+    <element name="E009019" Z="9" formula="009">
+      <atom value="18.835289" />
+    </element>
+    <element name="E041093" Z="41" formula="041">
+      <atom value="92.108717" />
+    </element>
+    <element name="E075185" Z="75" formula="075">
+      <atom value="183.365036" />
+    </element>
+    <element name="E075187" Z="75" formula="075">
+      <atom value="185.350629" />
+    </element>
+    <element name="E040000" Z="40" formula="040">
+      <atom value="90.439594" />
+    </element>
+    <material name="M00000001">
+      <D value="9.13564311112708" unit="g/cm3" />
+      <fraction ref="E092235" n="0.4661603559249419" />
+      <fraction ref="E092238" n="0.09263850535661482" />
+      <fraction ref="E092234" n="0.004548293653032421" />
+      <fraction ref="E092236" n="0.0021991648908509013" />
+      <fraction ref="E024050" n="0.0010888836737546178" />
+      <fraction ref="E024052" n="0.02183691310232056" />
+      <fraction ref="E024053" n="0.0025235130953482777" />
+      <fraction ref="E024054" n="0.0006400673086357624" />
+      <fraction ref="E028058" n="0.008435698445554774" />
+      <fraction ref="E028060" n="0.0033360956636663297" />
+      <fraction ref="E028061" n="0.0001468472531315354" />
+      <fraction ref="E028062" n="0.0004741670183590483" />
+      <fraction ref="E028064" n="0.00012407445802799924" />
+      <fraction ref="E026054" n="0.005709855953859785" />
+      <fraction ref="E026056" n="0.09125626898832795" />
+      <fraction ref="E026057" n="0.0021452016368172125" />
+      <fraction ref="E026058" n="0.00029103969317400354" />
+      <fraction ref="E013027" n="1.4826134789604838e-05" />
+      <fraction ref="E006000" n="7.789666503475605e-05" />
+      <fraction ref="E042000" n="0.0002806930754384288" />
+      <fraction ref="E025055" n="0.0021685985848563525" />
+      <fraction ref="E029063" n="0.0001940781538087342" />
+      <fraction ref="E029065" n="9.002340050558008e-05" />
+      <fraction ref="E001001" n="6.6891224878568196e-09" />
+      <fraction ref="E014000" n="0.0007879980009228331" />
+      <fraction ref="E003006" n="9.040466762071618e-07" />
+      <fraction ref="E003007" n="0.011832160946518833" />
+      <fraction ref="E007014" n="1.8555402173095652e-05" />
+      <fraction ref="E017000" n="4.1166339347796735e-07" />
+      <fraction ref="E027059" n="2.553813688544027e-05" />
+      <fraction ref="E009019" n="6.689626790719129e-07" />
+      <fraction ref="E041093" n="0.11963879121867091" />
+      <fraction ref="E075185" n="0.05987939593332464" />
+      <fraction ref="E075187" n="0.10022597794416269" />
+      <fraction ref="E040000" n="0.0012085289246188946" />
+    </material>
+    <element name="E011023" Z="11" formula="011">
+      <atom value="22.792388" />
+    </element>
+    <element name="E008016" Z="8" formula="008">
+      <atom value="15.85316" />
+    </element>
+    <element name="E020000" Z="20" formula="020">
+      <atom value="39.733857" />
+    </element>
+    <material name="M00000002">
+      <D value="9.031155577424757" unit="g/cm3" />
+      <fraction ref="E092235" n="0.5229395894888829" />
+      <fraction ref="E092238" n="0.030380041624605142" />
+      <fraction ref="E092234" n="0.0051041775078370065" />
+      <fraction ref="E092236" n="0.0024679169753174493" />
+      <fraction ref="E024050" n="0.0011512485788111732" />
+      <fraction ref="E024052" n="0.02308749204015419" />
+      <fraction ref="E024053" n="0.0026680328058845807" />
+      <fraction ref="E024054" n="0.0006767247267488569" />
+      <fraction ref="E028058" n="0.009100637453033225" />
+      <fraction ref="E028060" n="0.003599063325822492" />
+      <fraction ref="E028061" n="0.00015842213931861708" />
+      <fraction ref="E028062" n="0.0005115430915026734" />
+      <fraction ref="E028064" n="0.00013385335706116508" />
+      <fraction ref="E026054" n="0.005995891916271165" />
+      <fraction ref="E026056" n="0.09582776585768371" />
+      <fraction ref="E026057" n="0.002252663283876033" />
+      <fraction ref="E026058" n="0.00030561868265601853" />
+      <fraction ref="E013027" n="1.4580756543903278e-05" />
+      <fraction ref="E011023" n="0.00047554137885273717" />
+      <fraction ref="E008016" n="2.3176561542482898e-08" />
+      <fraction ref="E006000" n="8.063391154793788e-05" />
+      <fraction ref="E042000" n="0.000316689066869675" />
+      <fraction ref="E025055" n="0.0023443417752781774" />
+      <fraction ref="E029063" n="0.0002090811442324795" />
+      <fraction ref="E029065" n="9.698233793838062e-05" />
+      <fraction ref="E014000" n="0.000851655853441786" />
+      <fraction ref="E003006" n="7.960206148084073e-07" />
+      <fraction ref="E003007" n="0.010418329917705494" />
+      <fraction ref="E007014" n="2.2551317992659973e-05" />
+      <fraction ref="E020000" n="1.88985221607104e-07" />
+      <fraction ref="E017000" n="2.318931130460743e-08" />
+      <fraction ref="E027059" n="2.9073592343763264e-05" />
+      <fraction ref="E041093" n="0.11613242528922778" />
+      <fraction ref="E075185" n="0.06039088641748533" />
+      <fraction ref="E075187" n="0.10108240120332591" />
+      <fraction ref="E040000" n="0.001173111810038425" />
+    </material>
+    <element name="E004009" Z="4" formula="004">
+      <atom value="8.934807" />
+    </element>
+    <material name="M00000003">
+      <D value="3.011216235557484" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0014939011983791763" />
+      <fraction ref="E024052" n="0.02995924330071601" />
+      <fraction ref="E024053" n="0.0034621223654502033" />
+      <fraction ref="E024054" n="0.0008781427402853289" />
+      <fraction ref="E028058" n="0.01107106967979749" />
+      <fraction ref="E028060" n="0.004378303668450581" />
+      <fraction ref="E028061" n="0.00019272318336203777" />
+      <fraction ref="E028062" n="0.0006223005994680718" />
+      <fraction ref="E028064" n="0.0001628355654064655" />
+      <fraction ref="E026054" n="0.007900109335389685" />
+      <fraction ref="E026056" n="0.1262614069471685" />
+      <fraction ref="E026057" n="0.0029680757269193747" />
+      <fraction ref="E026058" n="0.0004026793654183706" />
+      <fraction ref="E013027" n="6.332039431930522e-06" />
+      <fraction ref="E006000" n="0.00029806992725538655" />
+      <fraction ref="E042000" n="0.0003837972342250977" />
+      <fraction ref="E025055" n="0.0030910665249177446" />
+      <fraction ref="E029063" n="0.00035391767304052797" />
+      <fraction ref="E029065" n="0.0001641645202427912" />
+      <fraction ref="E001001" n="4.2620321989278925e-06" />
+      <fraction ref="E014000" n="0.001038600006052298" />
+      <fraction ref="E017000" n="0.0002599998542154412" />
+      <fraction ref="E027059" n="3.750462839395839e-06" />
+      <fraction ref="E009019" n="0.00041259521510269616" />
+      <fraction ref="E004009" n="0.28988249462031945" />
+      <fraction ref="E008016" n="0.514348036213947" />
+    </material>
+    <material name="M00000004">
+      <D value="9.1345071894572" unit="g/cm3" />
+      <fraction ref="E092235" n="0.46615125565225907" />
+      <fraction ref="E092238" n="0.0926368662052119" />
+      <fraction ref="E092234" n="0.00454823346015192" />
+      <fraction ref="E092236" n="0.002199126900634725" />
+      <fraction ref="E024050" n="0.0010885122809321777" />
+      <fraction ref="E024052" n="0.021829275461043164" />
+      <fraction ref="E024053" n="0.00252262774832799" />
+      <fraction ref="E024054" n="0.000639843908696721" />
+      <fraction ref="E028058" n="0.00843260017721124" />
+      <fraction ref="E028060" n="0.003334870497074599" />
+      <fraction ref="E028061" n="0.00014679263244145337" />
+      <fraction ref="E028062" n="0.0004739925417394036" />
+      <fraction ref="E028064" n="0.00012402848286048352" />
+      <fraction ref="E026054" n="0.0057079075696366095" />
+      <fraction ref="E026056" n="0.09122511383555941" />
+      <fraction ref="E026057" n="0.002144467698564675" />
+      <fraction ref="E026058" n="0.0002909404705947603" />
+      <fraction ref="E013027" n="1.482586140128497e-05" />
+      <fraction ref="E006000" n="7.786728883639852e-05" />
+      <fraction ref="E042000" n="0.00028062985900486313" />
+      <fraction ref="E025055" n="0.0021679408330333907" />
+      <fraction ref="E029063" n="0.00019404133894845396" />
+      <fraction ref="E029065" n="9.000640479094911e-05" />
+      <fraction ref="E001001" n="6.688983637321611e-09" />
+      <fraction ref="E014000" n="0.0007877884237920669" />
+      <fraction ref="E003006" n="9.040292981252967e-07" />
+      <fraction ref="E003007" n="0.011831943275707725" />
+      <fraction ref="E007014" n="1.8554961721598502e-05" />
+      <fraction ref="E017000" n="4.1165578900545446e-07" />
+      <fraction ref="E027059" n="2.5537634014373696e-05" />
+      <fraction ref="E009019" n="6.689475877522032e-07" />
+      <fraction ref="E041093" n="0.11963643669564161" />
+      <fraction ref="E075185" n="0.05990259995434635" />
+      <fraction ref="E075187" n="0.10026487549314006" />
+      <fraction ref="E040000" n="0.0012085051310219792" />
+    </material>
+    <material name="M00000005">
+      <D value="9.033855753390702" unit="g/cm3" />
+      <fraction ref="E092235" n="0.5227100423341755" />
+      <fraction ref="E092238" n="0.030366771802893353" />
+      <fraction ref="E092234" n="0.0051019653232177034" />
+      <fraction ref="E092236" n="0.002466841790876999" />
+      <fraction ref="E024050" n="0.0011540249797198513" />
+      <fraction ref="E024052" n="0.023143107467550328" />
+      <fraction ref="E024053" n="0.0026744634188653844" />
+      <fraction ref="E024054" n="0.0006783551255672245" />
+      <fraction ref="E028058" n="0.00912160447225854" />
+      <fraction ref="E028060" n="0.003607359303841742" />
+      <fraction ref="E028061" n="0.00015878681536918356" />
+      <fraction ref="E028062" n="0.0005127216124621455" />
+      <fraction ref="E028064" n="0.00013416223803922067" />
+      <fraction ref="E026054" n="0.006009244678791812" />
+      <fraction ref="E026056" n="0.09604113265099733" />
+      <fraction ref="E026057" n="0.0022576813435273378" />
+      <fraction ref="E026058" n="0.00030630019420600026" />
+      <fraction ref="E013027" n="1.4545999799261764e-05" />
+      <fraction ref="E011023" n="0.0004753318212957311" />
+      <fraction ref="E008016" n="2.3166409854398215e-08" />
+      <fraction ref="E006000" n="8.094157199727727e-05" />
+      <fraction ref="E042000" n="0.0003164840161247302" />
+      <fraction ref="E025055" n="0.0023520889536908104" />
+      <fraction ref="E029063" n="0.0002089095352688177" />
+      <fraction ref="E029065" n="9.690278806126784e-05" />
+      <fraction ref="E014000" n="0.0008558380197520555" />
+      <fraction ref="E003006" n="7.956724222091874e-07" />
+      <fraction ref="E003007" n="0.010413762656595294" />
+      <fraction ref="E007014" n="2.2541216194703822e-05" />
+      <fraction ref="E020000" n="1.8890301806631566e-07" />
+      <fraction ref="E017000" n="2.317913086768762e-08" />
+      <fraction ref="E027059" n="2.9042754943270222e-05" />
+      <fraction ref="E041093" n="0.1160813655804148" />
+      <fraction ref="E075185" n="0.06037615708231961" />
+      <fraction ref="E075187" n="0.1010578975543561" />
+      <fraction ref="E040000" n="0.0011725939758456473" />
+    </material>
+    <element name="E005010" Z="5" formula="005">
+      <atom value="9.92697" />
+    </element>
+    <element name="E005011" Z="5" formula="005">
+      <atom value="10.914679" />
+    </element>
+    <material name="M00000006">
+      <D value="3.0157530166668844" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0013970823742948091" />
+      <fraction ref="E024052" n="0.028017562605196188" />
+      <fraction ref="E024053" n="0.0032377529656616166" />
+      <fraction ref="E024054" n="0.0008212313612202809" />
+      <fraction ref="E028058" n="0.01017121778971428" />
+      <fraction ref="E028060" n="0.004022445194284102" />
+      <fraction ref="E028061" n="0.00017705871777304595" />
+      <fraction ref="E028062" n="0.000571719690814497" />
+      <fraction ref="E028064" n="0.00014960019954440038" />
+      <fraction ref="E026054" n="0.00740655999254846" />
+      <fraction ref="E026056" n="0.1183735964108848" />
+      <fraction ref="E026057" n="0.002782654076517429" />
+      <fraction ref="E026058" n="0.0003775229512526593" />
+      <fraction ref="E013027" n="5.240718413878805e-07" />
+      <fraction ref="E008016" n="0.5135981903686037" />
+      <fraction ref="E006000" n="0.0033209163892987835" />
+      <fraction ref="E042000" n="0.00038085347979375454" />
+      <fraction ref="E025055" n="0.00290929286360285" />
+      <fraction ref="E005010" n="0.009612152665972888" />
+      <fraction ref="E005011" n="0.0008951041488399478" />
+      <fraction ref="E029063" n="0.00034332295528742964" />
+      <fraction ref="E029065" n="0.00015925053309375476" />
+      <fraction ref="E001001" n="4.2556451693097255e-06" />
+      <fraction ref="E014000" n="0.0009613786992502718" />
+      <fraction ref="E007014" n="0.00018908648355850927" />
+      <fraction ref="E017000" n="0.0002596102215960511" />
+      <fraction ref="E009019" n="0.0004119769049313563" />
+      <fraction ref="E004009" n="0.28944808023945345" />
+    </material>
+    <material name="M00000007">
+      <D value="2.410815176931804" unit="g/cm3" />
+      <fraction ref="E024050" n="0.003911805949559232" />
+      <fraction ref="E024052" n="0.07844888162858096" />
+      <fraction ref="E024053" n="0.00906567215232742" />
+      <fraction ref="E024054" n="0.002299433044185323" />
+      <fraction ref="E028058" n="0.031168188257867827" />
+      <fraction ref="E028060" n="0.01232617577141098" />
+      <fraction ref="E028061" n="0.0005425701928145966" />
+      <fraction ref="E028062" n="0.001751949712970179" />
+      <fraction ref="E028064" n="0.000458425886352197" />
+      <fraction ref="E026054" n="0.0203722994118316" />
+      <fraction ref="E026056" n="0.3255945846102162" />
+      <fraction ref="E026057" n="0.007653868695164527" />
+      <fraction ref="E026058" n="0.0010384036159383715" />
+      <fraction ref="E013027" n="3.705396131267991e-05" />
+      <fraction ref="E011023" n="0.040209222395156834" />
+      <fraction ref="E008016" n="1.9596838572515707e-06" />
+      <fraction ref="E006000" n="0.000295095227399378" />
+      <fraction ref="E042000" n="0.0007229042618655754" />
+      <fraction ref="E025055" n="0.00836290506990511" />
+      <fraction ref="E029063" n="0.0006969370740960498" />
+      <fraction ref="E029065" n="0.00032327465120131794" />
+      <fraction ref="E014000" n="0.0028458622910449835" />
+      <fraction ref="E020000" n="1.5979609936951278e-05" />
+      <fraction ref="E017000" n="1.960763312476416e-06" />
+      <fraction ref="E027059" n="2.258583952608449e-05" />
+      <fraction ref="E075185" n="0.16898512334709398" />
+      <fraction ref="E075187" n="0.2828468768950719" />
+    </material>
+    <material name="M00000008">
+      <D value="1.0446526228296376" unit="g/cm3" />
+      <fraction ref="E024050" n="0.007702597049822384" />
+      <fraction ref="E024052" n="0.1544705672690141" />
+      <fraction ref="E024053" n="0.017850819080412285" />
+      <fraction ref="E024054" n="0.004527725212019353" />
+      <fraction ref="E028058" n="0.06452454039172104" />
+      <fraction ref="E028060" n="0.02551771948131113" />
+      <fraction ref="E028061" n="0.001123232340913423" />
+      <fraction ref="E028062" n="0.0036269011854908437" />
+      <fraction ref="E028064" n="0.0009490394657382575" />
+      <fraction ref="E026054" n="0.03988151476258024" />
+      <fraction ref="E026056" n="0.6373950312334157" />
+      <fraction ref="E026057" n="0.014983476971090695" />
+      <fraction ref="E026058" n="0.002032818218446184" />
+      <fraction ref="E013027" n="0.00022523131593412137" />
+      <fraction ref="E006000" n="0.00045012944886613416" />
+      <fraction ref="E042000" n="0.0012168148408068962" />
+      <fraction ref="E025055" n="0.015524673047378122" />
+      <fraction ref="E029063" n="0.0014159957872294411" />
+      <fraction ref="E029065" n="0.0006568098504003385" />
+      <fraction ref="E014000" n="0.005778737121282072" />
+      <fraction ref="E027059" n="0.0001456259261272395" />
+    </material>
+    <material name="M00000009">
+      <D value="1.8318472164545871" unit="g/cm3" />
+      <fraction ref="E024050" n="0.006199202894327735" />
+      <fraction ref="E024052" n="0.12432051651851574" />
+      <fraction ref="E024053" n="0.01436670978548493" />
+      <fraction ref="E024054" n="0.00364399162751272" />
+      <fraction ref="E028058" n="0.051204950754117136" />
+      <fraction ref="E028060" n="0.02025017539436596" />
+      <fraction ref="E028061" n="0.0008913649129661068" />
+      <fraction ref="E028062" n="0.0028782082875732804" />
+      <fraction ref="E028064" n="0.0007531293579416227" />
+      <fraction ref="E026054" n="0.031960901991154596" />
+      <fraction ref="E026056" n="0.5108083396887572" />
+      <fraction ref="E026057" n="0.012007731410994057" />
+      <fraction ref="E026058" n="0.0016290919326172985" />
+      <fraction ref="E013027" n="0.00013016329661391383" />
+      <fraction ref="E011023" n="0.19885630825562214" />
+      <fraction ref="E008016" n="9.87732270129722e-06" />
+      <fraction ref="E006000" n="0.0003443241937824166" />
+      <fraction ref="E042000" n="0.001080224299401444" />
+      <fraction ref="E025055" n="0.01256437227923967" />
+      <fraction ref="E029063" n="0.001064507380438465" />
+      <fraction ref="E029065" n="0.0004937720841872485" />
+      <fraction ref="E014000" n="0.00441394391157453" />
+      <fraction ref="E020000" n="7.957166076848945e-05" />
+      <fraction ref="E017000" n="9.88275810593993e-06" />
+      <fraction ref="E027059" n="3.8738001236128774e-05" />
+    </material>
+    <material name="M00000010">
+      <D value="2.4254482341406756" unit="g/cm3" />
+      <fraction ref="E024050" n="0.003952173992912318" />
+      <fraction ref="E024052" n="0.07925804912688883" />
+      <fraction ref="E024053" n="0.009159196701100044" />
+      <fraction ref="E024054" n="0.002323151277554868" />
+      <fraction ref="E028058" n="0.0311812476284901" />
+      <fraction ref="E028060" n="0.012331379338003464" />
+      <fraction ref="E028061" n="0.0005427995560185095" />
+      <fraction ref="E028062" n="0.0017526874826750594" />
+      <fraction ref="E028064" n="0.0004586220540752704" />
+      <fraction ref="E026054" n="0.020523721206539534" />
+      <fraction ref="E026056" n="0.32801483102106177" />
+      <fraction ref="E026057" n="0.007710774581854387" />
+      <fraction ref="E026058" n="0.0010461253659294267" />
+      <fraction ref="E013027" n="3.683947624390629e-05" />
+      <fraction ref="E011023" n="0.03987727966773111" />
+      <fraction ref="E008016" n="1.9435037626424495e-06" />
+      <fraction ref="E006000" n="0.0003110581885175561" />
+      <fraction ref="E042000" n="0.0007157087057667765" />
+      <fraction ref="E025055" n="0.00858337455933417" />
+      <fraction ref="E029063" n="0.0006860630926926691" />
+      <fraction ref="E029065" n="0.00031823011846204635" />
+      <fraction ref="E014000" n="0.003073054783677923" />
+      <fraction ref="E020000" n="1.5847691081960534e-05" />
+      <fraction ref="E017000" n="1.94457588898208e-06" />
+      <fraction ref="E027059" n="2.2457001224086688e-05" />
+      <fraction ref="E075185" n="0.1675898444960055" />
+      <fraction ref="E075187" n="0.280511594806507" />
+    </material>
+    <material name="M00000011">
+      <D value="2.1320344527614314" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0019755405235581448" />
+      <fraction ref="E024052" n="0.039618058850513345" />
+      <fraction ref="E024053" n="0.004578335043804931" />
+      <fraction ref="E024054" n="0.0011612561398847377" />
+      <fraction ref="E028058" n="0.014819392669556647" />
+      <fraction ref="E028060" n="0.005860698342717817" />
+      <fraction ref="E028061" n="0.00025797342433102804" />
+      <fraction ref="E028062" n="0.0008329931486151578" />
+      <fraction ref="E028064" n="0.0002179666422442979" />
+      <fraction ref="E026054" n="0.010381076732206495" />
+      <fraction ref="E026056" n="0.16591311064229827" />
+      <fraction ref="E026057" n="0.003900182909634663" />
+      <fraction ref="E026058" n="0.0005291393953137337" />
+      <fraction ref="E008016" n="0.0008945580685128525" />
+      <fraction ref="E006000" n="0.17633578389458068" />
+      <fraction ref="E042000" n="0.0005508441200769062" />
+      <fraction ref="E025055" n="0.004237737185220713" />
+      <fraction ref="E005010" n="0.508481343080606" />
+      <fraction ref="E005011" n="0.049109978358877676" />
+      <fraction ref="E029063" n="0.0005024682994885984" />
+      <fraction ref="E029065" n="0.0002330696391397651" />
+      <fraction ref="E014000" n="0.00139234533054179" />
+      <fraction ref="E007014" n="0.008216147558275627" />
+    </material>
+    <material name="M00000012">
+      <D value="2.0894648832407032" unit="g/cm3" />
+      <fraction ref="E024050" n="0.005698290630159553" />
+      <fraction ref="E024052" n="0.11427508752077234" />
+      <fraction ref="E024053" n="0.013205837882704418" />
+      <fraction ref="E024054" n="0.0033495520254723885" />
+      <fraction ref="E028058" n="0.04672231339947262" />
+      <fraction ref="E028060" n="0.01847733316806453" />
+      <fraction ref="E028061" n="0.0008133287047535411" />
+      <fraction ref="E028062" n="0.002626231992667445" />
+      <fraction ref="E028064" n="0.0006871956169490619" />
+      <fraction ref="E026054" n="0.029311253953698567" />
+      <fraction ref="E026056" n="0.46845883056526016" />
+      <fraction ref="E026057" n="0.011012232399998287" />
+      <fraction ref="E026058" n="0.0014940338667681825" />
+      <fraction ref="E013027" n="0.00012365915571184937" />
+      <fraction ref="E011023" n="0.2649666460500794" />
+      <fraction ref="E008016" n="1.3040265541684872e-05" />
+      <fraction ref="E006000" n="0.00032719965122566" />
+      <fraction ref="E042000" n="0.0009918993078412526" />
+      <fraction ref="E025055" n="0.011673824262873903" />
+      <fraction ref="E029063" n="0.000961662016997445" />
+      <fraction ref="E029065" n="0.0004460690697956326" />
+      <fraction ref="E014000" n="0.004218878729141719" />
+      <fraction ref="E020000" n="0.00010602658663900857" />
+      <fraction ref="E017000" n="1.3047465814021753e-05" />
+      <fraction ref="E027059" n="2.6525711597269985e-05" />
+    </material>
+    <material name="M00000013">
+      <D value="1.803860500950503" unit="g/cm3" />
+      <fraction ref="E024050" n="0.006141509088449118" />
+      <fraction ref="E024052" n="0.12316371014410883" />
+      <fraction ref="E024053" n="0.014233049825438085" />
+      <fraction ref="E024054" n="0.0036100921644617603" />
+      <fraction ref="E028058" n="0.050535052706864106" />
+      <fraction ref="E028060" n="0.01998528819849002" />
+      <fraction ref="E028061" n="0.0008797033909051976" />
+      <fraction ref="E028062" n="0.0028405558746704613" />
+      <fraction ref="E028064" n="0.0007432770711510224" />
+      <fraction ref="E026054" n="0.03174584625896952" />
+      <fraction ref="E026056" n="0.5073687392958722" />
+      <fraction ref="E026057" n="0.01192691351423446" />
+      <fraction ref="E026058" n="0.0016181273482911026" />
+      <fraction ref="E013027" n="0.00013478486144471844" />
+      <fraction ref="E011023" n="0.20452059374264153" />
+      <fraction ref="E008016" n="1.0179765185738845e-05" />
+      <fraction ref="E006000" n="0.0004065611898450236" />
+      <fraction ref="E042000" n="0.0009969688745318406" />
+      <fraction ref="E025055" n="0.012675000748607088" />
+      <fraction ref="E029063" n="0.001071485940428869" />
+      <fraction ref="E029065" n="0.0004970098631127456" />
+      <fraction ref="E014000" n="0.004718633557094417" />
+      <fraction ref="E020000" n="8.188429903740542e-05" />
+      <fraction ref="E017000" n="1.0185365528319022e-05" />
+      <fraction ref="E027059" n="8.484691063647483e-05" />
+    </material>
+    <material name="M00000014">
+      <D value="3.043146441235148" unit="g/cm3" />
+      <fraction ref="E024050" n="0.002430052432259478" />
+      <fraction ref="E024052" n="0.04873293038581076" />
+      <fraction ref="E024053" n="0.005631663800169927" />
+      <fraction ref="E024054" n="0.0014284298384399754" />
+      <fraction ref="E028058" n="0.02021184979292325" />
+      <fraction ref="E028060" n="0.00799323439274863" />
+      <fraction ref="E028061" n="0.0003518439124365851" />
+      <fraction ref="E028062" n="0.0011360993214325893" />
+      <fraction ref="E028064" n="0.00029727959643620415" />
+      <fraction ref="E026054" n="0.012631761790522876" />
+      <fraction ref="E026056" n="0.20188348530501363" />
+      <fraction ref="E026057" n="0.004745747855547479" />
+      <fraction ref="E026058" n="0.0006438589094944692" />
+      <fraction ref="E013027" n="7.326837386686904e-05" />
+      <fraction ref="E011023" n="0.046009921571325996" />
+      <fraction ref="E008016" n="2.288013153835486e-06" />
+      <fraction ref="E006000" n="0.00014400737779625444" />
+      <fraction ref="E042000" n="0.0003460654647812259" />
+      <fraction ref="E025055" n="0.004782732338086211" />
+      <fraction ref="E029063" n="0.0004025956484273149" />
+      <fraction ref="E029065" n="0.0001867446125076962" />
+      <fraction ref="E014000" n="0.0017731602021410623" />
+      <fraction ref="E020000" n="1.8393361323937938e-05" />
+      <fraction ref="E017000" n="2.2892634710183137e-06" />
+      <fraction ref="E027059" n="4.692386825726558e-05" />
+      <fraction ref="E041093" n="0.6380933725716255" />
+    </material>
+    <material name="M00000015">
+      <D value="3.0638806153430056" unit="g/cm3" />
+      <fraction ref="E024050" n="0.002444342625715483" />
+      <fraction ref="E024052" n="0.04901964287427655" />
+      <fraction ref="E024053" n="0.0056647969911789026" />
+      <fraction ref="E024054" n="0.0014368268593909332" />
+      <fraction ref="E028058" n="0.020302845376965622" />
+      <fraction ref="E028060" n="0.008029245393979359" />
+      <fraction ref="E028061" n="0.0003534290161684744" />
+      <fraction ref="E028062" n="0.001141215696023762" />
+      <fraction ref="E028064" n="0.0002986182673197522" />
+      <fraction ref="E026054" n="0.012689234820359996" />
+      <fraction ref="E026056" n="0.20280206979184304" />
+      <fraction ref="E026057" n="0.004767355766095462" />
+      <fraction ref="E026058" n="0.0006467893992670348" />
+      <fraction ref="E013027" n="7.517554536414974e-05" />
+      <fraction ref="E011023" n="0.048711679268288656" />
+      <fraction ref="E008016" n="2.422004801464887e-06" />
+      <fraction ref="E006000" n="0.00014642110771559012" />
+      <fraction ref="E042000" n="0.0003410453120557149" />
+      <fraction ref="E025055" n="0.004834083907428677" />
+      <fraction ref="E029063" n="0.0004012305335065123" />
+      <fraction ref="E029065" n="0.00018611148258596534" />
+      <fraction ref="E014000" n="0.0018300356319536372" />
+      <fraction ref="E020000" n="1.947319776003007e-05" />
+      <fraction ref="E017000" n="2.4233284612775875e-06" />
+      <fraction ref="E027059" n="4.820197934067986e-05" />
+      <fraction ref="E041093" n="0.6338052838221533" />
+    </material>
+    <material name="M00000016">
+      <D value="3.066804320678344" unit="g/cm3" />
+      <fraction ref="E024050" n="0.002449481759140732" />
+      <fraction ref="E024052" n="0.049122754311190446" />
+      <fraction ref="E024053" n="0.0056767038895677545" />
+      <fraction ref="E024054" n="0.0014398509140605752" />
+      <fraction ref="E028058" n="0.020680980615816354" />
+      <fraction ref="E028060" n="0.00817880162461541" />
+      <fraction ref="E028061" n="0.0003600100063404066" />
+      <fraction ref="E028062" n="0.0011624718236786095" />
+      <fraction ref="E028064" n="0.00030418028241231123" />
+      <fraction ref="E026054" n="0.012679752108753425" />
+      <fraction ref="E026056" n="0.2026508418090994" />
+      <fraction ref="E026057" n="0.004763792058238493" />
+      <fraction ref="E026058" n="0.0006463038179066933" />
+      <fraction ref="E013027" n="6.837939332893429e-05" />
+      <fraction ref="E011023" n="0.045452680607926885" />
+      <fraction ref="E008016" n="2.286223768975701e-06" />
+      <fraction ref="E006000" n="0.00014406659353129848" />
+      <fraction ref="E042000" n="0.0003610236820674348" />
+      <fraction ref="E025055" n="0.004908093408623413" />
+      <fraction ref="E029063" n="0.00040628968242915583" />
+      <fraction ref="E029065" n="0.00018845801706055953" />
+      <fraction ref="E014000" n="0.0017667620281210667" />
+      <fraction ref="E020000" n="1.8184696504523748e-05" />
+      <fraction ref="E017000" n="2.287473613435464e-06" />
+      <fraction ref="E027059" n="4.368488921234622e-05" />
+      <fraction ref="E041093" n="0.6365218782829913" />
+    </material>
+    <material name="M00000017">
+      <D value="3.019602181009479" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0048602544754774175" />
+      <fraction ref="E024052" n="0.0974692665608744" />
+      <fraction ref="E024053" n="0.01126370376025378" />
+      <fraction ref="E024054" n="0.0028569473853457717" />
+      <fraction ref="E028058" n="0.04040847560209714" />
+      <fraction ref="E028060" n="0.015980489795553953" />
+      <fraction ref="E028061" n="0.0007034220197193885" />
+      <fraction ref="E028062" n="0.0022713434103574155" />
+      <fraction ref="E028064" n="0.0005943364260853377" />
+      <fraction ref="E026054" n="0.02534567668302795" />
+      <fraction ref="E026056" n="0.40507853008128236" />
+      <fraction ref="E026057" n="0.00952236578575202" />
+      <fraction ref="E026058" n="0.0012919038787136286" />
+      <fraction ref="E013027" n="7.195828365696779e-05" />
+      <fraction ref="E011023" n="0.04837578130588127" />
+      <fraction ref="E008016" n="2.4061905207855755e-06" />
+      <fraction ref="E006000" n="0.00036259276445491616" />
+      <fraction ref="E042000" n="0.0003628650224516281" />
+      <fraction ref="E025055" n="0.010861567465772447" />
+      <fraction ref="E029063" n="0.00041344091941625374" />
+      <fraction ref="E029065" n="0.00019177530174125222" />
+      <fraction ref="E014000" n="0.0036053493767666026" />
+      <fraction ref="E020000" n="1.9367330752458058e-05" />
+      <fraction ref="E017000" n="2.4075086753403523e-06" />
+      <fraction ref="E027059" n="4.619253149575767e-05" />
+      <fraction ref="E041093" n="0.3180375801338738" />
+    </material>
+    <material name="M00000018">
+      <D value="2.9299988847767233" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0035181829127246588" />
+      <fraction ref="E024052" n="0.07055452494677629" />
+      <fraction ref="E024053" n="0.00815339209179009" />
+      <fraction ref="E024054" n="0.002068043863982878" />
+      <fraction ref="E028058" n="0.02769498334459396" />
+      <fraction ref="E028060" n="0.010952624868751676" />
+      <fraction ref="E028061" n="0.00048211028000604147" />
+      <fraction ref="E028062" n="0.0015567228413723158" />
+      <fraction ref="E028064" n="0.00040734154400332847" />
+      <fraction ref="E026054" n="0.018499201842141533" />
+      <fraction ref="E026056" n="0.2956585657419369" />
+      <fraction ref="E026057" n="0.006950170767173686" />
+      <fraction ref="E026058" n="0.0009429292225401625" />
+      <fraction ref="E013027" n="1.5411273602828998e-06" />
+      <fraction ref="E006000" n="0.00030806162291443454" />
+      <fraction ref="E042000" n="0.0005169713060062749" />
+      <fraction ref="E025055" n="0.008021909660735092" />
+      <fraction ref="E029063" n="0.0004660805310531321" />
+      <fraction ref="E029065" n="0.00021619110120144487" />
+      <fraction ref="E014000" n="0.0024786053166394512" />
+      <fraction ref="E027059" n="1.0078065181570954e-06" />
+      <fraction ref="E041093" n="0.5405508372597783" />
+    </material>
+    <material name="M00000019">
+      <D value="0.5781709861282792" unit="g/cm3" />
+      <fraction ref="E024050" n="0.007584271389377034" />
+      <fraction ref="E024052" n="0.152096982152907" />
+      <fraction ref="E024053" n="0.01757664978494873" />
+      <fraction ref="E024054" n="0.0044581621148280055" />
+      <fraction ref="E028058" n="0.05596163687119603" />
+      <fraction ref="E028060" n="0.022131279688729848" />
+      <fraction ref="E028061" n="0.0009741698399192099" />
+      <fraction ref="E028062" n="0.003145590030993755" />
+      <fraction ref="E028064" n="0.0008230952842179973" />
+      <fraction ref="E026054" n="0.04059074660419154" />
+      <fraction ref="E026056" n="0.6487314834290044" />
+      <fraction ref="E026057" n="0.015249989808610101" />
+      <fraction ref="E026058" n="0.002068965505720927" />
+      <fraction ref="E006000" n="0.0007547432319170395" />
+      <fraction ref="E042000" n="0.002282353527256815" />
+      <fraction ref="E025055" n="0.016863369683145068" />
+      <fraction ref="E029063" n="0.002151382408042401" />
+      <fraction ref="E029065" n="0.0009979228016041932" />
+      <fraction ref="E014000" n="0.00555720584338986" />
+    </material>
+    <material name="M00000020">
+      <D value="3.1061983279268586" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0018450894136865827" />
+      <fraction ref="E024052" n="0.03700209941449465" />
+      <fraction ref="E024053" n="0.004276015414305797" />
+      <fraction ref="E024054" n="0.0010845772491574163" />
+      <fraction ref="E028058" n="0.013568287837306865" />
+      <fraction ref="E028060" n="0.005365883473315019" />
+      <fraction ref="E028061" n="0.0002361942567227032" />
+      <fraction ref="E028062" n="0.0007626679765867681" />
+      <fraction ref="E028064" n="0.00019956493558512912" />
+      <fraction ref="E026054" n="0.009755266455477852" />
+      <fraction ref="E026056" n="0.15591053896743992" />
+      <fraction ref="E026057" n="0.0036650490409503135" />
+      <fraction ref="E026058" n="0.000497238122747504" />
+      <fraction ref="E013027" n="8.366294382188807e-07" />
+      <fraction ref="E006000" n="0.0003800302126033547" />
+      <fraction ref="E042000" n="0.0005015320076887268" />
+      <fraction ref="E025055" n="0.0038599438845174612" />
+      <fraction ref="E029063" n="0.00045259682535781436" />
+      <fraction ref="E029065" n="0.00020993758012527341" />
+      <fraction ref="E001001" n="5.59930136919526e-06" />
+      <fraction ref="E014000" n="0.0012741288332840713" />
+      <fraction ref="E017000" n="0.0003314623179460485" />
+      <fraction ref="E027059" n="1.9682531612334533e-07" />
+      <fraction ref="E009019" n="0.0005257504871190751" />
+      <fraction ref="E004009" n="0.27337079612082404" />
+      <fraction ref="E008016" n="0.48491871641663403" />
+    </material>
+    <material name="M00000021">
+      <D value="0.9474635636098997" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0076929334041865045" />
+      <fraction ref="E024052" n="0.15427627464086016" />
+      <fraction ref="E024053" n="0.017828481813235597" />
+      <fraction ref="E024054" n="0.004522048734151186" />
+      <fraction ref="E028058" n="0.06076498936695335" />
+      <fraction ref="E028060" n="0.024030936261495373" />
+      <fraction ref="E028061" n="0.0010577853169336665" />
+      <fraction ref="E028062" n="0.0034155733444667428" />
+      <fraction ref="E028064" n="0.0008937429726249404" />
+      <fraction ref="E026054" n="0.0401517005527501" />
+      <fraction ref="E026056" n="0.6417125049395526" />
+      <fraction ref="E026057" n="0.015085053518444065" />
+      <fraction ref="E026058" n="0.002046589610369065" />
+      <fraction ref="E013027" n="0.00010023675318221677" />
+      <fraction ref="E006000" n="0.0005563802076583639" />
+      <fraction ref="E042000" n="0.0017207635643359158" />
+      <fraction ref="E025055" n="0.016022848107582886" />
+      <fraction ref="E029063" n="0.0017017770766639398" />
+      <fraction ref="E029065" n="0.000789371819326831" />
+      <fraction ref="E014000" n="0.005565189632097139" />
+      <fraction ref="E027059" n="6.481836312941238e-05" />
+    </material>
+    <material name="M00000022">
+      <D value="0.6814001131143138" unit="g/cm3" />
+      <fraction ref="E024050" n="0.007636630200456312" />
+      <fraction ref="E024052" n="0.15314739863272744" />
+      <fraction ref="E024053" n="0.017697965096583838" />
+      <fraction ref="E024054" n="0.004488949533407334" />
+      <fraction ref="E028058" n="0.057572200501148627" />
+      <fraction ref="E028060" n="0.022768367346570065" />
+      <fraction ref="E028061" n="0.0010022070716769532" />
+      <fraction ref="E028062" n="0.003236112208097856" />
+      <fraction ref="E028064" n="0.0008467840446223302" />
+      <fraction ref="E026054" n="0.040429778386321925" />
+      <fraction ref="E026056" n="0.6461589130888148" />
+      <fraction ref="E026057" n="0.015189524285159853" />
+      <fraction ref="E026058" n="0.0020607712760153584" />
+      <fraction ref="E013027" n="1.7927763333081283e-05" />
+      <fraction ref="E006000" n="0.000681919969520337" />
+      <fraction ref="E042000" n="0.0020664136305901773" />
+      <fraction ref="E025055" n="0.016638737736670316" />
+      <fraction ref="E029063" n="0.0019400778423173102" />
+      <fraction ref="E029065" n="0.0008999081317881009" />
+      <fraction ref="E014000" n="0.005507808636162324" />
+      <fraction ref="E027059" n="1.160461801574056e-05" />
+    </material>
+    <material name="M00000023">
+      <D value="0.5781709861282792" unit="g/cm3" />
+      <fraction ref="E024050" n="0.007584271389377034" />
+      <fraction ref="E024052" n="0.152096982152907" />
+      <fraction ref="E024053" n="0.01757664978494873" />
+      <fraction ref="E024054" n="0.0044581621148280055" />
+      <fraction ref="E028058" n="0.05596163687119603" />
+      <fraction ref="E028060" n="0.022131279688729848" />
+      <fraction ref="E028061" n="0.0009741698399192099" />
+      <fraction ref="E028062" n="0.003145590030993755" />
+      <fraction ref="E028064" n="0.0008230952842179973" />
+      <fraction ref="E026054" n="0.04059074660419154" />
+      <fraction ref="E026056" n="0.6487314834290044" />
+      <fraction ref="E026057" n="0.015249989808610101" />
+      <fraction ref="E026058" n="0.002068965505720927" />
+      <fraction ref="E006000" n="0.0007547432319170395" />
+      <fraction ref="E042000" n="0.002282353527256815" />
+      <fraction ref="E025055" n="0.016863369683145068" />
+      <fraction ref="E029063" n="0.002151382408042401" />
+      <fraction ref="E029065" n="0.0009979228016041932" />
+      <fraction ref="E014000" n="0.00555720584338986" />
+    </material>
+    <material name="M00000024">
+      <D value="2.209124334262426" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0024571235881800943" />
+      <fraction ref="E024052" n="0.049275825205641104" />
+      <fraction ref="E024053" n="0.00569442608698451" />
+      <fraction ref="E024054" n="0.0014443393525327532" />
+      <fraction ref="E028058" n="0.018508095875655717" />
+      <fraction ref="E028060" n="0.0073194855480780835" />
+      <fraction ref="E028061" n="0.0003221854411105206" />
+      <fraction ref="E028062" n="0.0010403320933101677" />
+      <fraction ref="E028064" n="0.0002722209868690851" />
+      <fraction ref="E026054" n="0.012903110728559253" />
+      <fraction ref="E026056" n="0.20622001725804479" />
+      <fraction ref="E026057" n="0.004847697560336922" />
+      <fraction ref="E026058" n="0.0006576868924663086" />
+      <fraction ref="E013027" n="1.7622018055022318e-06" />
+      <fraction ref="E006000" n="0.00020370507555112885" />
+      <fraction ref="E042000" n="0.000674395957143432" />
+      <fraction ref="E025055" n="0.005245490192802406" />
+      <fraction ref="E029063" n="0.0006140226599116378" />
+      <fraction ref="E029065" n="0.00028481470202855106" />
+      <fraction ref="E014000" n="0.001727172447062171" />
+      <fraction ref="E027059" n="1.0912913533431308e-06" />
+      <fraction ref="E004009" n="0.6802849988545725" />
+    </material>
+    <element name="E012000" Z="12" formula="012">
+      <atom value="24.096261" />
+    </element>
+    <element name="E019000" Z="19" formula="019">
+      <atom value="38.762423" />
+    </element>
+    <material name="M00000025">
+      <D value="1.9368329402136755" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0028341628061624223" />
+      <fraction ref="E024052" n="0.056837268596662105" />
+      <fraction ref="E024053" n="0.006568220047794588" />
+      <fraction ref="E024054" n="0.001665969253112877" />
+      <fraction ref="E028058" n="0.02140515443810342" />
+      <fraction ref="E028060" n="0.008465164942590545" />
+      <fraction ref="E028061" n="0.00037261733316073365" />
+      <fraction ref="E028062" n="0.0012031765319892296" />
+      <fraction ref="E028064" n="0.00031483134203340465" />
+      <fraction ref="E026054" n="0.04168101035074739" />
+      <fraction ref="E026056" n="0.6661542447307304" />
+      <fraction ref="E026057" n="0.01565955589116446" />
+      <fraction ref="E026058" n="0.002124537531520341" />
+      <fraction ref="E013027" n="5.583338163240045e-06" />
+      <fraction ref="E011023" n="3.697941692429719e-05" />
+      <fraction ref="E006000" n="0.0009855432254230136" />
+      <fraction ref="E042000" n="0.0007700163859852676" />
+      <fraction ref="E025055" n="0.008580275417525129" />
+      <fraction ref="E029063" n="0.0007036972901845078" />
+      <fraction ref="E029065" n="0.0003264110895700615" />
+      <fraction ref="E001001" n="0.020417462619877688" />
+      <fraction ref="E014000" n="0.0019952872775002416" />
+      <fraction ref="E003006" n="0.008981311355025445" />
+      <fraction ref="E003007" n="0.1318616845941537" />
+      <fraction ref="E012000" n="6.459104743708496e-07" />
+      <fraction ref="E020000" n="3.8609104400032465e-05" />
+      <fraction ref="E019000" n="8.071539656924333e-06" />
+      <fraction ref="E027059" n="2.5076393642953943e-06" />
+    </material>
+    <element name="E074182" Z="74" formula="074">
+      <atom value="180.386082" />
+    </element>
+    <element name="E074183" Z="74" formula="074">
+      <atom value="181.379499" />
+    </element>
+    <element name="E074184" Z="74" formula="074">
+      <atom value="182.3707" />
+    </element>
+    <element name="E074186" Z="74" formula="074">
+      <atom value="184.357838" />
+    </element>
+    <material name="M00000026">
+      <D value="14.651676931687101" unit="g/cm3" />
+      <fraction ref="E024050" n="0.00043152731153128364" />
+      <fraction ref="E024052" n="0.008653956721836838" />
+      <fraction ref="E024053" n="0.001000066443465989" />
+      <fraction ref="E024054" n="0.00025365953776775567" />
+      <fraction ref="E028058" n="0.003101288943582945" />
+      <fraction ref="E028060" n="0.0012264780879137213" />
+      <fraction ref="E028061" n="5.3986721734550557e-05" />
+      <fraction ref="E028062" n="0.0001743225251067827" />
+      <fraction ref="E028064" n="4.561437061178433e-05" />
+      <fraction ref="E026054" n="0.0024486347272469644" />
+      <fraction ref="E026056" n="0.03913466338287706" />
+      <fraction ref="E026057" n="0.0009199540775979847" />
+      <fraction ref="E026058" n="0.00012481061933541468" />
+      <fraction ref="E013027" n="2.663513157857264e-07" />
+      <fraction ref="E006000" n="6.261312773684765e-05" />
+      <fraction ref="E042000" n="0.00011153208676599223" />
+      <fraction ref="E025055" n="0.0008684608916675752" />
+      <fraction ref="E029063" n="9.916541265742498e-05" />
+      <fraction ref="E029065" n="4.5998092005534744e-05" />
+      <fraction ref="E014000" n="0.0002873535967486942" />
+      <fraction ref="E074182" n="0.24788080998092563" />
+      <fraction ref="E074183" n="0.1340337477468372" />
+      <fraction ref="E074184" n="0.2884940516303271" />
+      <fraction ref="E074186" n="0.2705470376124032" />
+    </material>
+    <material name="M00000027">
+      <D value="1.5041782358231497" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0035399481728622785" />
+      <fraction ref="E024052" n="0.07099119667725284" />
+      <fraction ref="E024053" n="0.008203874531554033" />
+      <fraction ref="E024054" n="0.0020808428320739734" />
+      <fraction ref="E028058" n="0.02657468541576383" />
+      <fraction ref="E028060" n="0.010509552478466879" />
+      <fraction ref="E028061" n="0.00046260647040836174" />
+      <fraction ref="E028062" n="0.0014937514391373996" />
+      <fraction ref="E028064" n="0.0003908648958175064" />
+      <fraction ref="E026054" n="0.018598266912462014" />
+      <fraction ref="E026056" n="0.29724204351878186" />
+      <fraction ref="E026057" n="0.006987402133654025" />
+      <fraction ref="E026058" n="0.0009479804683824315" />
+      <fraction ref="E008016" n="0.11967799107746803" />
+      <fraction ref="E006000" n="0.33040509108045313" />
+      <fraction ref="E042000" n="0.000984541242741454" />
+      <fraction ref="E025055" n="0.007578014871438255" />
+      <fraction ref="E005010" n="0.004961558503587848" />
+      <fraction ref="E005011" n="0.022007865814231954" />
+      <fraction ref="E029063" n="0.0008942786942556333" />
+      <fraction ref="E029065" n="0.0004148132250989833" />
+      <fraction ref="E014000" n="0.002487932474015955" />
+      <fraction ref="E001001" n="0.0625648970700913" />
+    </material>
+    <material name="M00000028">
+      <D value="0.8345877251465538" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0076834383578475735" />
+      <fraction ref="E024052" n="0.1540862116495952" />
+      <fraction ref="E024053" n="0.01780649986142988" />
+      <fraction ref="E024054" n="0.0045164609213885175" />
+      <fraction ref="E028058" n="0.05957831789518306" />
+      <fraction ref="E028060" n="0.02356162932574172" />
+      <fraction ref="E028061" n="0.001037129726010143" />
+      <fraction ref="E028062" n="0.0033488810926923674" />
+      <fraction ref="E028064" n="0.0008762897318600854" />
+      <fraction ref="E026054" n="0.040273610287149375" />
+      <fraction ref="E026056" n="0.6436618772313296" />
+      <fraction ref="E026057" n="0.015130800137900982" />
+      <fraction ref="E026058" n="0.0020528032924417394" />
+      <fraction ref="E013027" n="8.377730449223856e-05" />
+      <fraction ref="E006000" n="0.0005751399282584692" />
+      <fraction ref="E042000" n="0.0017723415594463677" />
+      <fraction ref="E025055" n="0.01590403373315287" />
+      <fraction ref="E029063" n="0.0017159565180162569" />
+      <fraction ref="E029065" n="0.0007959499826998528" />
+      <fraction ref="E014000" n="0.005484794946521745" />
+      <fraction ref="E027059" n="5.4056516841913294e-05" />
+    </material>
+    <material name="M00000029">
+      <D value="0.55487728017074" unit="g/cm3" />
+      <fraction ref="E024050" n="0.00766066812587928" />
+      <fraction ref="E024052" n="0.15362954398384518" />
+      <fraction ref="E024053" n="0.01775367140775756" />
+      <fraction ref="E024054" n="0.004503073650967741" />
+      <fraction ref="E028058" n="0.05638103163039422" />
+      <fraction ref="E028060" n="0.02229721589857289" />
+      <fraction ref="E028061" n="0.000981470491295003" />
+      <fraction ref="E028062" n="0.0031691509387678143" />
+      <fraction ref="E028064" n="0.0008292619112326527" />
+      <fraction ref="E026054" n="0.04042759118405556" />
+      <fraction ref="E026056" n="0.646121925340265" />
+      <fraction ref="E026057" n="0.015188670536142316" />
+      <fraction ref="E026058" n="0.002060656520742789" />
+      <fraction ref="E006000" n="0.0006625920752475172" />
+      <fraction ref="E042000" n="0.00233124462791454" />
+      <fraction ref="E025055" n="0.01712402995693973" />
+      <fraction ref="E029063" n="0.0022076609080696604" />
+      <fraction ref="E029065" n="0.001024024530176698" />
+      <fraction ref="E014000" n="0.0056465162817338245" />
+    </material>
+    <material name="M00000030">
+      <D value="1.3411912331213842" unit="g/cm3" />
+      <fraction ref="E024050" n="0.003203410220753742" />
+      <fraction ref="E024052" n="0.06424223765319634" />
+      <fraction ref="E024053" n="0.007423958392859603" />
+      <fraction ref="E024054" n="0.0018830241858620532" />
+      <fraction ref="E028058" n="0.023579357195819082" />
+      <fraction ref="E028060" n="0.009325039219373665" />
+      <fraction ref="E028061" n="0.00041046596511821337" />
+      <fraction ref="E028062" n="0.0013253856878255252" />
+      <fraction ref="E028064" n="0.00034681060314344206" />
+      <fraction ref="E026054" n="0.01690459627314247" />
+      <fraction ref="E026056" n="0.2701728739993636" />
+      <fraction ref="E026057" n="0.006351071144855084" />
+      <fraction ref="E026058" n="0.0008616504589920749" />
+      <fraction ref="E008016" n="0.12911506087885827" />
+      <fraction ref="E006000" n="0.35642017337227927" />
+      <fraction ref="E042000" n="0.0009753087873061638" />
+      <fraction ref="E025055" n="0.007156027177988359" />
+      <fraction ref="E005010" n="0.00532846955575942" />
+      <fraction ref="E005011" n="0.02376777368218915" />
+      <fraction ref="E029063" n="0.00092116185867575" />
+      <fraction ref="E029065" n="0.0004272828330585331" />
+      <fraction ref="E014000" n="0.0023581651785830804" />
+      <fraction ref="E001001" n="0.06750069567499717" />
+    </material>
+    <material name="M00000031">
+      <D value="1.6727706056874372" unit="g/cm3" />
+      <fraction ref="E024050" n="0.002520623292419673" />
+      <fraction ref="E024052" n="0.05054935047155333" />
+      <fraction ref="E024053" n="0.005841584425564232" />
+      <fraction ref="E024054" n="0.0014816673871804443" />
+      <fraction ref="E028058" n="0.018551255130467233" />
+      <fraction ref="E028060" n="0.007336507119023247" />
+      <fraction ref="E028061" n="0.0003229367194140488" />
+      <fraction ref="E028062" n="0.001042759448275735" />
+      <fraction ref="E028064" n="0.0002728550320431375" />
+      <fraction ref="E026054" n="0.04008066789018767" />
+      <fraction ref="E026056" n="0.6405776468412642" />
+      <fraction ref="E026057" n="0.01505832501210624" />
+      <fraction ref="E026058" n="0.002042968648698289" />
+      <fraction ref="E013027" n="1.9113151323595287e-06" />
+      <fraction ref="E011023" n="4.619043043283516e-05" />
+      <fraction ref="E006000" n="0.0009694685792171253" />
+      <fraction ref="E042000" n="0.0007670906735584578" />
+      <fraction ref="E025055" n="0.008170016112432444" />
+      <fraction ref="E029063" n="0.0007264223737860007" />
+      <fraction ref="E029065" n="0.00033695024043623297" />
+      <fraction ref="E001001" n="0.02549839798157305" />
+      <fraction ref="E014000" n="0.0018578798019790771" />
+      <fraction ref="E003006" n="0.011216326759107722" />
+      <fraction ref="E003007" n="0.1646703127039058" />
+      <fraction ref="E012000" n="9.55659438363823e-07" />
+      <fraction ref="E020000" n="4.873617260152902e-05" />
+      <fraction ref="E019000" n="1.0193778201431945e-05" />
+    </material>
+    <material name="M00000032">
+      <D value="1.3719827806948026" unit="g/cm3" />
+      <fraction ref="E024050" n="0.0031232447548875057" />
+      <fraction ref="E024052" n="0.06263445276238647" />
+      <fraction ref="E024053" n="0.007238180150728844" />
+      <fraction ref="E024054" n="0.0018358988770921384" />
+      <fraction ref="E028058" n="0.022986484108193463" />
+      <fraction ref="E028060" n="0.009090582666514784" />
+      <fraction ref="E028061" n="0.00040014525754871697" />
+      <fraction ref="E028062" n="0.001292064099715759" />
+      <fraction ref="E028064" n="0.0003380899595048413" />
+      <fraction ref="E026054" n="0.01648224055323075" />
+      <fraction ref="E026056" n="0.26342330569483735" />
+      <fraction ref="E026057" n="0.006192391985376275" />
+      <fraction ref="E026058" n="0.0008401243088958476" />
+      <fraction ref="E008016" n="0.13143451205625956" />
+      <fraction ref="E006000" n="0.362807351005562" />
+      <fraction ref="E042000" n="0.0009504058521874377" />
+      <fraction ref="E025055" n="0.006981445297051407" />
+      <fraction ref="E005010" n="0.005449945220383337" />
+      <fraction ref="E005011" n="0.024168702930084197" />
+      <fraction ref="E029063" n="0.0009000346765205125" />
+      <fraction ref="E029065" n="0.0004174817111785753" />
+      <fraction ref="E014000" n="0.0023020953895505516" />
+      <fraction ref="E001001" n="0.0687108206823097" />
+    </material>
+  </materials>
+  <solids>
+    <box name="BBox" x="527.996986" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_0" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="10.25144" lunit="cm" aunit="deg" />
+    <box name="Cut_X_13_N" x="274.952243" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_13_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_13_N" />
+      <position name="Pos_HS_X_13_N" x="126.52237149999999" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_13_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_1_0">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_1_0" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_1_0" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_1" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="10.7188" lunit="cm" aunit="deg" />
+    <intersection name="Bool_2_1">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_2_1" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_2_1" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_13_P" x="253.044743" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_13_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_13_P" />
+      <position name="Pos_HS_X_13_P" x="-137.4761215" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_13_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_3_2">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_3_2" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_3_2" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_14_N" x="272.285243" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_14_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_14_N" />
+      <position name="Pos_HS_X_14_N" x="127.85587149999999" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_14_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_3_3">
+      <first ref="Bool_3_2" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_3_3" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_3_3" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Y_20_N" x="527.996986" y="272.285243" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Y_20_N">
+      <first ref="BBox" />
+      <second ref="Cut_Y_20_N" />
+      <position name="Pos_HS_Y_20_N" x="0.0" y="127.85587149999999" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Y_20_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_3_4">
+      <first ref="Bool_3_3" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_3_4" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_3_4" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_4_5">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_4_5" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_4_5" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_4_6">
+      <first ref="Bool_4_5" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_4_6" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_4_6" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_4_7">
+      <first ref="Bool_4_6" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_4_7" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_4_7" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="PrimBox_2" x="2.667" y="5.5245" z="20.97024" lunit="cm" aunit="deg" />
+    <box name="PrimBox_3" x="2.667" y="5.5245" z="10.25144" lunit="cm" aunit="deg" />
+    <box name="PrimBox_4" x="2.667" y="5.5245" z="10.7188" lunit="cm" aunit="deg" />
+    <intersection name="Bool_9_8">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_9_8" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_9_8" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_9_9">
+      <first ref="Bool_9_8" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_9_9" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_9_9" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Y_23_P" x="527.996986" y="272.285243" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Y_23_P">
+      <first ref="BBox" />
+      <second ref="Cut_Y_23_P" />
+      <position name="Pos_HS_Y_23_P" x="0.0" y="-127.85587149999999" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Y_23_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_9_10">
+      <first ref="Bool_9_9" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_9_10" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_9_10" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_10_11">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_10_11" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_10_11" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_10_12">
+      <first ref="Bool_10_11" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_10_12" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_10_12" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_10_13">
+      <first ref="Bool_10_12" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_10_13" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_10_13" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_14_P" x="255.711743" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_14_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_14_P" />
+      <position name="Pos_HS_X_14_P" x="-136.1426215" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_14_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_11_14">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_11_14" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_11_14" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_15_N" x="265.331993" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_15_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_15_N" />
+      <position name="Pos_HS_X_15_N" x="131.3324965" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_15_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_11_15">
+      <first ref="Bool_11_14" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_11_15" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_11_15" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_12_16">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_12_16" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_12_16" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_12_17">
+      <first ref="Bool_12_16" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_12_17" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_12_17" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_15_P" x="262.664993" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_15_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_15_P" />
+      <position name="Pos_HS_X_15_P" x="-132.6659965" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_15_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_13_18">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_13_18" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_13_18" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_16_N" x="262.664993" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_16_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_16_N" />
+      <position name="Pos_HS_X_16_N" x="132.6659965" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_16_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_13_19">
+      <first ref="Bool_13_18" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_13_19" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_13_19" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Y_19_N" x="527.996986" y="277.809743" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Y_19_N">
+      <first ref="BBox" />
+      <second ref="Cut_Y_19_N" />
+      <position name="Pos_HS_Y_19_N" x="0.0" y="125.0936215" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Y_19_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_13_20">
+      <first ref="Bool_13_19" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_13_20" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_13_20" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_14_21">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_14_21" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_14_21" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_14_22">
+      <first ref="Bool_14_21" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_14_22" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_14_22" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_14_23">
+      <first ref="Bool_14_22" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_14_23" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_14_23" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_22_24">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_22_24" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_22_24" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_22_25">
+      <first ref="Bool_22_24" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_22_25" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_22_25" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Y_24_P" x="527.996986" y="277.809743" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Y_24_P">
+      <first ref="BBox" />
+      <second ref="Cut_Y_24_P" />
+      <position name="Pos_HS_Y_24_P" x="0.0" y="-125.0936215" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Y_24_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_22_26">
+      <first ref="Bool_22_25" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_22_26" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_22_26" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_23_27">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_23_27" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_23_27" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_23_28">
+      <first ref="Bool_23_27" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_23_28" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_23_28" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_23_29">
+      <first ref="Bool_23_28" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_23_29" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_23_29" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_16_P" x="265.331993" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_16_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_16_P" />
+      <position name="Pos_HS_X_16_P" x="-131.3324965" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_16_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_24_30">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_24_30" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_24_30" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_17_N" x="255.711743" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_17_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_17_N" />
+      <position name="Pos_HS_X_17_N" x="136.1426215" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_17_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_24_31">
+      <first ref="Bool_24_30" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_24_31" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_24_31" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_25_32">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_25_32" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_25_32" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_25_33">
+      <first ref="Bool_25_32" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_25_33" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_25_33" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_17_P" x="272.285243" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_17_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_17_P" />
+      <position name="Pos_HS_X_17_P" x="-127.85587149999999" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_17_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_26_34">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_26_34" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_26_34" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_18_N" x="253.044743" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_18_N">
+      <first ref="BBox" />
+      <second ref="Cut_X_18_N" />
+      <position name="Pos_HS_X_18_N" x="137.4761215" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_18_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_26_35">
+      <first ref="Bool_26_34" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_26_35" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_26_35" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_26_36">
+      <first ref="Bool_26_35" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_26_36" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_26_36" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_27_37">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_27_37" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_27_37" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_27_38">
+      <first ref="Bool_27_37" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_27_38" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_27_38" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_27_39">
+      <first ref="Bool_27_38" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_27_39" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_27_39" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_32_40">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_32_40" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_32_40" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_32_41">
+      <first ref="Bool_32_40" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_32_41" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_32_41" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_32_42">
+      <first ref="Bool_32_41" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_32_42" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_32_42" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_33_43">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_33_43" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_33_43" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_33_44">
+      <first ref="Bool_33_43" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_33_44" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_33_44" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_33_45">
+      <first ref="Bool_33_44" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_33_45" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_33_45" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_X_18_P" x="274.952243" y="527.996986" z="527.996986" lunit="cm" aunit="deg" />
+    <subtraction name="HS_X_18_P">
+      <first ref="BBox" />
+      <second ref="Cut_X_18_P" />
+      <position name="Pos_HS_X_18_P" x="-126.52237149999999" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_X_18_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_34_46">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_34_46" x="-0.0" y="-0.0" z="5.12572" unit="cm" />
+      <rotation name="Rot_Bool_34_46" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_35_47">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_35_47" x="-0.0" y="-0.0" z="15.61084" unit="cm" />
+      <rotation name="Rot_Bool_35_47" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_36_48">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_36_48" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_36_48" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_37_49">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_37_49" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_37_49" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_38_50">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_38_50" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_38_50" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_38_51">
+      <first ref="Bool_38_50" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_38_51" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_38_51" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_38_52">
+      <first ref="Bool_38_51" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_38_52" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_38_52" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_39_53">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_39_53" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_39_53" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_39_54">
+      <first ref="Bool_39_53" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_39_54" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_39_54" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_39_55">
+      <first ref="Bool_39_54" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_39_55" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_39_55" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_44_56">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_44_56" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_44_56" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_44_57">
+      <first ref="Bool_44_56" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_44_57" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_44_57" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_44_58">
+      <first ref="Bool_44_57" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_44_58" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_44_58" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_45_59">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_45_59" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_45_59" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_45_60">
+      <first ref="Bool_45_59" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_45_60" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_45_60" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_45_61">
+      <first ref="Bool_45_60" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_45_61" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_45_61" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_46_62">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_46_62" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_46_62" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_46_63">
+      <first ref="Bool_46_62" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_46_63" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_46_63" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_47_64">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_47_64" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_47_64" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_47_65">
+      <first ref="Bool_47_64" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_47_65" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_47_65" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_48_66">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_48_66" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_48_66" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_48_67">
+      <first ref="Bool_48_66" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_48_67" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_48_67" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_48_68">
+      <first ref="Bool_48_67" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_48_68" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_48_68" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_49_69">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_49_69" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_49_69" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_49_70">
+      <first ref="Bool_49_69" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_49_70" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_49_70" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_49_71">
+      <first ref="Bool_49_70" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_49_71" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_49_71" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_57_72">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_57_72" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_57_72" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_57_73">
+      <first ref="Bool_57_72" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_57_73" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_57_73" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_57_74">
+      <first ref="Bool_57_73" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_57_74" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_57_74" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_58_75">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_58_75" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_58_75" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_58_76">
+      <first ref="Bool_58_75" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_58_76" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_58_76" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_58_77">
+      <first ref="Bool_58_76" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_58_77" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_58_77" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_59_78">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_59_78" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_59_78" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_59_79">
+      <first ref="Bool_59_78" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_59_79" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_59_79" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_60_80">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_60_80" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_60_80" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_60_81">
+      <first ref="Bool_60_80" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_60_81" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_60_81" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_61_82">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_61_82" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_61_82" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_61_83">
+      <first ref="Bool_61_82" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_61_83" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_61_83" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_61_84">
+      <first ref="Bool_61_83" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_61_84" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_61_84" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_62_85">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_62_85" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_62_85" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_62_86">
+      <first ref="Bool_62_85" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_62_86" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_62_86" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_62_87">
+      <first ref="Bool_62_86" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_62_87" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_62_87" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_67_88">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_67_88" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_67_88" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_67_89">
+      <first ref="Bool_67_88" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_67_89" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_67_89" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_67_90">
+      <first ref="Bool_67_89" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_67_90" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_67_90" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_68_91">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_68_91" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_68_91" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_68_92">
+      <first ref="Bool_68_91" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_68_92" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_68_92" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_68_93">
+      <first ref="Bool_68_92" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_68_93" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_68_93" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_69_94">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_0" />
+      <position name="Pos_Bool_69_94" x="-0.0" y="-0.0" z="-5.12572" unit="cm" />
+      <rotation name="Rot_Bool_69_94" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_70_95">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_1" />
+      <position name="Pos_Bool_70_95" x="-0.0" y="-0.0" z="-15.61084" unit="cm" />
+      <rotation name="Rot_Bool_70_95" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_5" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="9.6012" lunit="cm" aunit="deg" />
+    <intersection name="Bool_71_96">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_71_96" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_71_96" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_72_97">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_72_97" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_72_97" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_72_98">
+      <first ref="Bool_72_97" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_72_98" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_72_98" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_72_99">
+      <first ref="Bool_72_98" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_72_99" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_72_99" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="PrimBox_6" x="2.667" y="5.5245" z="9.6012" lunit="cm" aunit="deg" />
+    <intersection name="Bool_76_100">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_76_100" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_76_100" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_76_101">
+      <first ref="Bool_76_100" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_76_101" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_76_101" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_76_102">
+      <first ref="Bool_76_101" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_76_102" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_76_102" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_77_103">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_77_103" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_77_103" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_77_104">
+      <first ref="Bool_77_103" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_77_104" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_77_104" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_78_105">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_78_105" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_78_105" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_78_106">
+      <first ref="Bool_78_105" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_78_106" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_78_106" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_78_107">
+      <first ref="Bool_78_106" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_78_107" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_78_107" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_84_108">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_84_108" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_84_108" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_84_109">
+      <first ref="Bool_84_108" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_84_109" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_84_109" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_84_110">
+      <first ref="Bool_84_109" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_84_110" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_84_110" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_85_111">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_85_111" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_85_111" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_85_112">
+      <first ref="Bool_85_111" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_85_112" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_85_112" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_86_113">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_86_113" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_86_113" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_86_114">
+      <first ref="Bool_86_113" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_86_114" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_86_114" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_86_115">
+      <first ref="Bool_86_114" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_86_115" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_86_115" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_90_116">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_90_116" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_90_116" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_90_117">
+      <first ref="Bool_90_116" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_90_117" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_90_117" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_90_118">
+      <first ref="Bool_90_117" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_90_118" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_90_118" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_91_119">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_91_119" x="-0.0" y="-0.0" z="25.77084" unit="cm" />
+      <rotation name="Rot_Bool_91_119" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_7" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="7.62" lunit="cm" aunit="deg" />
+    <intersection name="Bool_93_120">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_93_120" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_93_120" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_94_121">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_94_121" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_94_121" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_94_122">
+      <first ref="Bool_94_121" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_94_122" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_94_122" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_94_123">
+      <first ref="Bool_94_122" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_94_123" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_94_123" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_98_124">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_98_124" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_98_124" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_98_125">
+      <first ref="Bool_98_124" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_98_125" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_98_125" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_98_126">
+      <first ref="Bool_98_125" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_98_126" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_98_126" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_99_127">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_99_127" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_99_127" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_99_128">
+      <first ref="Bool_99_127" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_99_128" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_99_128" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_100_129">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_100_129" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_100_129" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_100_130">
+      <first ref="Bool_100_129" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_100_130" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_100_130" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_100_131">
+      <first ref="Bool_100_130" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_100_131" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_100_131" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_106_132">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_106_132" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_106_132" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_106_133">
+      <first ref="Bool_106_132" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_106_133" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_106_133" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_106_134">
+      <first ref="Bool_106_133" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_106_134" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_106_134" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_107_135">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_107_135" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_107_135" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_107_136">
+      <first ref="Bool_107_135" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_107_136" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_107_136" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_108_137">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_108_137" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_108_137" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_108_138">
+      <first ref="Bool_108_137" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_108_138" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_108_138" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_108_139">
+      <first ref="Bool_108_138" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_108_139" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_108_139" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_112_140">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_112_140" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_112_140" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_112_141">
+      <first ref="Bool_112_140" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_112_141" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_112_141" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_112_142">
+      <first ref="Bool_112_141" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_112_142" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_112_142" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_113_143">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_5" />
+      <position name="Pos_Bool_113_143" x="-0.0" y="-0.0" z="-25.77084" unit="cm" />
+      <rotation name="Rot_Bool_113_143" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_8" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="2.54" lunit="cm" aunit="deg" />
+    <intersection name="Bool_114_144">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_114_144" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_114_144" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_115_145">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_115_145" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_115_145" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_115_146">
+      <first ref="Bool_115_145" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_115_146" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_115_146" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_115_147">
+      <first ref="Bool_115_146" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_115_147" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_115_147" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="PrimBox_9" x="2.667" y="5.5245" z="2.54" lunit="cm" aunit="deg" />
+    <intersection name="Bool_119_148">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_119_148" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_119_148" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_119_149">
+      <first ref="Bool_119_148" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_119_149" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_119_149" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_119_150">
+      <first ref="Bool_119_149" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_119_150" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_119_150" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_120_151">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_120_151" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_120_151" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_120_152">
+      <first ref="Bool_120_151" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_120_152" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_120_152" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_121_153">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_121_153" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_121_153" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_121_154">
+      <first ref="Bool_121_153" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_121_154" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_121_154" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_121_155">
+      <first ref="Bool_121_154" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_121_155" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_121_155" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_127_156">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_127_156" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_127_156" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_127_157">
+      <first ref="Bool_127_156" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_127_157" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_127_157" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_127_158">
+      <first ref="Bool_127_157" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_127_158" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_127_158" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_128_159">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_128_159" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_128_159" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_128_160">
+      <first ref="Bool_128_159" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_128_160" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_128_160" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_129_161">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_129_161" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_129_161" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_129_162">
+      <first ref="Bool_129_161" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_129_162" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_129_162" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_129_163">
+      <first ref="Bool_129_162" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_129_163" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_129_163" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_133_164">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_133_164" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_133_164" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_133_165">
+      <first ref="Bool_133_164" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_133_165" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_133_165" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_133_166">
+      <first ref="Bool_133_165" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_133_166" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_133_166" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_134_167">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_134_167" x="-0.0" y="-0.0" z="-31.84144" unit="cm" />
+      <rotation name="Rot_Bool_134_167" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_10" rmin="0" rmax="17.1549" startphi="0" deltaphi="360" z="22.86" lunit="cm" aunit="deg" />
+    <intersection name="Bool_135_168">
+      <first ref="HS_X_13_N" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_135_168" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_135_168" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_136_169">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_136_169" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_136_169" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_136_170">
+      <first ref="Bool_136_169" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_136_170" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_136_170" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_136_171">
+      <first ref="Bool_136_170" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_136_171" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_136_171" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="PrimBox_11" x="2.667" y="5.5245" z="22.86" lunit="cm" aunit="deg" />
+    <intersection name="Bool_140_172">
+      <first ref="HS_X_13_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_140_172" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_140_172" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_140_173">
+      <first ref="Bool_140_172" />
+      <second ref="HS_X_14_N" />
+      <position name="Pos_Bool_140_173" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_140_173" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_140_174">
+      <first ref="Bool_140_173" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_140_174" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_140_174" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_141_175">
+      <first ref="HS_X_14_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_141_175" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_141_175" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_141_176">
+      <first ref="Bool_141_175" />
+      <second ref="HS_X_15_N" />
+      <position name="Pos_Bool_141_176" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_141_176" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_142_177">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_142_177" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_142_177" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_142_178">
+      <first ref="Bool_142_177" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_142_178" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_142_178" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_142_179">
+      <first ref="Bool_142_178" />
+      <second ref="HS_Y_19_N" />
+      <position name="Pos_Bool_142_179" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_142_179" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_148_180">
+      <first ref="HS_X_15_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_148_180" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_148_180" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_148_181">
+      <first ref="Bool_148_180" />
+      <second ref="HS_X_16_N" />
+      <position name="Pos_Bool_148_181" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_148_181" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_148_182">
+      <first ref="Bool_148_181" />
+      <second ref="HS_Y_24_P" />
+      <position name="Pos_Bool_148_182" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_148_182" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_149_183">
+      <first ref="HS_X_16_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_149_183" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_149_183" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_149_184">
+      <first ref="Bool_149_183" />
+      <second ref="HS_X_17_N" />
+      <position name="Pos_Bool_149_184" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_149_184" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_150_185">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_150_185" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_150_185" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_150_186">
+      <first ref="Bool_150_185" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_150_186" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_150_186" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_150_187">
+      <first ref="Bool_150_186" />
+      <second ref="HS_Y_20_N" />
+      <position name="Pos_Bool_150_187" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_150_187" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_154_188">
+      <first ref="HS_X_17_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_154_188" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_154_188" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_154_189">
+      <first ref="Bool_154_188" />
+      <second ref="HS_X_18_N" />
+      <position name="Pos_Bool_154_189" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_154_189" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_154_190">
+      <first ref="Bool_154_189" />
+      <second ref="HS_Y_23_P" />
+      <position name="Pos_Bool_154_190" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_154_190" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_155_191">
+      <first ref="HS_X_18_P" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_155_191" x="-0.0" y="-0.0" z="-44.54144" unit="cm" />
+      <rotation name="Rot_Bool_155_191" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_12" rmin="17.1549" rmax="19.43042" startphi="0" deltaphi="360" z="20.97024" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_13" rmin="17.1549" rmax="19.43042" startphi="0" deltaphi="360" z="17.2212" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_14" rmin="17.1549" rmax="19.43042" startphi="0" deltaphi="360" z="35.0012" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_15" rmin="0" rmax="19.43042" startphi="0" deltaphi="360" z="2.54" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_16" rmin="0" rmax="19.43042" startphi="0" deltaphi="360" z="53.98008" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_17" rmin="19.43042" rmax="27.05912" startphi="0" deltaphi="360" z="40.82288" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_18" rmin="19.43042" rmax="27.05912" startphi="0" deltaphi="360" z="17.78" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_19" rmin="19.43042" rmax="27.05912" startphi="0" deltaphi="360" z="35.56" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_20" rmin="19.43042" rmax="27.05912" startphi="0" deltaphi="360" z="56.52008" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_21" rmin="0" rmax="48.38676" startphi="0" deltaphi="360" z="10.16" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_22" rmin="0" rmax="48.38676" startphi="0" deltaphi="360" z="8.26008" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_23" rmin="0" rmax="48.38676" startphi="0" deltaphi="360" z="30.48" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_24" rmin="27.05912" rmax="48.38676" startphi="0" deltaphi="360" z="96.70288" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_25" rmin="27.05912" rmax="48.38676" startphi="0" deltaphi="360" z="53.98008" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_26" rmin="48.38676" rmax="52.97313" startphi="0" deltaphi="360" z="198.85152" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_27" rmin="0" rmax="52.97313" startphi="0" deltaphi="360" z="5.08" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_28" rmin="52.97313" rmax="59.86099" startphi="0" deltaphi="360" z="121.92" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_29" rmin="52.97313" rmax="59.86099" startphi="0" deltaphi="360" z="30.48" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_30" rmin="52.97313" rmax="59.86099" startphi="0" deltaphi="360" z="60.96" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_31" rmin="48.38676" rmax="52.97313" startphi="0" deltaphi="360" z="5.08" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_32" rmin="0" rmax="52.97313" startphi="0" deltaphi="360" z="4.34848" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_33" rmin="48.38676" rmax="59.86099" startphi="0" deltaphi="360" z="5.81152" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_34" rmin="0" rmax="239.99863" startphi="0" deltaphi="360" z="24.66848" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_35" rmin="59.86099" rmax="239.99863" startphi="0" deltaphi="360" z="219.17152" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_6" rmin="0" rmax="59.86099" startphi="0" deltaphi="360" z="527.996986" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_7" rmin="0" rmax="239.99863" startphi="0" deltaphi="360" z="527.996986" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_7_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_7" />
+      <position name="Pos_HS_Z_7_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_7_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_180_192">
+      <first ref="HS_Z_7_N" />
+      <second ref="CutCyl_Z_6" />
+      <position name="Pos_Bool_180_192" x="-0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_180_192" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_41_P" x="527.996986" y="527.996986" z="142.078493" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_41_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_41_P" />
+      <position name="Pos_HS_Z_41_P" x="0.0" y="0.0" z="-192.9592465" unit="cm" />
+      <rotation name="Rot_HS_Z_41_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_180_193">
+      <first ref="Bool_180_192" />
+      <second ref="HS_Z_41_P" />
+      <position name="Pos_Bool_180_193" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_180_193" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_38_N" x="527.996986" y="527.996986" z="166.746973" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_38_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_38_N" />
+      <position name="Pos_HS_Z_38_N" x="0.0" y="0.0" z="180.62500649999998" unit="cm" />
+      <rotation name="Rot_HS_Z_38_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_180_194">
+      <first ref="Bool_180_193" />
+      <second ref="HS_Z_38_N" />
+      <position name="Pos_Bool_180_194" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_180_194" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_180_195">
+      <first ref="Bool_180_194" />
+      <second ref="PrimCyl_34" />
+      <position name="Pos_Bool_180_195" x="-0.0" y="-0.0" z="109.58576" unit="cm" />
+      <rotation name="Rot_Bool_180_195" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="PrimCyl_36" rmin="0" rmax="239.99863" startphi="0" deltaphi="360" z="243.84" lunit="cm" aunit="deg" />
+    <subtraction name="Bool_181_196">
+      <first ref="BBox" />
+      <second ref="PrimCyl_36" />
+      <position name="Pos_Bool_181_196" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_181_196" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+  </solids>
+  <structure>
+    <volume name="Vol_1_0">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_1_0" />
+    </volume>
+    <volume name="Vol_2_1">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_2_1" />
+    </volume>
+    <volume name="Vol_3_2">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_3_4" />
+    </volume>
+    <volume name="Vol_4_3">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_4_7" />
+    </volume>
+    <volume name="Vol_5_4">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_6_5">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_7_6">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_8_7">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_9_8">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_9_10" />
+    </volume>
+    <volume name="Vol_10_9">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_10_13" />
+    </volume>
+    <volume name="Vol_11_10">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_11_15" />
+    </volume>
+    <volume name="Vol_12_11">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_12_17" />
+    </volume>
+    <volume name="Vol_13_12">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_13_20" />
+    </volume>
+    <volume name="Vol_14_13">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_14_23" />
+    </volume>
+    <volume name="Vol_15_14">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_16_15">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_17_16">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_18_17">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_19_18">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_20_19">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_21_20">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_22_21">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_22_26" />
+    </volume>
+    <volume name="Vol_23_22">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_23_29" />
+    </volume>
+    <volume name="Vol_24_23">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_24_31" />
+    </volume>
+    <volume name="Vol_25_24">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_25_33" />
+    </volume>
+    <volume name="Vol_26_25">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_26_36" />
+    </volume>
+    <volume name="Vol_27_26">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_27_39" />
+    </volume>
+    <volume name="Vol_28_27">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_29_28">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_30_29">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_31_30">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_32_31">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_32_42" />
+    </volume>
+    <volume name="Vol_33_32">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_33_45" />
+    </volume>
+    <volume name="Vol_34_33">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_34_46" />
+    </volume>
+    <volume name="Vol_35_34">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_35_47" />
+    </volume>
+    <volume name="Vol_36_35">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_36_48" />
+    </volume>
+    <volume name="Vol_37_36">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_37_49" />
+    </volume>
+    <volume name="Vol_38_37">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_38_52" />
+    </volume>
+    <volume name="Vol_39_38">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_39_55" />
+    </volume>
+    <volume name="Vol_40_39">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_41_40">
+      <materialref ref="M00000004" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_42_41">
+      <materialref ref="M00000005" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_43_42">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_44_43">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_44_58" />
+    </volume>
+    <volume name="Vol_45_44">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_45_61" />
+    </volume>
+    <volume name="Vol_46_45">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_46_63" />
+    </volume>
+    <volume name="Vol_47_46">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_47_65" />
+    </volume>
+    <volume name="Vol_48_47">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_48_68" />
+    </volume>
+    <volume name="Vol_49_48">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_49_71" />
+    </volume>
+    <volume name="Vol_50_49">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_51_50">
+      <materialref ref="M00000004" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_52_51">
+      <materialref ref="M00000005" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_53_52">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_54_53">
+      <materialref ref="M00000004" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_55_54">
+      <materialref ref="M00000005" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_56_55">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_57_56">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_57_74" />
+    </volume>
+    <volume name="Vol_58_57">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_58_77" />
+    </volume>
+    <volume name="Vol_59_58">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_59_79" />
+    </volume>
+    <volume name="Vol_60_59">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_60_81" />
+    </volume>
+    <volume name="Vol_61_60">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_61_84" />
+    </volume>
+    <volume name="Vol_62_61">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_62_87" />
+    </volume>
+    <volume name="Vol_63_62">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_64_63">
+      <materialref ref="M00000004" />
+      <solidref ref="PrimBox_3" />
+    </volume>
+    <volume name="Vol_65_64">
+      <materialref ref="M00000005" />
+      <solidref ref="PrimBox_4" />
+    </volume>
+    <volume name="Vol_66_65">
+      <materialref ref="M00000006" />
+      <solidref ref="PrimBox_2" />
+    </volume>
+    <volume name="Vol_67_66">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_67_90" />
+    </volume>
+    <volume name="Vol_68_67">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_68_93" />
+    </volume>
+    <volume name="Vol_69_68">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_69_94" />
+    </volume>
+    <volume name="Vol_70_69">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_70_95" />
+    </volume>
+    <volume name="Vol_71_70">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_71_96" />
+    </volume>
+    <volume name="Vol_72_71">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_72_99" />
+    </volume>
+    <volume name="Vol_73_72">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_74_73">
+      <materialref ref="M00000007" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_75_74">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_76_75">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_76_102" />
+    </volume>
+    <volume name="Vol_77_76">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_77_104" />
+    </volume>
+    <volume name="Vol_78_77">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_78_107" />
+    </volume>
+    <volume name="Vol_79_78">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_80_79">
+      <materialref ref="M00000007" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_81_80">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_82_81">
+      <materialref ref="M00000007" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_83_82">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_84_83">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_84_110" />
+    </volume>
+    <volume name="Vol_85_84">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_85_112" />
+    </volume>
+    <volume name="Vol_86_85">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_86_115" />
+    </volume>
+    <volume name="Vol_87_86">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_88_87">
+      <materialref ref="M00000007" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_89_88">
+      <materialref ref="M00000008" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_90_89">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_90_118" />
+    </volume>
+    <volume name="Vol_91_90">
+      <materialref ref="M00000007" />
+      <solidref ref="Bool_91_119" />
+    </volume>
+    <volume name="Vol_92_91">
+      <materialref ref="M00000009" />
+      <solidref ref="PrimCyl_7" />
+    </volume>
+    <volume name="Vol_93_92">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_93_120" />
+    </volume>
+    <volume name="Vol_94_93">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_94_123" />
+    </volume>
+    <volume name="Vol_95_94">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_96_95">
+      <materialref ref="M00000010" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_97_96">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_98_97">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_98_126" />
+    </volume>
+    <volume name="Vol_99_98">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_99_128" />
+    </volume>
+    <volume name="Vol_100_99">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_100_131" />
+    </volume>
+    <volume name="Vol_101_100">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_102_101">
+      <materialref ref="M00000010" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_103_102">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_104_103">
+      <materialref ref="M00000010" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_105_104">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_106_105">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_106_134" />
+    </volume>
+    <volume name="Vol_107_106">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_107_136" />
+    </volume>
+    <volume name="Vol_108_107">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_108_139" />
+    </volume>
+    <volume name="Vol_109_108">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_110_109">
+      <materialref ref="M00000010" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_111_110">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_6" />
+    </volume>
+    <volume name="Vol_112_111">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_112_142" />
+    </volume>
+    <volume name="Vol_113_112">
+      <materialref ref="M00000010" />
+      <solidref ref="Bool_113_143" />
+    </volume>
+    <volume name="Vol_114_113">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_114_144" />
+    </volume>
+    <volume name="Vol_115_114">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_115_147" />
+    </volume>
+    <volume name="Vol_116_115">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_117_116">
+      <materialref ref="M00000012" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_118_117">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_119_118">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_119_150" />
+    </volume>
+    <volume name="Vol_120_119">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_120_152" />
+    </volume>
+    <volume name="Vol_121_120">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_121_155" />
+    </volume>
+    <volume name="Vol_122_121">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_123_122">
+      <materialref ref="M00000012" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_124_123">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_125_124">
+      <materialref ref="M00000012" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_126_125">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_127_126">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_127_158" />
+    </volume>
+    <volume name="Vol_128_127">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_128_160" />
+    </volume>
+    <volume name="Vol_129_128">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_129_163" />
+    </volume>
+    <volume name="Vol_130_129">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_131_130">
+      <materialref ref="M00000012" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_132_131">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_9" />
+    </volume>
+    <volume name="Vol_133_132">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_133_166" />
+    </volume>
+    <volume name="Vol_134_133">
+      <materialref ref="M00000012" />
+      <solidref ref="Bool_134_167" />
+    </volume>
+    <volume name="Vol_135_134">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_135_168" />
+    </volume>
+    <volume name="Vol_136_135">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_136_171" />
+    </volume>
+    <volume name="Vol_137_136">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_138_137">
+      <materialref ref="M00000013" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_139_138">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_140_139">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_140_174" />
+    </volume>
+    <volume name="Vol_141_140">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_141_176" />
+    </volume>
+    <volume name="Vol_142_141">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_142_179" />
+    </volume>
+    <volume name="Vol_143_142">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_144_143">
+      <materialref ref="M00000013" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_145_144">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_146_145">
+      <materialref ref="M00000013" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_147_146">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_148_147">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_148_182" />
+    </volume>
+    <volume name="Vol_149_148">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_149_184" />
+    </volume>
+    <volume name="Vol_150_149">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_150_187" />
+    </volume>
+    <volume name="Vol_151_150">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_152_151">
+      <materialref ref="M00000013" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_153_152">
+      <materialref ref="M00000011" />
+      <solidref ref="PrimBox_11" />
+    </volume>
+    <volume name="Vol_154_153">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_154_190" />
+    </volume>
+    <volume name="Vol_155_154">
+      <materialref ref="M00000013" />
+      <solidref ref="Bool_155_191" />
+    </volume>
+    <volume name="Vol_156_155">
+      <materialref ref="M00000014" />
+      <solidref ref="PrimCyl_12" />
+    </volume>
+    <volume name="Vol_157_156">
+      <materialref ref="M00000015" />
+      <solidref ref="PrimCyl_12" />
+    </volume>
+    <volume name="Vol_158_157">
+      <materialref ref="M00000016" />
+      <solidref ref="PrimCyl_13" />
+    </volume>
+    <volume name="Vol_159_158">
+      <materialref ref="M00000017" />
+      <solidref ref="PrimCyl_14" />
+    </volume>
+    <volume name="Vol_160_159">
+      <materialref ref="M00000018" />
+      <solidref ref="PrimCyl_15" />
+    </volume>
+    <volume name="Vol_161_160">
+      <materialref ref="M00000019" />
+      <solidref ref="PrimCyl_16" />
+    </volume>
+    <volume name="Vol_162_161">
+      <materialref ref="M00000020" />
+      <solidref ref="PrimCyl_17" />
+    </volume>
+    <volume name="Vol_163_162">
+      <materialref ref="M00000021" />
+      <solidref ref="PrimCyl_18" />
+    </volume>
+    <volume name="Vol_164_163">
+      <materialref ref="M00000022" />
+      <solidref ref="PrimCyl_19" />
+    </volume>
+    <volume name="Vol_165_164">
+      <materialref ref="M00000023" />
+      <solidref ref="PrimCyl_20" />
+    </volume>
+    <volume name="Vol_166_165">
+      <materialref ref="M00000024" />
+      <solidref ref="PrimCyl_21" />
+    </volume>
+    <volume name="Vol_167_166">
+      <materialref ref="M00000025" />
+      <solidref ref="PrimCyl_21" />
+    </volume>
+    <volume name="Vol_168_167">
+      <materialref ref="M00000026" />
+      <solidref ref="PrimCyl_22" />
+    </volume>
+    <volume name="Vol_169_168">
+      <materialref ref="M00000027" />
+      <solidref ref="PrimCyl_23" />
+    </volume>
+    <volume name="Vol_170_169">
+      <materialref ref="M00000028" />
+      <solidref ref="PrimCyl_24" />
+    </volume>
+    <volume name="Vol_171_170">
+      <materialref ref="M00000029" />
+      <solidref ref="PrimCyl_25" />
+    </volume>
+    <volume name="Vol_172_171">
+      <materialref ref="M00000029" />
+      <solidref ref="PrimCyl_26" />
+    </volume>
+    <volume name="Vol_173_172">
+      <materialref ref="M00000030" />
+      <solidref ref="PrimCyl_27" />
+    </volume>
+    <volume name="Vol_174_173">
+      <materialref ref="M00000031" />
+      <solidref ref="PrimCyl_28" />
+    </volume>
+    <volume name="Vol_175_174">
+      <materialref ref="M00000032" />
+      <solidref ref="PrimCyl_29" />
+    </volume>
+    <volume name="Vol_176_175">
+      <materialref ref="M00000032" />
+      <solidref ref="PrimCyl_30" />
+    </volume>
+    <volume name="Vol_177_176">
+      <materialref ref="M00000027" />
+      <solidref ref="PrimCyl_31" />
+    </volume>
+    <volume name="Vol_178_177">
+      <materialref ref="M00000029" />
+      <solidref ref="PrimCyl_32" />
+    </volume>
+    <volume name="Vol_179_178">
+      <materialref ref="M00000029" />
+      <solidref ref="PrimCyl_33" />
+    </volume>
+    <volume name="Vol_180_179">
+      <materialref ref="M00000029" />
+      <solidref ref="Bool_180_195" />
+    </volume>
+    <volume name="World">
+      <materialref ref="Air" />
+      <solidref ref="BBox" />
+      <physvol>
+        <volumeref ref="Vol_1_0" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_2_1" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_3_2" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_4_3" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_5_4" />
+        <positionref ref="Pos_Cell_5" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_6_5" />
+        <positionref ref="Pos_Cell_6" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_7_6" />
+        <positionref ref="Pos_Cell_7" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_8_7" />
+        <positionref ref="Pos_Cell_8" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_9_8" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_10_9" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_11_10" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_12_11" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_13_12" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_14_13" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_15_14" />
+        <positionref ref="Pos_Cell_15" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_16_15" />
+        <positionref ref="Pos_Cell_16" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_17_16" />
+        <positionref ref="Pos_Cell_17" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_18_17" />
+        <positionref ref="Pos_Cell_18" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_19_18" />
+        <positionref ref="Pos_Cell_19" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_20_19" />
+        <positionref ref="Pos_Cell_20" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_21_20" />
+        <positionref ref="Pos_Cell_21" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_22_21" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_23_22" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_24_23" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_25_24" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_26_25" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_27_26" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_28_27" />
+        <positionref ref="Pos_Cell_28" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_29_28" />
+        <positionref ref="Pos_Cell_29" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_30_29" />
+        <positionref ref="Pos_Cell_30" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_31_30" />
+        <positionref ref="Pos_Cell_31" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_32_31" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_33_32" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_34_33" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_35_34" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_36_35" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_37_36" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_38_37" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_39_38" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_40_39" />
+        <positionref ref="Pos_Cell_40" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_41_40" />
+        <positionref ref="Pos_Cell_41" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_42_41" />
+        <positionref ref="Pos_Cell_42" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_43_42" />
+        <positionref ref="Pos_Cell_43" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_44_43" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_45_44" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_46_45" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_47_46" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_48_47" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_49_48" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_50_49" />
+        <positionref ref="Pos_Cell_50" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_51_50" />
+        <positionref ref="Pos_Cell_51" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_52_51" />
+        <positionref ref="Pos_Cell_52" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_53_52" />
+        <positionref ref="Pos_Cell_53" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_54_53" />
+        <positionref ref="Pos_Cell_54" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_55_54" />
+        <positionref ref="Pos_Cell_55" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_56_55" />
+        <positionref ref="Pos_Cell_56" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_57_56" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_58_57" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_59_58" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_60_59" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_61_60" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_62_61" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_63_62" />
+        <positionref ref="Pos_Cell_63" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_64_63" />
+        <positionref ref="Pos_Cell_64" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_65_64" />
+        <positionref ref="Pos_Cell_65" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_66_65" />
+        <positionref ref="Pos_Cell_66" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_67_66" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_68_67" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_69_68" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_70_69" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_71_70" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_72_71" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_73_72" />
+        <positionref ref="Pos_Cell_73" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_74_73" />
+        <positionref ref="Pos_Cell_74" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_75_74" />
+        <positionref ref="Pos_Cell_75" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_76_75" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_77_76" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_78_77" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_79_78" />
+        <positionref ref="Pos_Cell_79" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_80_79" />
+        <positionref ref="Pos_Cell_80" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_81_80" />
+        <positionref ref="Pos_Cell_81" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_82_81" />
+        <positionref ref="Pos_Cell_82" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_83_82" />
+        <positionref ref="Pos_Cell_83" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_84_83" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_85_84" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_86_85" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_87_86" />
+        <positionref ref="Pos_Cell_87" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_88_87" />
+        <positionref ref="Pos_Cell_88" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_89_88" />
+        <positionref ref="Pos_Cell_89" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_90_89" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_91_90" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_92_91" />
+        <positionref ref="Pos_Cell_92" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_93_92" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_94_93" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_95_94" />
+        <positionref ref="Pos_Cell_95" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_96_95" />
+        <positionref ref="Pos_Cell_96" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_97_96" />
+        <positionref ref="Pos_Cell_97" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_98_97" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_99_98" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_100_99" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_101_100" />
+        <positionref ref="Pos_Cell_101" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_102_101" />
+        <positionref ref="Pos_Cell_102" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_103_102" />
+        <positionref ref="Pos_Cell_103" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_104_103" />
+        <positionref ref="Pos_Cell_104" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_105_104" />
+        <positionref ref="Pos_Cell_105" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_106_105" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_107_106" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_108_107" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_109_108" />
+        <positionref ref="Pos_Cell_109" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_110_109" />
+        <positionref ref="Pos_Cell_110" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_111_110" />
+        <positionref ref="Pos_Cell_111" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_112_111" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_113_112" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_114_113" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_115_114" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_116_115" />
+        <positionref ref="Pos_Cell_116" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_117_116" />
+        <positionref ref="Pos_Cell_117" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_118_117" />
+        <positionref ref="Pos_Cell_118" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_119_118" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_120_119" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_121_120" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_122_121" />
+        <positionref ref="Pos_Cell_122" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_123_122" />
+        <positionref ref="Pos_Cell_123" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_124_123" />
+        <positionref ref="Pos_Cell_124" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_125_124" />
+        <positionref ref="Pos_Cell_125" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_126_125" />
+        <positionref ref="Pos_Cell_126" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_127_126" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_128_127" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_129_128" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_130_129" />
+        <positionref ref="Pos_Cell_130" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_131_130" />
+        <positionref ref="Pos_Cell_131" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_132_131" />
+        <positionref ref="Pos_Cell_132" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_133_132" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_134_133" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_135_134" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_136_135" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_137_136" />
+        <positionref ref="Pos_Cell_137" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_138_137" />
+        <positionref ref="Pos_Cell_138" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_139_138" />
+        <positionref ref="Pos_Cell_139" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_140_139" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_141_140" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_142_141" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_143_142" />
+        <positionref ref="Pos_Cell_143" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_144_143" />
+        <positionref ref="Pos_Cell_144" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_145_144" />
+        <positionref ref="Pos_Cell_145" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_146_145" />
+        <positionref ref="Pos_Cell_146" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_147_146" />
+        <positionref ref="Pos_Cell_147" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_148_147" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_149_148" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_150_149" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_151_150" />
+        <positionref ref="Pos_Cell_151" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_152_151" />
+        <positionref ref="Pos_Cell_152" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_153_152" />
+        <positionref ref="Pos_Cell_153" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_154_153" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_155_154" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_156_155" />
+        <positionref ref="Pos_Cell_156" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_157_156" />
+        <positionref ref="Pos_Cell_157" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_158_157" />
+        <positionref ref="Pos_Cell_158" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_159_158" />
+        <positionref ref="Pos_Cell_159" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_160_159" />
+        <positionref ref="Pos_Cell_160" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_161_160" />
+        <positionref ref="Pos_Cell_161" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_162_161" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_163_162" />
+        <positionref ref="Pos_Cell_163" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_164_163" />
+        <positionref ref="Pos_Cell_164" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_165_164" />
+        <positionref ref="Pos_Cell_165" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_166_165" />
+        <positionref ref="Pos_Cell_166" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_167_166" />
+        <positionref ref="Pos_Cell_167" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_168_167" />
+        <positionref ref="Pos_Cell_168" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_169_168" />
+        <positionref ref="Pos_Cell_169" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_170_169" />
+        <positionref ref="Pos_Cell_170" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_171_170" />
+        <positionref ref="Pos_Cell_171" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_172_171" />
+        <positionref ref="Pos_Cell_172" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_173_172" />
+        <positionref ref="Pos_Cell_173" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_174_173" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_175_174" />
+        <positionref ref="Pos_Cell_175" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_176_175" />
+        <positionref ref="Pos_Cell_176" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_177_176" />
+        <positionref ref="Pos_Cell_177" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_178_177" />
+        <positionref ref="Pos_Cell_178" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_179_178" />
+        <positionref ref="Pos_Cell_179" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_180_179" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World" />
+  </setup>
+</gdml>

@@ -1,0 +1,2614 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gdml.xsd">
+  <define>
+    <constant name="PI" value="3.14159265358979" />
+    <constant name="TWOPI" value="6.28318530717959" />
+    <constant name="HALFPI" value="1.5707963267949" />
+    <position name="center" unit="cm" x="0.0" y="0.0" z="0.0" />
+    <rotation name="identity" unit="deg" x="0.0" y="0.0" z="0.0" />
+    <position name="Pos_Cell_100" unit="cm" x="-0.0" y="-0.0" z="0.03429" />
+    <position name="Pos_Cell_101" unit="cm" x="-0.0" y="-0.0" z="0.08635999999999999" />
+    <position name="Pos_Cell_102" unit="cm" x="-0.0" y="-0.0" z="0.27686" />
+    <position name="Pos_Cell_110" unit="cm" x="-0.0" y="-0.0" z="0.48386999999999997" />
+    <position name="Pos_Cell_111" unit="cm" x="-0.0" y="-0.0" z="0.53594" />
+    <position name="Pos_Cell_112" unit="cm" x="-0.0" y="-0.0" z="0.72644" />
+    <position name="Pos_Cell_120" unit="cm" x="-0.0" y="-0.0" z="0.93345" />
+    <position name="Pos_Cell_121" unit="cm" x="-0.0" y="-0.0" z="0.9855200000000001" />
+    <position name="Pos_Cell_122" unit="cm" x="-0.0" y="-0.0" z="1.1760199999999998" />
+    <position name="Pos_Cell_130" unit="cm" x="-0.0" y="-0.0" z="1.38303" />
+    <position name="Pos_Cell_131" unit="cm" x="-0.0" y="-0.0" z="1.4350999999999998" />
+    <position name="Pos_Cell_132" unit="cm" x="-0.0" y="-0.0" z="1.6256" />
+    <position name="Pos_Cell_140" unit="cm" x="-0.0" y="-0.0" z="1.8326099999999999" />
+    <position name="Pos_Cell_141" unit="cm" x="-0.0" y="-0.0" z="1.88468" />
+    <position name="Pos_Cell_142" unit="cm" x="-0.0" y="-0.0" z="2.07518" />
+    <position name="Pos_Cell_150" unit="cm" x="-0.0" y="-0.0" z="2.28219" />
+    <position name="Pos_Cell_151" unit="cm" x="-0.0" y="-0.0" z="2.33426" />
+    <position name="Pos_Cell_152" unit="cm" x="-0.0" y="-0.0" z="2.52476" />
+    <position name="Pos_Cell_160" unit="cm" x="-0.0" y="-0.0" z="2.73177" />
+    <position name="Pos_Cell_161" unit="cm" x="-0.0" y="-0.0" z="2.78384" />
+    <position name="Pos_Cell_162" unit="cm" x="-0.0" y="-0.0" z="2.9743399999999998" />
+    <position name="Pos_Cell_170" unit="cm" x="-0.0" y="-0.0" z="3.18135" />
+    <position name="Pos_Cell_171" unit="cm" x="-0.0" y="-0.0" z="3.2334199999999997" />
+    <position name="Pos_Cell_172" unit="cm" x="-0.0" y="-0.0" z="3.42392" />
+    <position name="Pos_Cell_180" unit="cm" x="-0.0" y="-0.0" z="3.63093" />
+    <position name="Pos_Cell_181" unit="cm" x="-0.0" y="-0.0" z="3.683" />
+    <position name="Pos_Cell_182" unit="cm" x="-0.0" y="-0.0" z="3.8735" />
+    <position name="Pos_Cell_190" unit="cm" x="-0.0" y="-0.0" z="4.08051" />
+    <position name="Pos_Cell_191" unit="cm" x="-0.0" y="-0.0" z="4.13258" />
+    <position name="Pos_Cell_192" unit="cm" x="-0.0" y="-0.0" z="4.32308" />
+    <position name="Pos_Cell_200" unit="cm" x="-0.0" y="-0.0" z="4.5300899999999995" />
+    <position name="Pos_Cell_201" unit="cm" x="-0.0" y="-0.0" z="4.58216" />
+    <position name="Pos_Cell_202" unit="cm" x="-0.0" y="-0.0" z="4.77266" />
+    <position name="Pos_Cell_210" unit="cm" x="-0.0" y="-0.0" z="4.9796700000000005" />
+    <position name="Pos_Cell_211" unit="cm" x="-0.0" y="-0.0" z="5.03174" />
+    <position name="Pos_Cell_212" unit="cm" x="-0.0" y="-0.0" z="5.222239999999999" />
+    <position name="Pos_Cell_220" unit="cm" x="-0.0" y="-0.0" z="5.42925" />
+    <position name="Pos_Cell_221" unit="cm" x="-0.0" y="-0.0" z="5.48132" />
+    <position name="Pos_Cell_222" unit="cm" x="-0.0" y="-0.0" z="5.67182" />
+    <position name="Pos_Cell_230" unit="cm" x="-0.0" y="-0.0" z="5.878830000000001" />
+    <position name="Pos_Cell_231" unit="cm" x="-0.0" y="-0.0" z="5.9309" />
+    <position name="Pos_Cell_232" unit="cm" x="-0.0" y="-0.0" z="6.1213999999999995" />
+    <position name="Pos_Cell_240" unit="cm" x="-0.0" y="-0.0" z="6.32841" />
+    <position name="Pos_Cell_241" unit="cm" x="-0.0" y="-0.0" z="6.38048" />
+    <position name="Pos_Cell_242" unit="cm" x="-0.0" y="-0.0" z="6.5709800000000005" />
+    <position name="Pos_Cell_250" unit="cm" x="-0.0" y="-0.0" z="6.77799" />
+    <position name="Pos_Cell_251" unit="cm" x="-0.0" y="-0.0" z="6.83006" />
+    <position name="Pos_Cell_252" unit="cm" x="-0.0" y="-0.0" z="7.02056" />
+    <position name="Pos_Cell_260" unit="cm" x="-0.0" y="-0.0" z="7.22757" />
+    <position name="Pos_Cell_261" unit="cm" x="-0.0" y="-0.0" z="7.2796400000000006" />
+    <position name="Pos_Cell_262" unit="cm" x="-0.0" y="-0.0" z="7.470140000000001" />
+    <position name="Pos_Cell_270" unit="cm" x="-0.0" y="-0.0" z="7.677149999999999" />
+    <position name="Pos_Cell_271" unit="cm" x="-0.0" y="-0.0" z="7.72922" />
+    <position name="Pos_Cell_272" unit="cm" x="-0.0" y="-0.0" z="7.91972" />
+    <position name="Pos_Cell_280" unit="cm" x="-0.0" y="-0.0" z="8.12673" />
+    <position name="Pos_Cell_281" unit="cm" x="-0.0" y="-0.0" z="8.1788" />
+    <position name="Pos_Cell_282" unit="cm" x="-0.0" y="-0.0" z="8.369299999999999" />
+    <position name="Pos_Cell_290" unit="cm" x="-0.0" y="-0.0" z="8.57631" />
+    <position name="Pos_Cell_291" unit="cm" x="-0.0" y="-0.0" z="8.62838" />
+    <position name="Pos_Cell_292" unit="cm" x="-0.0" y="-0.0" z="8.81888" />
+    <position name="Pos_Cell_300" unit="cm" x="-0.0" y="-0.0" z="9.02589" />
+    <position name="Pos_Cell_301" unit="cm" x="-0.0" y="-0.0" z="9.077960000000001" />
+    <position name="Pos_Cell_302" unit="cm" x="-0.0" y="-0.0" z="9.268460000000001" />
+    <position name="Pos_Cell_310" unit="cm" x="-0.0" y="-0.0" z="9.47547" />
+    <position name="Pos_Cell_311" unit="cm" x="-0.0" y="-0.0" z="9.52754" />
+    <position name="Pos_Cell_312" unit="cm" x="-0.0" y="-0.0" z="9.71804" />
+    <position name="Pos_Cell_320" unit="cm" x="-0.0" y="-0.0" z="9.925049999999999" />
+    <position name="Pos_Cell_321" unit="cm" x="-0.0" y="-0.0" z="9.97712" />
+    <position name="Pos_Cell_322" unit="cm" x="-0.0" y="-0.0" z="10.16762" />
+    <position name="Pos_Cell_330" unit="cm" x="-0.0" y="-0.0" z="10.37463" />
+    <position name="Pos_Cell_331" unit="cm" x="-0.0" y="-0.0" z="10.4267" />
+    <position name="Pos_Cell_332" unit="cm" x="-0.0" y="-0.0" z="10.6172" />
+    <position name="Pos_Cell_340" unit="cm" x="-0.0" y="-0.0" z="10.82421" />
+    <position name="Pos_Cell_341" unit="cm" x="-0.0" y="-0.0" z="10.87628" />
+    <position name="Pos_Cell_342" unit="cm" x="-0.0" y="-0.0" z="11.06678" />
+    <position name="Pos_Cell_350" unit="cm" x="-0.0" y="-0.0" z="11.27379" />
+    <position name="Pos_Cell_351" unit="cm" x="-0.0" y="-0.0" z="11.32586" />
+    <position name="Pos_Cell_352" unit="cm" x="-0.0" y="-0.0" z="11.516359999999999" />
+    <position name="Pos_Cell_360" unit="cm" x="-0.0" y="-0.0" z="11.72337" />
+    <position name="Pos_Cell_361" unit="cm" x="-0.0" y="-0.0" z="11.77544" />
+    <position name="Pos_Cell_362" unit="cm" x="-0.0" y="-0.0" z="11.96594" />
+    <position name="Pos_Cell_370" unit="cm" x="-0.0" y="-0.0" z="12.17295" />
+    <position name="Pos_Cell_371" unit="cm" x="-0.0" y="-0.0" z="12.22502" />
+    <position name="Pos_Cell_372" unit="cm" x="-0.0" y="-0.0" z="12.41552" />
+    <position name="Pos_Cell_380" unit="cm" x="-0.0" y="-0.0" z="12.622530000000001" />
+    <position name="Pos_Cell_381" unit="cm" x="-0.0" y="-0.0" z="12.6746" />
+    <position name="Pos_Cell_382" unit="cm" x="-0.0" y="-0.0" z="12.8651" />
+    <position name="Pos_Cell_390" unit="cm" x="-0.0" y="-0.0" z="13.07211" />
+    <position name="Pos_Cell_391" unit="cm" x="-0.0" y="-0.0" z="13.124179999999999" />
+    <position name="Pos_Cell_392" unit="cm" x="-0.0" y="-0.0" z="13.264645" />
+    <position name="Pos_Cell_6" unit="cm" x="-0.0" y="-0.0" z="-10.5664" />
+    <position name="Pos_Cell_7" unit="cm" x="-0.0" y="-0.0" z="-26.797" />
+  </define>
+  <materials>
+    <element name="Oxygen" Z="8" formula="O">
+      <atom value="16.0" />
+    </element>
+    <element name="Nitrogen" Z="7" formula="N">
+      <atom value="14.01" />
+    </element>
+    <material name="Air">
+      <D value="0.001129" unit="g/cm3" />
+      <fraction ref="Oxygen" n="0.3" />
+      <fraction ref="Nitrogen" n="0.7" />
+    </material>
+    <element name="E094239" Z="94" formula="094">
+      <atom value="236.99974" />
+    </element>
+    <material name="M00000001">
+      <D value="15.726151194114568" unit="g/cm3" />
+      <fraction ref="E094239" n="1.0" />
+    </material>
+    <element name="E073181" Z="73" formula="073">
+      <atom value="179.4" />
+    </element>
+    <material name="M00000002">
+      <D value="14.500316993586846" unit="g/cm3" />
+      <fraction ref="E073181" n="1.0" />
+    </material>
+    <element name="E013027" Z="13" formula="013">
+      <atom value="26.74975" />
+    </element>
+    <material name="M00000003">
+      <D value="1.2812217776855819" unit="g/cm3" />
+      <fraction ref="E013027" n="1.0" />
+    </material>
+    <element name="E028058" Z="28" formula="028">
+      <atom value="57.9353" />
+    </element>
+    <element name="E028060" Z="28" formula="028">
+      <atom value="59.9308" />
+    </element>
+    <element name="E028061" Z="28" formula="028">
+      <atom value="60.9311" />
+    </element>
+    <element name="E028062" Z="28" formula="028">
+      <atom value="61.9283" />
+    </element>
+    <element name="E028064" Z="28" formula="028">
+      <atom value="63.928" />
+    </element>
+    <material name="M00000004">
+      <D value="8.660428772176356" unit="g/cm3" />
+      <fraction ref="E028058" n="0.6720049075593079" />
+      <fraction ref="E028060" n="0.26773001345535985" />
+      <fraction ref="E028061" n="0.01183472490652979" />
+      <fraction ref="E028062" n="0.03830568427615012" />
+      <fraction ref="E028064" n="0.010124669802652317" />
+    </material>
+    <element name="E026054" Z="26" formula="026">
+      <atom value="53.9396" />
+    </element>
+    <element name="E026056" Z="26" formula="026">
+      <atom value="55.454" />
+    </element>
+    <element name="E026057" Z="26" formula="026">
+      <atom value="56.9354" />
+    </element>
+    <element name="E026058" Z="26" formula="026">
+      <atom value="57.9333" />
+    </element>
+    <material name="M00000005">
+      <D value="7.7876212096377495" unit="g/cm3" />
+      <fraction ref="E026054" n="0.0569551022541366" />
+      <fraction ref="E026056" n="0.9183378892481888" />
+      <fraction ref="E026057" n="0.021791699796499718" />
+      <fraction ref="E026058" n="0.0029153087011749364" />
+    </material>
+    <element name="E001001" Z="1" formula="001">
+      <atom value="0.999172" />
+    </element>
+    <element name="E008016" Z="8" formula="008">
+      <atom value="15.85316" />
+    </element>
+    <material name="M00000006">
+      <D value="0.9895762682770636" unit="g/cm3" />
+      <fraction ref="E001001" n="0.11194261279049653" />
+      <fraction ref="E008016" n="0.8880573872095034" />
+    </material>
+    <element name="E006000" Z="6" formula="006">
+      <atom value="11.907955" />
+    </element>
+    <material name="M00000007">
+      <D value="0.9120859504818349" unit="g/cm3" />
+      <fraction ref="E001001" n="0.14370063523012125" />
+      <fraction ref="E006000" n="0.8562993647698788" />
+    </material>
+  </materials>
+  <solids>
+    <box name="BBox" x="220" y="220" z="220" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_0" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="0.06858" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_1" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="0.03556" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_2" rmin="0" rmax="5.70611" startphi="0" deltaphi="360" z="0.31496" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_3" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="0.34544" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_102" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_102_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_102" />
+      <position name="Pos_HS_Z_102_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_102_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_202_P" x="220" y="220" z="110.10414" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_202_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_202_P" />
+      <position name="Pos_HS_Z_202_P" x="0.0" y="0.0" z="-54.94793000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_202_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_103_0">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_202_P" />
+      <position name="Pos_Bool_103_0" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_103_0" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_205_N" x="220" y="220" z="109.55042" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_205_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_205_N" />
+      <position name="Pos_HS_Z_205_N" x="0.0" y="0.0" z="55.224790000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_205_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_103_1">
+      <first ref="Bool_103_0" />
+      <second ref="HS_Z_205_N" />
+      <position name="Pos_Bool_103_1" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_103_1" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_103_2">
+      <first ref="Bool_103_1" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_103_2" x="-0.0" y="-0.0" z="0.27686" unit="cm" />
+      <rotation name="Rot_Bool_103_2" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_207_P" x="220" y="220" z="110.55372" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_207_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_207_P" />
+      <position name="Pos_HS_Z_207_P" x="0.0" y="0.0" z="-54.72314000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_207_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_113_3">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_207_P" />
+      <position name="Pos_Bool_113_3" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_113_3" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_210_N" x="220" y="220" z="109.10084" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_210_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_210_N" />
+      <position name="Pos_HS_Z_210_N" x="0.0" y="0.0" z="55.449580000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_210_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_113_4">
+      <first ref="Bool_113_3" />
+      <second ref="HS_Z_210_N" />
+      <position name="Pos_Bool_113_4" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_113_4" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_113_5">
+      <first ref="Bool_113_4" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_113_5" x="-0.0" y="-0.0" z="0.72644" unit="cm" />
+      <rotation name="Rot_Bool_113_5" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_212_P" x="220" y="220" z="111.0033" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_212_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_212_P" />
+      <position name="Pos_HS_Z_212_P" x="0.0" y="0.0" z="-54.49835000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_212_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_123_6">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_212_P" />
+      <position name="Pos_Bool_123_6" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_123_6" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_215_N" x="220" y="220" z="108.65126" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_215_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_215_N" />
+      <position name="Pos_HS_Z_215_N" x="0.0" y="0.0" z="55.67437000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_215_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_123_7">
+      <first ref="Bool_123_6" />
+      <second ref="HS_Z_215_N" />
+      <position name="Pos_Bool_123_7" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_123_7" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_123_8">
+      <first ref="Bool_123_7" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_123_8" x="-0.0" y="-0.0" z="1.1760199999999998" unit="cm" />
+      <rotation name="Rot_Bool_123_8" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_217_P" x="220" y="220" z="111.45288" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_217_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_217_P" />
+      <position name="Pos_HS_Z_217_P" x="0.0" y="0.0" z="-54.27356000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_217_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_133_9">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_217_P" />
+      <position name="Pos_Bool_133_9" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_133_9" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_220_N" x="220" y="220" z="108.20168" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_220_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_220_N" />
+      <position name="Pos_HS_Z_220_N" x="0.0" y="0.0" z="55.89916000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_220_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_133_10">
+      <first ref="Bool_133_9" />
+      <second ref="HS_Z_220_N" />
+      <position name="Pos_Bool_133_10" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_133_10" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_133_11">
+      <first ref="Bool_133_10" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_133_11" x="-0.0" y="-0.0" z="1.6256" unit="cm" />
+      <rotation name="Rot_Bool_133_11" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_222_P" x="220" y="220" z="111.90246" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_222_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_222_P" />
+      <position name="Pos_HS_Z_222_P" x="0.0" y="0.0" z="-54.048770000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_222_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_143_12">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_222_P" />
+      <position name="Pos_Bool_143_12" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_143_12" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_225_N" x="220" y="220" z="107.7521" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_225_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_225_N" />
+      <position name="Pos_HS_Z_225_N" x="0.0" y="0.0" z="56.12395000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_225_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_143_13">
+      <first ref="Bool_143_12" />
+      <second ref="HS_Z_225_N" />
+      <position name="Pos_Bool_143_13" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_143_13" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_143_14">
+      <first ref="Bool_143_13" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_143_14" x="-0.0" y="-0.0" z="2.07518" unit="cm" />
+      <rotation name="Rot_Bool_143_14" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_227_P" x="220" y="220" z="112.35204" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_227_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_227_P" />
+      <position name="Pos_HS_Z_227_P" x="0.0" y="0.0" z="-53.823980000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_227_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_153_15">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_227_P" />
+      <position name="Pos_Bool_153_15" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_153_15" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_230_N" x="220" y="220" z="107.30252" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_230_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_230_N" />
+      <position name="Pos_HS_Z_230_N" x="0.0" y="0.0" z="56.34874000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_230_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_153_16">
+      <first ref="Bool_153_15" />
+      <second ref="HS_Z_230_N" />
+      <position name="Pos_Bool_153_16" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_153_16" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_153_17">
+      <first ref="Bool_153_16" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_153_17" x="-0.0" y="-0.0" z="2.52476" unit="cm" />
+      <rotation name="Rot_Bool_153_17" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_232_P" x="220" y="220" z="112.80162" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_232_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_232_P" />
+      <position name="Pos_HS_Z_232_P" x="0.0" y="0.0" z="-53.59919000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_232_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_163_18">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_232_P" />
+      <position name="Pos_Bool_163_18" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_163_18" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_235_N" x="220" y="220" z="106.85294" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_235_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_235_N" />
+      <position name="Pos_HS_Z_235_N" x="0.0" y="0.0" z="56.573530000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_235_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_163_19">
+      <first ref="Bool_163_18" />
+      <second ref="HS_Z_235_N" />
+      <position name="Pos_Bool_163_19" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_163_19" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_163_20">
+      <first ref="Bool_163_19" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_163_20" x="-0.0" y="-0.0" z="2.9743399999999998" unit="cm" />
+      <rotation name="Rot_Bool_163_20" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_237_P" x="220" y="220" z="113.2512" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_237_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_237_P" />
+      <position name="Pos_HS_Z_237_P" x="0.0" y="0.0" z="-53.37440000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_237_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_173_21">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_237_P" />
+      <position name="Pos_Bool_173_21" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_173_21" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_240_N" x="220" y="220" z="106.40336" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_240_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_240_N" />
+      <position name="Pos_HS_Z_240_N" x="0.0" y="0.0" z="56.798320000000004" unit="cm" />
+      <rotation name="Rot_HS_Z_240_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_173_22">
+      <first ref="Bool_173_21" />
+      <second ref="HS_Z_240_N" />
+      <position name="Pos_Bool_173_22" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_173_22" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_173_23">
+      <first ref="Bool_173_22" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_173_23" x="-0.0" y="-0.0" z="3.42392" unit="cm" />
+      <rotation name="Rot_Bool_173_23" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_242_P" x="220" y="220" z="113.70078" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_242_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_242_P" />
+      <position name="Pos_HS_Z_242_P" x="0.0" y="0.0" z="-53.14961000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_242_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_183_24">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_242_P" />
+      <position name="Pos_Bool_183_24" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_183_24" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_245_N" x="220" y="220" z="105.95378" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_245_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_245_N" />
+      <position name="Pos_HS_Z_245_N" x="0.0" y="0.0" z="57.02311000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_245_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_183_25">
+      <first ref="Bool_183_24" />
+      <second ref="HS_Z_245_N" />
+      <position name="Pos_Bool_183_25" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_183_25" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_183_26">
+      <first ref="Bool_183_25" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_183_26" x="-0.0" y="-0.0" z="3.8735" unit="cm" />
+      <rotation name="Rot_Bool_183_26" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_247_P" x="220" y="220" z="114.15036" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_247_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_247_P" />
+      <position name="Pos_HS_Z_247_P" x="0.0" y="0.0" z="-52.924820000000004" unit="cm" />
+      <rotation name="Rot_HS_Z_247_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_193_27">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_247_P" />
+      <position name="Pos_Bool_193_27" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_193_27" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_250_N" x="220" y="220" z="105.5042" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_250_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_250_N" />
+      <position name="Pos_HS_Z_250_N" x="0.0" y="0.0" z="57.24790000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_250_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_193_28">
+      <first ref="Bool_193_27" />
+      <second ref="HS_Z_250_N" />
+      <position name="Pos_Bool_193_28" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_193_28" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_193_29">
+      <first ref="Bool_193_28" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_193_29" x="-0.0" y="-0.0" z="4.32308" unit="cm" />
+      <rotation name="Rot_Bool_193_29" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_252_P" x="220" y="220" z="114.59994" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_252_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_252_P" />
+      <position name="Pos_HS_Z_252_P" x="0.0" y="0.0" z="-52.700030000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_252_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_203_30">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_252_P" />
+      <position name="Pos_Bool_203_30" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_203_30" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_255_N" x="220" y="220" z="105.05462" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_255_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_255_N" />
+      <position name="Pos_HS_Z_255_N" x="0.0" y="0.0" z="57.47269000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_255_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_203_31">
+      <first ref="Bool_203_30" />
+      <second ref="HS_Z_255_N" />
+      <position name="Pos_Bool_203_31" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_203_31" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_203_32">
+      <first ref="Bool_203_31" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_203_32" x="-0.0" y="-0.0" z="4.77266" unit="cm" />
+      <rotation name="Rot_Bool_203_32" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_257_P" x="220" y="220" z="115.04952" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_257_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_257_P" />
+      <position name="Pos_HS_Z_257_P" x="0.0" y="0.0" z="-52.47524000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_257_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_213_33">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_257_P" />
+      <position name="Pos_Bool_213_33" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_213_33" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_260_N" x="220" y="220" z="104.60504" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_260_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_260_N" />
+      <position name="Pos_HS_Z_260_N" x="0.0" y="0.0" z="57.697480000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_260_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_213_34">
+      <first ref="Bool_213_33" />
+      <second ref="HS_Z_260_N" />
+      <position name="Pos_Bool_213_34" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_213_34" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_213_35">
+      <first ref="Bool_213_34" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_213_35" x="-0.0" y="-0.0" z="5.222239999999999" unit="cm" />
+      <rotation name="Rot_Bool_213_35" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_262_P" x="220" y="220" z="115.4991" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_262_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_262_P" />
+      <position name="Pos_HS_Z_262_P" x="0.0" y="0.0" z="-52.25045000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_262_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_223_36">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_262_P" />
+      <position name="Pos_Bool_223_36" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_223_36" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_265_N" x="220" y="220" z="104.15546" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_265_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_265_N" />
+      <position name="Pos_HS_Z_265_N" x="0.0" y="0.0" z="57.922270000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_265_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_223_37">
+      <first ref="Bool_223_36" />
+      <second ref="HS_Z_265_N" />
+      <position name="Pos_Bool_223_37" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_223_37" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_223_38">
+      <first ref="Bool_223_37" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_223_38" x="-0.0" y="-0.0" z="5.67182" unit="cm" />
+      <rotation name="Rot_Bool_223_38" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_267_P" x="220" y="220" z="115.94868" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_267_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_267_P" />
+      <position name="Pos_HS_Z_267_P" x="0.0" y="0.0" z="-52.02566000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_267_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_233_39">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_267_P" />
+      <position name="Pos_Bool_233_39" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_233_39" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_270_N" x="220" y="220" z="103.70588" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_270_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_270_N" />
+      <position name="Pos_HS_Z_270_N" x="0.0" y="0.0" z="58.14706000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_270_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_233_40">
+      <first ref="Bool_233_39" />
+      <second ref="HS_Z_270_N" />
+      <position name="Pos_Bool_233_40" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_233_40" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_233_41">
+      <first ref="Bool_233_40" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_233_41" x="-0.0" y="-0.0" z="6.1213999999999995" unit="cm" />
+      <rotation name="Rot_Bool_233_41" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_272_P" x="220" y="220" z="116.39826" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_272_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_272_P" />
+      <position name="Pos_HS_Z_272_P" x="0.0" y="0.0" z="-51.80087000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_272_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_243_42">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_272_P" />
+      <position name="Pos_Bool_243_42" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_243_42" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_275_N" x="220" y="220" z="103.2563" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_275_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_275_N" />
+      <position name="Pos_HS_Z_275_N" x="0.0" y="0.0" z="58.37185000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_275_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_243_43">
+      <first ref="Bool_243_42" />
+      <second ref="HS_Z_275_N" />
+      <position name="Pos_Bool_243_43" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_243_43" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_243_44">
+      <first ref="Bool_243_43" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_243_44" x="-0.0" y="-0.0" z="6.5709800000000005" unit="cm" />
+      <rotation name="Rot_Bool_243_44" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_277_P" x="220" y="220" z="116.84784" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_277_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_277_P" />
+      <position name="Pos_HS_Z_277_P" x="0.0" y="0.0" z="-51.576080000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_277_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_253_45">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_277_P" />
+      <position name="Pos_Bool_253_45" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_253_45" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_280_N" x="220" y="220" z="102.80672" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_280_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_280_N" />
+      <position name="Pos_HS_Z_280_N" x="0.0" y="0.0" z="58.59664000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_280_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_253_46">
+      <first ref="Bool_253_45" />
+      <second ref="HS_Z_280_N" />
+      <position name="Pos_Bool_253_46" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_253_46" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_253_47">
+      <first ref="Bool_253_46" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_253_47" x="-0.0" y="-0.0" z="7.02056" unit="cm" />
+      <rotation name="Rot_Bool_253_47" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_282_P" x="220" y="220" z="117.29742" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_282_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_282_P" />
+      <position name="Pos_HS_Z_282_P" x="0.0" y="0.0" z="-51.351290000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_282_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_263_48">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_282_P" />
+      <position name="Pos_Bool_263_48" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_263_48" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_285_N" x="220" y="220" z="102.35714" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_285_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_285_N" />
+      <position name="Pos_HS_Z_285_N" x="0.0" y="0.0" z="58.82143000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_285_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_263_49">
+      <first ref="Bool_263_48" />
+      <second ref="HS_Z_285_N" />
+      <position name="Pos_Bool_263_49" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_263_49" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_263_50">
+      <first ref="Bool_263_49" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_263_50" x="-0.0" y="-0.0" z="7.470140000000001" unit="cm" />
+      <rotation name="Rot_Bool_263_50" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_287_P" x="220" y="220" z="117.747" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_287_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_287_P" />
+      <position name="Pos_HS_Z_287_P" x="0.0" y="0.0" z="-51.12650000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_287_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_273_51">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_287_P" />
+      <position name="Pos_Bool_273_51" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_273_51" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_290_N" x="220" y="220" z="101.90756" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_290_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_290_N" />
+      <position name="Pos_HS_Z_290_N" x="0.0" y="0.0" z="59.046220000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_290_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_273_52">
+      <first ref="Bool_273_51" />
+      <second ref="HS_Z_290_N" />
+      <position name="Pos_Bool_273_52" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_273_52" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_273_53">
+      <first ref="Bool_273_52" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_273_53" x="-0.0" y="-0.0" z="7.91972" unit="cm" />
+      <rotation name="Rot_Bool_273_53" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_292_P" x="220" y="220" z="118.19658" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_292_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_292_P" />
+      <position name="Pos_HS_Z_292_P" x="0.0" y="0.0" z="-50.90171000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_292_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_283_54">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_292_P" />
+      <position name="Pos_Bool_283_54" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_283_54" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_295_N" x="220" y="220" z="101.45798" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_295_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_295_N" />
+      <position name="Pos_HS_Z_295_N" x="0.0" y="0.0" z="59.271010000000004" unit="cm" />
+      <rotation name="Rot_HS_Z_295_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_283_55">
+      <first ref="Bool_283_54" />
+      <second ref="HS_Z_295_N" />
+      <position name="Pos_Bool_283_55" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_283_55" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_283_56">
+      <first ref="Bool_283_55" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_283_56" x="-0.0" y="-0.0" z="8.369299999999999" unit="cm" />
+      <rotation name="Rot_Bool_283_56" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_297_P" x="220" y="220" z="118.64616" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_297_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_297_P" />
+      <position name="Pos_HS_Z_297_P" x="0.0" y="0.0" z="-50.67692000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_297_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_293_57">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_297_P" />
+      <position name="Pos_Bool_293_57" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_293_57" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_300_N" x="220" y="220" z="101.0084" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_300_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_300_N" />
+      <position name="Pos_HS_Z_300_N" x="0.0" y="0.0" z="59.49580000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_300_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_293_58">
+      <first ref="Bool_293_57" />
+      <second ref="HS_Z_300_N" />
+      <position name="Pos_Bool_293_58" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_293_58" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_293_59">
+      <first ref="Bool_293_58" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_293_59" x="-0.0" y="-0.0" z="8.81888" unit="cm" />
+      <rotation name="Rot_Bool_293_59" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_302_P" x="220" y="220" z="119.09574" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_302_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_302_P" />
+      <position name="Pos_HS_Z_302_P" x="0.0" y="0.0" z="-50.45213000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_302_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_303_60">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_302_P" />
+      <position name="Pos_Bool_303_60" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_303_60" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_305_N" x="220" y="220" z="100.55882" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_305_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_305_N" />
+      <position name="Pos_HS_Z_305_N" x="0.0" y="0.0" z="59.72059000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_305_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_303_61">
+      <first ref="Bool_303_60" />
+      <second ref="HS_Z_305_N" />
+      <position name="Pos_Bool_303_61" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_303_61" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_303_62">
+      <first ref="Bool_303_61" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_303_62" x="-0.0" y="-0.0" z="9.268460000000001" unit="cm" />
+      <rotation name="Rot_Bool_303_62" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_307_P" x="220" y="220" z="119.54532" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_307_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_307_P" />
+      <position name="Pos_HS_Z_307_P" x="0.0" y="0.0" z="-50.227340000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_307_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_313_63">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_307_P" />
+      <position name="Pos_Bool_313_63" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_313_63" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_310_N" x="220" y="220" z="100.10924" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_310_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_310_N" />
+      <position name="Pos_HS_Z_310_N" x="0.0" y="0.0" z="59.94538000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_310_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_313_64">
+      <first ref="Bool_313_63" />
+      <second ref="HS_Z_310_N" />
+      <position name="Pos_Bool_313_64" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_313_64" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_313_65">
+      <first ref="Bool_313_64" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_313_65" x="-0.0" y="-0.0" z="9.71804" unit="cm" />
+      <rotation name="Rot_Bool_313_65" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_312_P" x="220" y="220" z="119.9949" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_312_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_312_P" />
+      <position name="Pos_HS_Z_312_P" x="0.0" y="0.0" z="-50.00255000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_312_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_323_66">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_312_P" />
+      <position name="Pos_Bool_323_66" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_323_66" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_315_N" x="220" y="220" z="99.65966" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_315_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_315_N" />
+      <position name="Pos_HS_Z_315_N" x="0.0" y="0.0" z="60.170170000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_315_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_323_67">
+      <first ref="Bool_323_66" />
+      <second ref="HS_Z_315_N" />
+      <position name="Pos_Bool_323_67" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_323_67" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_323_68">
+      <first ref="Bool_323_67" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_323_68" x="-0.0" y="-0.0" z="10.16762" unit="cm" />
+      <rotation name="Rot_Bool_323_68" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_317_P" x="220" y="220" z="120.44448" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_317_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_317_P" />
+      <position name="Pos_HS_Z_317_P" x="0.0" y="0.0" z="-49.77776000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_317_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_333_69">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_317_P" />
+      <position name="Pos_Bool_333_69" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_333_69" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_320_N" x="220" y="220" z="99.21008" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_320_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_320_N" />
+      <position name="Pos_HS_Z_320_N" x="0.0" y="0.0" z="60.394960000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_320_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_333_70">
+      <first ref="Bool_333_69" />
+      <second ref="HS_Z_320_N" />
+      <position name="Pos_Bool_333_70" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_333_70" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_333_71">
+      <first ref="Bool_333_70" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_333_71" x="-0.0" y="-0.0" z="10.6172" unit="cm" />
+      <rotation name="Rot_Bool_333_71" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_322_P" x="220" y="220" z="120.89406" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_322_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_322_P" />
+      <position name="Pos_HS_Z_322_P" x="0.0" y="0.0" z="-49.55297000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_322_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_343_72">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_322_P" />
+      <position name="Pos_Bool_343_72" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_343_72" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_325_N" x="220" y="220" z="98.7605" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_325_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_325_N" />
+      <position name="Pos_HS_Z_325_N" x="0.0" y="0.0" z="60.61975000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_325_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_343_73">
+      <first ref="Bool_343_72" />
+      <second ref="HS_Z_325_N" />
+      <position name="Pos_Bool_343_73" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_343_73" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_343_74">
+      <first ref="Bool_343_73" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_343_74" x="-0.0" y="-0.0" z="11.06678" unit="cm" />
+      <rotation name="Rot_Bool_343_74" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_327_P" x="220" y="220" z="121.34364" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_327_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_327_P" />
+      <position name="Pos_HS_Z_327_P" x="0.0" y="0.0" z="-49.32818" unit="cm" />
+      <rotation name="Rot_HS_Z_327_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_353_75">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_327_P" />
+      <position name="Pos_Bool_353_75" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_353_75" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_330_N" x="220" y="220" z="98.31092" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_330_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_330_N" />
+      <position name="Pos_HS_Z_330_N" x="0.0" y="0.0" z="60.84454000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_330_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_353_76">
+      <first ref="Bool_353_75" />
+      <second ref="HS_Z_330_N" />
+      <position name="Pos_Bool_353_76" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_353_76" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_353_77">
+      <first ref="Bool_353_76" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_353_77" x="-0.0" y="-0.0" z="11.516359999999999" unit="cm" />
+      <rotation name="Rot_Bool_353_77" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_332_P" x="220" y="220" z="121.79322" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_332_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_332_P" />
+      <position name="Pos_HS_Z_332_P" x="0.0" y="0.0" z="-49.103390000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_332_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_363_78">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_332_P" />
+      <position name="Pos_Bool_363_78" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_363_78" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_335_N" x="220" y="220" z="97.86134" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_335_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_335_N" />
+      <position name="Pos_HS_Z_335_N" x="0.0" y="0.0" z="61.06933000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_335_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_363_79">
+      <first ref="Bool_363_78" />
+      <second ref="HS_Z_335_N" />
+      <position name="Pos_Bool_363_79" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_363_79" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_363_80">
+      <first ref="Bool_363_79" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_363_80" x="-0.0" y="-0.0" z="11.96594" unit="cm" />
+      <rotation name="Rot_Bool_363_80" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_337_P" x="220" y="220" z="122.2428" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_337_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_337_P" />
+      <position name="Pos_HS_Z_337_P" x="0.0" y="0.0" z="-48.878600000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_337_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_373_81">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_337_P" />
+      <position name="Pos_Bool_373_81" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_373_81" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_340_N" x="220" y="220" z="97.41176" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_340_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_340_N" />
+      <position name="Pos_HS_Z_340_N" x="0.0" y="0.0" z="61.29412000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_340_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_373_82">
+      <first ref="Bool_373_81" />
+      <second ref="HS_Z_340_N" />
+      <position name="Pos_Bool_373_82" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_373_82" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_373_83">
+      <first ref="Bool_373_82" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_373_83" x="-0.0" y="-0.0" z="12.41552" unit="cm" />
+      <rotation name="Rot_Bool_373_83" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_342_P" x="220" y="220" z="122.69238" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_342_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_342_P" />
+      <position name="Pos_HS_Z_342_P" x="0.0" y="0.0" z="-48.65381000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_342_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_383_84">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_342_P" />
+      <position name="Pos_Bool_383_84" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_383_84" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_345_N" x="220" y="220" z="96.96218" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_345_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_345_N" />
+      <position name="Pos_HS_Z_345_N" x="0.0" y="0.0" z="61.518910000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_345_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_383_85">
+      <first ref="Bool_383_84" />
+      <second ref="HS_Z_345_N" />
+      <position name="Pos_Bool_383_85" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_383_85" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_383_86">
+      <first ref="Bool_383_85" />
+      <second ref="PrimCyl_2" />
+      <position name="Pos_Bool_383_86" x="-0.0" y="-0.0" z="12.8651" unit="cm" />
+      <rotation name="Rot_Bool_383_86" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_4" rmin="0" rmax="5.70611" startphi="0" deltaphi="360" z="0.21489" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_5" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="0.24537" lunit="cm" aunit="deg" />
+    <box name="Cut_Z_347_P" x="220" y="220" z="123.14196" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_347_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_347_P" />
+      <position name="Pos_HS_Z_347_P" x="0.0" y="0.0" z="-48.42902000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_347_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_393_87">
+      <first ref="HS_Z_102_N" />
+      <second ref="HS_Z_347_P" />
+      <position name="Pos_Bool_393_87" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_393_87" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_350_N" x="220" y="220" z="96.61267" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_350_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_350_N" />
+      <position name="Pos_HS_Z_350_N" x="0.0" y="0.0" z="61.69366500000001" unit="cm" />
+      <rotation name="Rot_HS_Z_350_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_393_88">
+      <first ref="Bool_393_87" />
+      <second ref="HS_Z_350_N" />
+      <position name="Pos_Bool_393_88" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_393_88" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_393_89">
+      <first ref="Bool_393_88" />
+      <second ref="PrimCyl_4" />
+      <position name="Pos_Bool_393_89" x="-0.0" y="-0.0" z="13.264645" unit="cm" />
+      <rotation name="Rot_Bool_393_89" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_6" rmin="0" rmax="5.7404" startphi="0" deltaphi="360" z="13.38733" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_1" rmin="0" rmax="5.7404" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_1_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_1" />
+      <position name="Pos_HS_Z_1_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_1_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_1_90">
+      <first ref="HS_Z_1_N" />
+      <second ref="HS_Z_350_N" />
+      <position name="Pos_Bool_1_90" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_1_90" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_200_P" x="220" y="220" z="110" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_200_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_200_P" />
+      <position name="Pos_HS_Z_200_P" x="0.0" y="0.0" z="-55.00000000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_200_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_1_91">
+      <first ref="Bool_1_90" />
+      <second ref="HS_Z_200_P" />
+      <position name="Pos_Bool_1_91" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_1_91" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_7" rmin="0" rmax="5.715" startphi="0" deltaphi="360" z="13.38733" lunit="cm" aunit="deg" />
+    <subtraction name="Bool_1_92">
+      <first ref="Bool_1_91" />
+      <second ref="PrimCyl_7" />
+      <position name="Pos_Bool_1_92" x="-0.0" y="-0.0" z="6.693665" unit="cm" />
+      <rotation name="Rot_Bool_1_92" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_8" rmin="0" rmax="5.8674" startphi="0" deltaphi="360" z="13.79373" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_2" rmin="0" rmax="5.8674" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_2_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_2" />
+      <position name="Pos_HS_Z_2_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_2_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_351_N" x="220" y="220" z="96.40947" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_351_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_351_N" />
+      <position name="Pos_HS_Z_351_N" x="0.0" y="0.0" z="61.79526500000001" unit="cm" />
+      <rotation name="Rot_HS_Z_351_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_2_93">
+      <first ref="HS_Z_2_N" />
+      <second ref="HS_Z_351_N" />
+      <position name="Pos_Bool_2_93" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_2_93" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_20_P" x="220" y="220" z="109.7968" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_20_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_20_P" />
+      <position name="Pos_HS_Z_20_P" x="0.0" y="0.0" z="-55.101600000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_20_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_2_94">
+      <first ref="Bool_2_93" />
+      <second ref="HS_Z_20_P" />
+      <position name="Pos_Bool_2_94" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_2_94" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_2_95">
+      <first ref="Bool_2_94" />
+      <second ref="PrimCyl_6" />
+      <position name="Pos_Bool_2_95" x="-0.0" y="-0.0" z="6.693665" unit="cm" />
+      <rotation name="Rot_Bool_2_95" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_9" rmin="0" rmax="6.0706" startphi="0" deltaphi="360" z="17.29893" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_3" rmin="0" rmax="6.0706" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_3_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_3" />
+      <position name="Pos_HS_Z_3_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_3_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_352_N" x="220" y="220" z="94.65687" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_352_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_352_N" />
+      <position name="Pos_HS_Z_352_N" x="0.0" y="0.0" z="62.67156500000001" unit="cm" />
+      <rotation name="Rot_HS_Z_352_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_3_96">
+      <first ref="HS_Z_3_N" />
+      <second ref="HS_Z_352_N" />
+      <position name="Pos_Bool_3_96" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_3_96" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_21_P" x="220" y="220" z="108.0442" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_21_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_21_P" />
+      <position name="Pos_HS_Z_21_P" x="0.0" y="0.0" z="-55.977900000000005" unit="cm" />
+      <rotation name="Rot_HS_Z_21_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_3_97">
+      <first ref="Bool_3_96" />
+      <second ref="HS_Z_21_P" />
+      <position name="Pos_Bool_3_97" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_3_97" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_3_98">
+      <first ref="Bool_3_97" />
+      <second ref="PrimCyl_8" />
+      <position name="Pos_Bool_3_98" x="-0.0" y="-0.0" z="6.693664999999999" unit="cm" />
+      <rotation name="Rot_Bool_3_98" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_10" rmin="0" rmax="6.1976" startphi="0" deltaphi="360" z="17.29893" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_4" rmin="0" rmax="6.1976" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_4_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_4" />
+      <position name="Pos_HS_Z_4_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_4_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_4_99">
+      <first ref="HS_Z_4_N" />
+      <second ref="HS_Z_352_N" />
+      <position name="Pos_Bool_4_99" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_4_99" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_4_100">
+      <first ref="Bool_4_99" />
+      <second ref="HS_Z_21_P" />
+      <position name="Pos_Bool_4_100" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_4_100" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_4_101">
+      <first ref="Bool_4_100" />
+      <second ref="PrimCyl_9" />
+      <position name="Pos_Bool_4_101" x="-0.0" y="-0.0" z="6.693665" unit="cm" />
+      <rotation name="Rot_Bool_4_101" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_11" rmin="0" rmax="10.0076" startphi="0" deltaphi="360" z="45.23893" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_5" rmin="0" rmax="10.0076" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_5_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_5" />
+      <position name="Pos_HS_Z_5_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_5_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_353_N" x="220" y="220" z="74.33687" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_353_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_353_N" />
+      <position name="Pos_HS_Z_353_N" x="0.0" y="0.0" z="72.83156500000001" unit="cm" />
+      <rotation name="Rot_HS_Z_353_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_5_102">
+      <first ref="HS_Z_5_N" />
+      <second ref="HS_Z_353_N" />
+      <position name="Pos_Bool_5_102" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_5_102" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_22_P" x="220" y="220" z="100.4242" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_22_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_22_P" />
+      <position name="Pos_HS_Z_22_P" x="0.0" y="0.0" z="-59.78790000000001" unit="cm" />
+      <rotation name="Rot_HS_Z_22_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_5_103">
+      <first ref="Bool_5_102" />
+      <second ref="HS_Z_22_P" />
+      <position name="Pos_Bool_5_103" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_5_103" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_5_104">
+      <first ref="Bool_5_103" />
+      <second ref="PrimCyl_10" />
+      <position name="Pos_Bool_5_104" x="-0.0" y="-0.0" z="6.693665" unit="cm" />
+      <rotation name="Rot_Bool_5_104" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_12" rmin="0" rmax="10.0076" startphi="0" deltaphi="360" z="1.9812" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_13" rmin="0" rmax="10.0076" startphi="0" deltaphi="360" z="30.48" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_14" rmin="0" rmax="10.0584" startphi="0" deltaphi="360" z="85.48" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_6" rmin="0" rmax="10.0584" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_6_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_6" />
+      <position name="Pos_HS_Z_6_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_6_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_354_N" x="220" y="220" z="66.557" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_354_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_354_N" />
+      <position name="Pos_HS_Z_354_N" x="0.0" y="0.0" z="76.7215" unit="cm" />
+      <rotation name="Rot_HS_Z_354_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_8_105">
+      <first ref="HS_Z_6_N" />
+      <second ref="HS_Z_354_N" />
+      <position name="Pos_Bool_8_105" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_8_105" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <box name="Cut_Z_24_P" x="220" y="220" z="67.963" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_24_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_24_P" />
+      <position name="Pos_HS_Z_24_P" x="0.0" y="0.0" z="-76.0185" unit="cm" />
+      <rotation name="Rot_HS_Z_24_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_8_106">
+      <first ref="Bool_8_105" />
+      <second ref="HS_Z_24_P" />
+      <position name="Pos_Bool_8_106" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_8_106" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <tube name="PrimCyl_15" rmin="0" rmax="10.0076" startphi="0" deltaphi="360" z="77.70013" lunit="cm" aunit="deg" />
+    <subtraction name="Bool_8_107">
+      <first ref="Bool_8_106" />
+      <second ref="PrimCyl_15" />
+      <position name="Pos_Bool_8_107" x="-0.0" y="-0.0" z="-3.1869349999999983" unit="cm" />
+      <rotation name="Rot_Bool_8_107" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_16" rmin="0" rmax="10.3632" startphi="0" deltaphi="360" z="85.48" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_7" rmin="0" rmax="10.3632" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_7_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_7" />
+      <position name="Pos_HS_Z_7_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_7_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_9_108">
+      <first ref="HS_Z_7_N" />
+      <second ref="HS_Z_354_N" />
+      <position name="Pos_Bool_9_108" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_9_108" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_9_109">
+      <first ref="Bool_9_108" />
+      <second ref="HS_Z_24_P" />
+      <position name="Pos_Bool_9_109" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_9_109" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_9_110">
+      <first ref="Bool_9_109" />
+      <second ref="PrimCyl_14" />
+      <position name="Pos_Bool_9_110" x="-0.0" y="-0.0" z="0.7029999999999994" unit="cm" />
+      <rotation name="Rot_Bool_9_110" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="PrimCyl_17" rmin="0" rmax="48.26" startphi="0" deltaphi="360" z="85.48" lunit="cm" aunit="deg" />
+    <tube name="Cyl_Z_8" rmin="0" rmax="48.26" startphi="0" deltaphi="360" z="220" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_8_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_8" />
+      <position name="Pos_HS_Z_8_N" x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_HS_Z_8_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_10_111">
+      <first ref="HS_Z_8_N" />
+      <second ref="HS_Z_354_N" />
+      <position name="Pos_Bool_10_111" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_10_111" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <intersection name="Bool_10_112">
+      <first ref="Bool_10_111" />
+      <second ref="HS_Z_24_P" />
+      <position name="Pos_Bool_10_112" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_10_112" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <subtraction name="Bool_10_113">
+      <first ref="Bool_10_112" />
+      <second ref="PrimCyl_16" />
+      <position name="Pos_Bool_10_113" x="-0.0" y="-0.0" z="0.7029999999999994" unit="cm" />
+      <rotation name="Rot_Bool_10_113" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <sphere name="PrimSph_18" rmin="0" rmax="100" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <subtraction name="Bool_11_114">
+      <first ref="PrimSph_18" />
+      <second ref="PrimCyl_17" />
+      <position name="Pos_Bool_11_114" x="-0.0" y="-0.0" z="0.7029999999999994" unit="cm" />
+      <rotation name="Rot_Bool_11_114" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <sphere name="Sph_30" rmin="0" rmax="100" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <subtraction name="HS_SPH_30_P">
+      <first ref="BBox" />
+      <second ref="Sph_30" />
+      <position name="Pos_HS_SPH_30_P" x="-0.0" y="-0.0" z="-0.0" unit="cm" />
+      <rotation name="Rot_HS_SPH_30_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+  </solids>
+  <structure>
+    <volume name="Vol_100_0">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_101_1">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_102_2">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_103_3">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_103_2" />
+    </volume>
+    <volume name="Vol_110_4">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_111_5">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_112_6">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_113_7">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_113_5" />
+    </volume>
+    <volume name="Vol_120_8">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_121_9">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_122_10">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_123_11">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_123_8" />
+    </volume>
+    <volume name="Vol_130_12">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_131_13">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_132_14">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_133_15">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_133_11" />
+    </volume>
+    <volume name="Vol_140_16">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_141_17">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_142_18">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_143_19">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_143_14" />
+    </volume>
+    <volume name="Vol_150_20">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_151_21">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_152_22">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_153_23">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_153_17" />
+    </volume>
+    <volume name="Vol_160_24">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_161_25">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_162_26">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_163_27">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_163_20" />
+    </volume>
+    <volume name="Vol_170_28">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_171_29">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_172_30">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_173_31">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_173_23" />
+    </volume>
+    <volume name="Vol_180_32">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_181_33">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_182_34">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_183_35">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_183_26" />
+    </volume>
+    <volume name="Vol_190_36">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_191_37">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_192_38">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_193_39">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_193_29" />
+    </volume>
+    <volume name="Vol_200_40">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_201_41">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_202_42">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_203_43">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_203_32" />
+    </volume>
+    <volume name="Vol_210_44">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_211_45">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_212_46">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_213_47">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_213_35" />
+    </volume>
+    <volume name="Vol_220_48">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_221_49">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_222_50">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_223_51">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_223_38" />
+    </volume>
+    <volume name="Vol_230_52">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_231_53">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_232_54">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_233_55">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_233_41" />
+    </volume>
+    <volume name="Vol_240_56">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_241_57">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_242_58">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_243_59">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_243_44" />
+    </volume>
+    <volume name="Vol_250_60">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_251_61">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_252_62">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_253_63">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_253_47" />
+    </volume>
+    <volume name="Vol_260_64">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_261_65">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_262_66">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_263_67">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_263_50" />
+    </volume>
+    <volume name="Vol_270_68">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_271_69">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_272_70">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_273_71">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_273_53" />
+    </volume>
+    <volume name="Vol_280_72">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_281_73">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_282_74">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_283_75">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_283_56" />
+    </volume>
+    <volume name="Vol_290_76">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_291_77">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_292_78">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_293_79">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_293_59" />
+    </volume>
+    <volume name="Vol_300_80">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_301_81">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_302_82">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_303_83">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_303_62" />
+    </volume>
+    <volume name="Vol_310_84">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_311_85">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_312_86">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_313_87">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_313_65" />
+    </volume>
+    <volume name="Vol_320_88">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_321_89">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_322_90">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_323_91">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_323_68" />
+    </volume>
+    <volume name="Vol_330_92">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_331_93">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_332_94">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_333_95">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_333_71" />
+    </volume>
+    <volume name="Vol_340_96">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_341_97">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_342_98">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_343_99">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_343_74" />
+    </volume>
+    <volume name="Vol_350_100">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_351_101">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_352_102">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_353_103">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_353_77" />
+    </volume>
+    <volume name="Vol_360_104">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_361_105">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_362_106">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_363_107">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_363_80" />
+    </volume>
+    <volume name="Vol_370_108">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_371_109">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_372_110">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_373_111">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_373_83" />
+    </volume>
+    <volume name="Vol_380_112">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_381_113">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_382_114">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_2" />
+    </volume>
+    <volume name="Vol_383_115">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_383_86" />
+    </volume>
+    <volume name="Vol_390_116">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_0" />
+    </volume>
+    <volume name="Vol_391_117">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimCyl_1" />
+    </volume>
+    <volume name="Vol_392_118">
+      <materialref ref="M00000001" />
+      <solidref ref="PrimCyl_4" />
+    </volume>
+    <volume name="Vol_393_119">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_393_89" />
+    </volume>
+    <volume name="Vol_2_120">
+      <materialref ref="M00000002" />
+      <solidref ref="Bool_2_95" />
+    </volume>
+    <volume name="Vol_3_121">
+      <materialref ref="M00000003" />
+      <solidref ref="Bool_3_98" />
+    </volume>
+    <volume name="Vol_5_122">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_5_104" />
+    </volume>
+    <volume name="Vol_6_123">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimCyl_12" />
+    </volume>
+    <volume name="Vol_7_124">
+      <materialref ref="M00000007" />
+      <solidref ref="PrimCyl_13" />
+    </volume>
+    <volume name="Vol_9_125">
+      <materialref ref="M00000005" />
+      <solidref ref="Bool_9_110" />
+    </volume>
+    <volume name="Vol_10_126">
+      <materialref ref="M00000006" />
+      <solidref ref="Bool_10_113" />
+    </volume>
+    <volume name="World">
+      <materialref ref="Air" />
+      <solidref ref="BBox" />
+      <physvol>
+        <volumeref ref="Vol_100_0" />
+        <positionref ref="Pos_Cell_100" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_101_1" />
+        <positionref ref="Pos_Cell_101" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_102_2" />
+        <positionref ref="Pos_Cell_102" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_103_3" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_110_4" />
+        <positionref ref="Pos_Cell_110" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_111_5" />
+        <positionref ref="Pos_Cell_111" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_112_6" />
+        <positionref ref="Pos_Cell_112" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_113_7" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_120_8" />
+        <positionref ref="Pos_Cell_120" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_121_9" />
+        <positionref ref="Pos_Cell_121" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_122_10" />
+        <positionref ref="Pos_Cell_122" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_123_11" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_130_12" />
+        <positionref ref="Pos_Cell_130" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_131_13" />
+        <positionref ref="Pos_Cell_131" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_132_14" />
+        <positionref ref="Pos_Cell_132" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_133_15" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_140_16" />
+        <positionref ref="Pos_Cell_140" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_141_17" />
+        <positionref ref="Pos_Cell_141" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_142_18" />
+        <positionref ref="Pos_Cell_142" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_143_19" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_150_20" />
+        <positionref ref="Pos_Cell_150" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_151_21" />
+        <positionref ref="Pos_Cell_151" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_152_22" />
+        <positionref ref="Pos_Cell_152" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_153_23" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_160_24" />
+        <positionref ref="Pos_Cell_160" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_161_25" />
+        <positionref ref="Pos_Cell_161" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_162_26" />
+        <positionref ref="Pos_Cell_162" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_163_27" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_170_28" />
+        <positionref ref="Pos_Cell_170" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_171_29" />
+        <positionref ref="Pos_Cell_171" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_172_30" />
+        <positionref ref="Pos_Cell_172" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_173_31" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_180_32" />
+        <positionref ref="Pos_Cell_180" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_181_33" />
+        <positionref ref="Pos_Cell_181" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_182_34" />
+        <positionref ref="Pos_Cell_182" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_183_35" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_190_36" />
+        <positionref ref="Pos_Cell_190" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_191_37" />
+        <positionref ref="Pos_Cell_191" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_192_38" />
+        <positionref ref="Pos_Cell_192" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_193_39" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_200_40" />
+        <positionref ref="Pos_Cell_200" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_201_41" />
+        <positionref ref="Pos_Cell_201" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_202_42" />
+        <positionref ref="Pos_Cell_202" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_203_43" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_210_44" />
+        <positionref ref="Pos_Cell_210" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_211_45" />
+        <positionref ref="Pos_Cell_211" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_212_46" />
+        <positionref ref="Pos_Cell_212" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_213_47" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_220_48" />
+        <positionref ref="Pos_Cell_220" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_221_49" />
+        <positionref ref="Pos_Cell_221" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_222_50" />
+        <positionref ref="Pos_Cell_222" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_223_51" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_230_52" />
+        <positionref ref="Pos_Cell_230" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_231_53" />
+        <positionref ref="Pos_Cell_231" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_232_54" />
+        <positionref ref="Pos_Cell_232" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_233_55" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_240_56" />
+        <positionref ref="Pos_Cell_240" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_241_57" />
+        <positionref ref="Pos_Cell_241" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_242_58" />
+        <positionref ref="Pos_Cell_242" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_243_59" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_250_60" />
+        <positionref ref="Pos_Cell_250" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_251_61" />
+        <positionref ref="Pos_Cell_251" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_252_62" />
+        <positionref ref="Pos_Cell_252" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_253_63" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_260_64" />
+        <positionref ref="Pos_Cell_260" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_261_65" />
+        <positionref ref="Pos_Cell_261" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_262_66" />
+        <positionref ref="Pos_Cell_262" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_263_67" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_270_68" />
+        <positionref ref="Pos_Cell_270" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_271_69" />
+        <positionref ref="Pos_Cell_271" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_272_70" />
+        <positionref ref="Pos_Cell_272" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_273_71" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_280_72" />
+        <positionref ref="Pos_Cell_280" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_281_73" />
+        <positionref ref="Pos_Cell_281" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_282_74" />
+        <positionref ref="Pos_Cell_282" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_283_75" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_290_76" />
+        <positionref ref="Pos_Cell_290" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_291_77" />
+        <positionref ref="Pos_Cell_291" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_292_78" />
+        <positionref ref="Pos_Cell_292" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_293_79" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_300_80" />
+        <positionref ref="Pos_Cell_300" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_301_81" />
+        <positionref ref="Pos_Cell_301" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_302_82" />
+        <positionref ref="Pos_Cell_302" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_303_83" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_310_84" />
+        <positionref ref="Pos_Cell_310" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_311_85" />
+        <positionref ref="Pos_Cell_311" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_312_86" />
+        <positionref ref="Pos_Cell_312" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_313_87" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_320_88" />
+        <positionref ref="Pos_Cell_320" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_321_89" />
+        <positionref ref="Pos_Cell_321" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_322_90" />
+        <positionref ref="Pos_Cell_322" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_323_91" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_330_92" />
+        <positionref ref="Pos_Cell_330" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_331_93" />
+        <positionref ref="Pos_Cell_331" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_332_94" />
+        <positionref ref="Pos_Cell_332" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_333_95" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_340_96" />
+        <positionref ref="Pos_Cell_340" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_341_97" />
+        <positionref ref="Pos_Cell_341" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_342_98" />
+        <positionref ref="Pos_Cell_342" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_343_99" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_350_100" />
+        <positionref ref="Pos_Cell_350" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_351_101" />
+        <positionref ref="Pos_Cell_351" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_352_102" />
+        <positionref ref="Pos_Cell_352" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_353_103" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_360_104" />
+        <positionref ref="Pos_Cell_360" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_361_105" />
+        <positionref ref="Pos_Cell_361" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_362_106" />
+        <positionref ref="Pos_Cell_362" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_363_107" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_370_108" />
+        <positionref ref="Pos_Cell_370" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_371_109" />
+        <positionref ref="Pos_Cell_371" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_372_110" />
+        <positionref ref="Pos_Cell_372" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_373_111" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_380_112" />
+        <positionref ref="Pos_Cell_380" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_381_113" />
+        <positionref ref="Pos_Cell_381" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_382_114" />
+        <positionref ref="Pos_Cell_382" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_383_115" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_390_116" />
+        <positionref ref="Pos_Cell_390" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_391_117" />
+        <positionref ref="Pos_Cell_391" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_392_118" />
+        <positionref ref="Pos_Cell_392" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_393_119" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_2_120" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_3_121" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_5_122" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_6_123" />
+        <positionref ref="Pos_Cell_6" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_7_124" />
+        <positionref ref="Pos_Cell_7" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_9_125" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_10_126" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World" />
+  </setup>
+</gdml>

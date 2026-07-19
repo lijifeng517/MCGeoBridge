@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gdml.xsd">
+  <define>
+    <constant name="PI" value="3.14159265358979" />
+    <constant name="TWOPI" value="6.28318530717959" />
+    <constant name="HALFPI" value="1.5707963267949" />
+    <position name="center" unit="cm" x="0.0" y="0.0" z="0.0" />
+    <rotation name="identity" unit="deg" x="0.0" y="0.0" z="0.0" />
+  </define>
+  <materials>
+    <element name="Oxygen" Z="8" formula="O">
+      <atom value="16.0" />
+    </element>
+    <element name="Nitrogen" Z="7" formula="N">
+      <atom value="14.01" />
+    </element>
+    <material name="Air">
+      <D value="0.001129" unit="g/cm3" />
+      <fraction ref="Oxygen" n="0.3" />
+      <fraction ref="Nitrogen" n="0.7" />
+    </material>
+    <element name="E094238" Z="94" formula="094">
+      <atom value="236.005745" />
+    </element>
+    <element name="E094239" Z="94" formula="094">
+      <atom value="236.99974" />
+    </element>
+    <element name="E094240" Z="94" formula="094">
+      <atom value="237.992791" />
+    </element>
+    <element name="E094241" Z="94" formula="094">
+      <atom value="238.987218" />
+    </element>
+    <element name="E094242" Z="94" formula="094">
+      <atom value="239.980508" />
+    </element>
+    <element name="E007014" Z="7" formula="007">
+      <atom value="13.882849" />
+    </element>
+    <element name="E001001" Z="1" formula="001">
+      <atom value="0.999172" />
+    </element>
+    <element name="E008016" Z="8" formula="008">
+      <atom value="15.85316" />
+    </element>
+    <material name="M00000001">
+      <D value="1.4706227366560036" unit="g/cm3" />
+      <fraction ref="E094238" n="1.0868430535929802e-05" />
+      <fraction ref="E094239" n="0.17210378848836894" />
+      <fraction ref="E094240" n="0.008455691561477912" />
+      <fraction ref="E094241" n="0.0005524858570157957" />
+      <fraction ref="E094242" n="1.6302584626043422e-05" />
+      <fraction ref="E007014" n="0.05281401499017188" />
+      <fraction ref="E001001" n="0.0661641052199207" />
+      <fraction ref="E008016" n="0.6998827428678829" />
+    </material>
+    <element name="E026000" Z="26" formula="026">
+      <atom value="55.366466" />
+    </element>
+    <element name="E024000" Z="24" formula="024">
+      <atom value="51.549253" />
+    </element>
+    <element name="E028000" Z="28" formula="028">
+      <atom value="58.182641" />
+    </element>
+    <element name="E025055" Z="25" formula="025">
+      <atom value="54.466367" />
+    </element>
+    <material name="M00000002">
+      <D value="7.8516953655948285" unit="g/cm3" />
+      <fraction ref="E026000" n="0.6950031097674665" />
+      <fraction ref="E024000" n="0.18999954563074598" />
+      <fraction ref="E028000" n="0.09499707692732412" />
+      <fraction ref="E025055" n="0.020000267674463418" />
+    </material>
+    <material name="M00000003">
+      <D value="0.9879179127324151" unit="g/cm3" />
+      <fraction ref="E001001" n="0.11194410424333169" />
+      <fraction ref="E008016" n="0.8880558957566683" />
+    </material>
+    <material name="M00000004">
+      <D value="0.001658093374303659" unit="g/cm3" />
+      <fraction ref="E008016" n="0.2220810899209067" />
+      <fraction ref="E007014" n="0.7779189100790933" />
+    </material>
+  </materials>
+  <solids>
+    <box name="BBox" x="98.30656" y="98.30656" z="98.30656" lunit="cm" aunit="deg" />
+    <sphere name="Sph_3" rmin="0" rmax="44.6848" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <subtraction name="HS_SPH_3_P">
+      <first ref="BBox" />
+      <second ref="Sph_3" />
+      <position name="Pos_HS_SPH_3_P" x="-0.0" y="-0.0" z="-0.0" unit="cm" />
+      <rotation name="Rot_HS_SPH_3_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <sphere name="PrimSph_0" rmin="0" rmax="14.5603" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <box name="Cut_Z_4_N" x="98.30656" y="98.30656" z="36.09778" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_4_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_4_N" />
+      <position name="Pos_HS_Z_4_N" x="0.0" y="0.0" z="31.104390000000006" unit="cm" />
+      <rotation name="Rot_HS_Z_4_N" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_2_0">
+      <first ref="PrimSph_0" />
+      <second ref="HS_Z_4_N" />
+      <position name="Pos_Bool_2_0" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_2_0" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <sphere name="PrimSph_1" rmin="14.5603" rmax="14.6848" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <sphere name="PrimSph_2" rmin="14.6848" rmax="44.6848" startphi="0" deltaphi="360" starttheta="0" deltatheta="180" lunit="cm" aunit="deg" />
+    <box name="Cut_Z_4_P" x="98.30656" y="98.30656" z="62.20878" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_4_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_4_P" />
+      <position name="Pos_HS_Z_4_P" x="0.0" y="0.0" z="-18.048890000000004" unit="cm" />
+      <rotation name="Rot_HS_Z_4_P" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <intersection name="Bool_5_1">
+      <first ref="HS_Z_4_P" />
+      <second ref="PrimSph_0" />
+      <position name="Pos_Bool_5_1" x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation name="Rot_Bool_5_1" x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+  </solids>
+  <structure>
+    <volume name="Vol_2_0">
+      <materialref ref="M00000001" />
+      <solidref ref="Bool_2_0" />
+    </volume>
+    <volume name="Vol_3_1">
+      <materialref ref="M00000002" />
+      <solidref ref="PrimSph_1" />
+    </volume>
+    <volume name="Vol_4_2">
+      <materialref ref="M00000003" />
+      <solidref ref="PrimSph_2" />
+    </volume>
+    <volume name="Vol_5_3">
+      <materialref ref="M00000004" />
+      <solidref ref="Bool_5_1" />
+    </volume>
+    <volume name="World">
+      <materialref ref="Air" />
+      <solidref ref="BBox" />
+      <physvol>
+        <volumeref ref="Vol_2_0" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_3_1" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_4_2" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+      <physvol>
+        <volumeref ref="Vol_5_3" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World" />
+  </setup>
+</gdml>
