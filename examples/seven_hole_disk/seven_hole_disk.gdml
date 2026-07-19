@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gdml.xsd">
+  <define>
+    <constant name="PI" value="3.14159265358979" />
+    <constant name="TWOPI" value="6.28318530717959" />
+    <constant name="HALFPI" value="1.5707963267949" />
+    <position name="center" unit="cm" x="0.0" y="0.0" z="0.0" />
+    <rotation name="identity" unit="deg" x="0.0" y="0.0" z="0.0" />
+  </define>
+  <materials>
+    <element name="Oxygen" Z="8" formula="O">
+      <atom value="16.0" />
+    </element>
+    <element name="Nitrogen" Z="7" formula="N">
+      <atom value="14.01" />
+    </element>
+    <material name="Air">
+      <D value="0.001129" />
+      <fraction ref="Oxygen" n="0.3" />
+      <fraction ref="Nitrogen" n="0.7" />
+    </material>
+  </materials>
+  <solids>
+    <box name="BBox" x="7.04" y="6.21" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_10" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_9" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_8" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_7" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_6" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="CutCyl_Z_5" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <tube name="PrimCyl_0" rmin="0.60" rmax="4.00" startphi="0.00" deltaphi="360.00" z="1.00" lunit="cm" aunit="deg" />
+    <subtraction name="Bool_1_0">
+      <first ref="PrimCyl_0" />
+      <second ref="CutCyl_Z_5" />
+      <position x="2.8" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <subtraction name="Bool_1_1">
+      <first ref="Bool_1_0" />
+      <second ref="CutCyl_Z_6" />
+      <position x="1.4" y="2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <subtraction name="Bool_1_2">
+      <first ref="Bool_1_1" />
+      <second ref="CutCyl_Z_7" />
+      <position x="-1.4" y="2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <subtraction name="Bool_1_3">
+      <first ref="Bool_1_2" />
+      <second ref="CutCyl_Z_8" />
+      <position x="-2.8" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <subtraction name="Bool_1_4">
+      <first ref="Bool_1_3" />
+      <second ref="CutCyl_Z_9" />
+      <position x="-1.4" y="-2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <subtraction name="Bool_1_5">
+      <first ref="Bool_1_4" />
+      <second ref="CutCyl_Z_10" />
+      <position x="1.4" y="-2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <tube name="Cyl_Z_1" rmin="0.00" rmax="4.00" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_1_P">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_1" />
+      <position x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <box name="Cut_Z_2_N" x="7.04" y="6.21" z="1.05" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_2_N">
+      <first ref="BBox" />
+      <second ref="Cut_Z_2_N" />
+      <position x="0.0" y="0.0" z="0.025000000000000022" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <union name="Bool_99_6">
+      <first ref="HS_Z_1_P" />
+      <second ref="HS_Z_2_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <box name="Cut_Z_3_P" x="7.04" y="6.21" z="1.05" lunit="cm" aunit="deg" />
+    <subtraction name="HS_Z_3_P">
+      <first ref="BBox" />
+      <second ref="Cut_Z_3_P" />
+      <position x="0.0" y="0.0" z="-0.025000000000000022" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </subtraction>
+    <union name="Bool_99_7">
+      <first ref="Bool_99_6" />
+      <second ref="HS_Z_3_P" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_4" rmin="0.00" rmax="0.60" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_4_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_4" />
+      <position x="-0.0" y="-0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_8">
+      <first ref="Bool_99_7" />
+      <second ref="HS_Z_4_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_5" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_5_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_5" />
+      <position x="2.8" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_9">
+      <first ref="Bool_99_8" />
+      <second ref="HS_Z_5_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_6" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_6_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_6" />
+      <position x="1.4" y="2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_10">
+      <first ref="Bool_99_9" />
+      <second ref="HS_Z_6_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_7" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_7_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_7" />
+      <position x="-1.4" y="2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_11">
+      <first ref="Bool_99_10" />
+      <second ref="HS_Z_7_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_8" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_8_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_8" />
+      <position x="-2.8" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_12">
+      <first ref="Bool_99_11" />
+      <second ref="HS_Z_8_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_9" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_9_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_9" />
+      <position x="-1.4" y="-2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_13">
+      <first ref="Bool_99_12" />
+      <second ref="HS_Z_9_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+    <tube name="Cyl_Z_10" rmin="0.00" rmax="0.40" startphi="0.00" deltaphi="360.00" z="1.10" lunit="cm" aunit="deg" />
+    <intersection name="HS_Z_10_N">
+      <first ref="BBox" />
+      <second ref="Cyl_Z_10" />
+      <position x="1.4" y="-2.424871" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </intersection>
+    <union name="Bool_99_14">
+      <first ref="Bool_99_13" />
+      <second ref="HS_Z_10_N" />
+      <position x="0.0" y="0.0" z="0.0" unit="cm" />
+      <rotation x="0.0" y="0.0" z="0.0" unit="deg" />
+    </union>
+  </solids>
+  <structure>
+    <volume name="World">
+      <materialref ref="Air" />
+      <solidref ref="BBox" />
+      <physvol>
+        <volumeref ref="Vol_1_0" />
+        <positionref ref="center" />
+        <rotationref ref="identity" />
+      </physvol>
+    </volume>
+    <volume name="Vol_1_0">
+      <materialref ref="Air" />
+      <solidref ref="Bool_1_5" />
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="World" />
+  </setup>
+</gdml>

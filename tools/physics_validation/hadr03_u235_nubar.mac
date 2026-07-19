@@ -1,0 +1,18 @@
+# Independent Geant4 Hadr03 check of U-235 fission-neutron multiplicity.
+# The official example aborts each event after the primary's first interaction.
+/control/verbose 0
+/run/verbose 0
+/testhadr/det/setIsotopeMat U235 92 235 19.05 g/cm3
+/testhadr/det/setSize 10 m
+/process/had/verbose 0
+/process/had/particle_hp/produce_fission_fragment false
+/run/initialize
+/gun/particle neutron
+/gun/energy 1.4585 MeV
+/process/inactivate hadElastic
+/process/inactivate neutronInelastic
+/process/inactivate nCapture
+/analysis/setFileName hadr03_u235_nubar
+/testhadr/run/printStat true
+/run/printProgress 2000
+/run/beamOn 10000

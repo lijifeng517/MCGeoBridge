@@ -1,0 +1,30 @@
+diff --git a/source/processes/hadronic/models/particle_hp/include/G4ParticleHPParticleYield.hh b/source/processes/hadronic/models/particle_hp/include/G4ParticleHPParticleYield.hh
+--- a/source/processes/hadronic/models/particle_hp/include/G4ParticleHPParticleYield.hh
++++ b/source/processes/hadronic/models/particle_hp/include/G4ParticleHPParticleYield.hh
+@@ -99,7 +99,7 @@ class G4ParticleHPParticleYield
+       }
+     }
+ 
+-    inline G4double GetMean(G4double anEnergy) const
++    inline G4double GetMean(G4double anEnergy)
+     {
+       if (simpleMean) {
+         return theSimpleMean.GetY(anEnergy);
+@@ -107,7 +107,7 @@ class G4ParticleHPParticleYield
+       return theMean.GetValue(anEnergy);
+     }
+ 
+-    inline G4double GetPrompt(G4double anEnergy) const
++    inline G4double GetPrompt(G4double anEnergy)
+     {
+       if (!hasPromptData) return 0;
+       if (spontPrompt) {
+@@ -116,7 +116,7 @@ class G4ParticleHPParticleYield
+       return thePrompt.GetY(anEnergy);
+     }
+ 
+-    inline G4double GetDelayed(G4double anEnergy) const
++    inline G4double GetDelayed(G4double anEnergy)
+     {
+       if (!hasDelayedData) return 0;
+       if (spontDelayed) {

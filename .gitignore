@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Generated converter and validation output
+out/
+output/
+tmp/
+build/
+*.gdml
+!examples/**/*.gdml
+*.progress.json
+
+# Large local transport runtimes and nuclear data
+keffCalc/
+G4NDL*/
+*.ace
+xsdir*
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.spl
+*.synctex.gz
+doc/MCGeoBridge_paper_draft/build_artifacts/
+doc/MCGeoBridge_paper_draft/tmp/
+
+# Local viewer output
+g4RayTracer.viewer-*.jpeg
+1E-08

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-07-17",
+  "cache_directory": "tmp/corpus_discovery/repos",
+  "policy": "External decks remain in the download cache. Only provenance, hashes, metrics, and selections are kept as project metadata until redistribution compatibility is reviewed.",
+  "sources": [
+    {
+      "name": "MontePy",
+      "url": "https://github.com/idaholab/MontePy.git",
+      "commit": "57844ed9ebaec4befb388250ba2409a902c617e0",
+      "license": "MIT"
+    },
+    {
+      "name": "F4Enix",
+      "url": "https://github.com/Fusion4Energy/F4Enix.git",
+      "commit": "9b721f5675cff97d41f494c24a888b7d76015c11",
+      "license": "EUPL-1.2"
+    },
+    {
+      "name": "mcnpgo",
+      "url": "https://github.com/afriou/mcnpgo.git",
+      "commit": "bf12f3041542d7bd44c027f5cfa705cba4a909fa",
+      "license": "EUPL-1.2"
+    },
+    {
+      "name": "t4_geom_convert",
+      "url": "https://github.com/arekfu/t4_geom_convert.git",
+      "commit": "45dffa2e8827d6c52b0bc648c1f432cbcb056a5a",
+      "license": "GPL-3.0"
+    },
+    {
+      "name": "GEOUNED",
+      "url": "https://github.com/GEOUNED-org/GEOUNED.git",
+      "commit": "4e5a595cfba6a8936d8f6575a83ebd8dc086acd9",
+      "license": "EUPL-1.2"
+    },
+    {
+      "name": "mcnp2cad",
+      "url": "https://github.com/svalinn/mcnp2cad.git",
+      "commit": "e907ad8c5614040768fe14abb1b727ed7540dce7",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "name": "openmc_mcnp_adapter",
+      "url": "https://github.com/openmc-dev/openmc_mcnp_adapter.git",
+      "commit": "81681255d43a7be690a486c1bff9246e2cbd3ed5",
+      "license": "MIT"
+    },
+    {
+      "name": "McCAD-Library",
+      "url": "https://github.com/inr-kit/McCAD-Library.git",
+      "commit": "a249573db84d3eb9ef6fc91c42c60b44be2151b2",
+      "license": "LGPL-2.1"
+    },
+    {
+      "name": "csg2csg",
+      "url": "https://github.com/makeclean/csg2csg.git",
+      "commit": "88e79f9f098494c45e9f2f4ec8746627a5e2a939",
+      "license": "EUPL-1.2"
+    },
+    {
+      "name": "SHINE-Source-Terms",
+      "url": "https://github.com/PhoenixNuclearLabs/SHINE-Source-Terms.git",
+      "commit": "943d0dd248779a498e667a4fd89dad0ee3863463",
+      "license": "MIT"
+    }
+  ]
+}
