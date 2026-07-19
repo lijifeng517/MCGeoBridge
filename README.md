@@ -14,7 +14,6 @@ nuclear-data libraries are outside the GDML output.
 
 - Python 3.10 or newer for the converter and its core tests (standard library)
 - Geant4 only for independent destination-geometry checks
-- PySide6 and VTK only for the optional desktop GUI
 
 No installation step is required for the command-line converter.  From the
 repository root:
@@ -36,9 +35,6 @@ Run the Python regression suite with:
 python -m unittest discover -s test -p "test_*.py"
 ```
 
-The optional GUI is started on Windows with `run_gui.bat`; its dependencies are
-listed in `requirements-gui.txt`.
-
 ## Scope and qualification
 
 The current implementation supports signed analytic surfaces, implicit
@@ -58,10 +54,9 @@ See `doc/mcnp2gdml_user_manual_zh.md` for the current user manual and
 
 ## Repository layout
 
-- `src/`: converter, MCNP parser/IR, GDML model and optional GUI
+- `src/`: converter, MCNP parser/IR and GDML model
 - `test/`: unit tests, regression decks and benchmark manifests
 - `tools/`: validation, corpus-summary and figure-generation utilities
-- `doc/MCGeoBridge_paper_draft/`: manuscript source, figures and PDF build
 - `out/`: generated validation records; not all development outputs belong in
   the eventual release archive
 

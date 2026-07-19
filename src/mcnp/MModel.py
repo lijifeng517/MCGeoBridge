@@ -31,7 +31,7 @@ class MModel():
 
 
     def read_from_file(self, inp: str):
-        # Important for GUI multi-load: clear previous model content first.
+        # Clear previous model content before loading a new input.
         self._reset_data()
         blocks  = []
         cur_blk = []
