@@ -1,12 +1,11 @@
-# Reproducing the MCGeoBridge manuscript evidence
+# Reproducing MCGeoBridge validation evidence
 
-This document is the single entry point for the evidence reported in the CPC
-manuscript.  Commands are run from the repository root.  The public release
-will pin the repository revision, operating-system image and Geant4 version;
-the present file describes the working-draft layout.
+This document is the single entry point for the project's validation evidence.
+Commands are run from the repository root. The public release will pin the
+repository revision, operating-system image and Geant4 version.
 
-Machine-readable artefacts for the manuscript's current geometry results are
-frozen in `reproducibility/validation_20260718/`: the nine-case layered
+Machine-readable geometry-validation artefacts are frozen in
+`reproducibility/validation_20260718/`: the nine-case layered
 regression records, the 70-case Geant4 load report, and source-derived PWR and
 FRIDGe navigation controls.  They are evidence records, not substitutes for a
 clean-clone rerun of the commands below.
@@ -65,21 +64,9 @@ integrity, GDML loading, sampled `G4VSolid::Inside()` classification, interior
 overlap sampling and boundary navigation.  Passing one check must not be
 reported as passing the others.
 
-## 6. Paper PDF
-
-On Windows, with Pandoc available, the repository's bundled/detected Tectonic
-chain builds the two-column working PDF with:
-
-```text
-powershell -NoProfile -ExecutionPolicy Bypass -File doc/MCGeoBridge_paper_draft/build_latex_pdf.ps1 -SourceMd CPC_draft_v2.md -OutBase CPC_draft_v2_twocolumn -TwoColumn
-```
-
-The generated PDF is a review layout.  Elsevier's production typesetting, not
-this local rendering, determines the final journal layout.
-
 ## Release blockers
 
-Before the CPiP submission archive is frozen, the authors must confirm
+Before a public archival release is frozen, the authors must confirm
 authorship/citation metadata, replace working paths with a versioned public
 release/DOI, audit redistribution rights for every third-party input and run
 the complete workflow from a clean clone. The source license is BSD-3-Clause.

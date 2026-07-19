@@ -50,7 +50,7 @@ MCGeoBridge distinguishes:
 - **degraded** results containing a reported approximation or fallback.
 
 See `doc/mcnp2gdml_user_manual_zh.md` for the current user manual and
-`REPRODUCIBILITY.md` for the commands that regenerate manuscript evidence.
+`REPRODUCIBILITY.md` for commands that regenerate validation evidence.
 
 ## Repository layout
 
