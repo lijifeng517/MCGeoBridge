@@ -90,13 +90,6 @@ def draw_tokamak_section(size: tuple[int, int]) -> Image.Image:
     for radius, colour in layers:
         r = radius * scale
         draw.ellipse((cx-r, cy-r, cx+r, cy+r), fill=colour, outline=INK, width=2)
-    # Axis and major-radius indication make clear that this is one toroidal
-    # meridional section, rather than a generic concentric-cylinder model.
-    axis_x = 34
-    draw.line((axis_x, 35, axis_x, size[1]-35), fill=INK, width=3)
-    draw.line((axis_x, cy, cx, cy), fill="#73838a", width=2)
-    draw.polygon(((cx, cy), (cx-12, cy-6), (cx-12, cy+6)), fill="#73838a")
-    draw.text((axis_x+10, cy-34), "R = 330 cm", font=font(22), fill="#53656e")
     return image
 
 
@@ -213,7 +206,7 @@ def main() -> None:
         fitted_image(
             ROOT / "tmp" / "mccad_hires_volume_raw.jpeg",
             (panel_w, view_h),
-            crop=(0.36, 0.12, 0.70, 0.60),
+            crop=(0.35, 0.32, 0.70, 0.68),
         ),
         boxes[1],
     )
@@ -226,7 +219,7 @@ def main() -> None:
 
     labels = [
         ("a", "E-Lite sector model", "nested unions and sector partitions"),
-        ("b", "McCAD component library", "mixed primitives and placements"),
+        ("b", "McCAD CSG solids collection", "independent solids and orientations"),
         ("c", "Tokamak radial section", "nested toroidal material layers"),
         ("d", "PWR 17×17 assembly", "LAT=1 square repeated structure"),
         ("e", "FRIDGe fuel assembly", "LAT=2 indexed hexagonal fill"),
