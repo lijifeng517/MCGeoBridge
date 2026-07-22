@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use MCGeoBridge, please cite the software release and its CPC article."
 type: software
 title: "MCGeoBridge"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-07-23
 license: BSD-3-Clause
 repository-code: "https://github.com/lijifeng517/MCGeoBridge"

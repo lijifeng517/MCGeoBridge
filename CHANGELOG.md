@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — 2026-07-23
+
+- Removes manuscript-production and exploratory transport-validation scripts
+  from the public program package.  The release now contains only the geometry
+  converter, its tests, validation helpers, examples and user-facing records.
+
 ## 1.0.0 — 2026-07-23
 
 First archival release of MCGeoBridge.
@@ -15,4 +21,3 @@ First archival release of MCGeoBridge.
   aligned and oblique forms.
 - Adds an English user manual, citation metadata, reproducibility notes and a
   release-specific conversion-cost record.
-

@@ -6,7 +6,7 @@ preservation of MCNP cell-region membership within an explicit finite conversion
 domain. Transport sources, tallies, physics settings and nuclear-data libraries
 are outside the GDML output.
 
-**Release 1.0.0.** The source is distributed under the BSD-3-Clause license.
+**Release 1.0.1.** The source is distributed under the BSD-3-Clause license.
 Use the tagged release and the accompanying validation records for reproducible
 work; the development branch may change after a release is issued.
 
@@ -58,7 +58,7 @@ evidence boundaries for the released validation records.
 
 - `src/`: converter, MCNP parser/IR and GDML model
 - `test/`: unit tests, regression decks and benchmark manifests
-- `tools/`: validation, corpus-summary and figure-generation utilities
+- `tools/`: validation and corpus-summary utilities
 - `out/`: generated validation records; not all development outputs belong in
   the eventual release archive
 
