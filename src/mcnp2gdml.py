@@ -1340,9 +1340,45 @@ def _general_plane_halfspace(surf, sense, ctx):
     ]
     rot = _matrix_to_euler_deg_zyx(matrix)
 
+    # The finite cutter must cover the part of the declared conversion domain
+    # retained by this half-space.  A fixed depth measured from the plane is
+    # not sufficient when users supply a domain far from a general P surface.
+    # Work in the centred GDML frame, in which the bounding-box corners are
+    # simply (+/-hx, +/-hy, +/-hz).
+    corners = [
+        (x, y, z)
+        for x in (-bbox["hx"], bbox["hx"])
+        for y in (-bbox["hy"], bbox["hy"])
+        for z in (-bbox["hz"], bbox["hz"])
+    ]
+    signed = [
+        (corner[0] - p0[0]) * nx
+        + (corner[1] - p0[1]) * ny
+        + (corner[2] - p0[2]) * nz
+        for corner in corners
+    ]
     diagonal = math.sqrt(bbox["hx"] ** 2 + bbox["hy"] ** 2 + bbox["hz"] ** 2)
-    depth = max(4.0 * diagonal, 1.0)
-    transverse = max(4.0 * diagonal, 1.0)
+    guard = max(1.0e-9, diagonal * 1.0e-9)
+
+    # A signed surface reference keeps a*x+b*y+c*z-d <= 0 for sense < 0
+    # and >= 0 for sense > 0.  If all corners are on the retained side, the
+    # exact finite-domain result is the domain itself.  This avoids creating a
+    # remote finite box that misses B entirely.
+    if sense < 0 and max(signed) <= 0.0:
+        return ctx["bbox_name"]
+    if sense > 0 and min(signed) >= 0.0:
+        return ctx["bbox_name"]
+
+    if sense < 0:
+        depth = max(-min(signed), guard)
+    else:
+        depth = max(max(signed), guard)
+
+    transverse_half = max(
+        max(abs(_dot3((corner[0] - p0[0], corner[1] - p0[1], corner[2] - p0[2]), axis)) for corner in corners)
+        for axis in (e1, e2)
+    ) + guard
+    transverse = 2.0 * transverse_half
     direction = -1.0 if sense < 0 else 1.0
     pos = (
         p0[0] + direction * 0.5 * depth * nx,

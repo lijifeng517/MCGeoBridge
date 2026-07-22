@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use MCGeoBridge, please cite the software release and its CPC article."
+type: software
+title: "MCGeoBridge"
+version: 1.0.0
+date-released: 2026-07-23
+license: BSD-3-Clause
+repository-code: "https://github.com/lijifeng517/MCGeoBridge"
+authors:
+  - family-names: Liu
+    given-names: Minjuan
+  - family-names: Deng
+    given-names: Guyu
+  - family-names: Song
+    given-names: Lingli
+  - family-names: Xie
+    given-names: Zhiyi
+  - family-names: Li
+    given-names: Jifeng

@@ -1,14 +1,14 @@
 # MCGeoBridge
 
-MCGeoBridge converts the geometry subset of an MCNP input deck into ordinary
-GDML that can be read by an unmodified Geant4 installation.  Its central
-design goal is preservation of MCNP cell-region membership within an explicit
-finite conversion domain.  Transport sources, tallies, physics settings and
-nuclear-data libraries are outside the GDML output.
+MCGeoBridge converts a documented MCNP geometry subset into ordinary GDML that
+can be read by an unmodified Geant4 installation. Its central design goal is
+preservation of MCNP cell-region membership within an explicit finite conversion
+domain. Transport sources, tallies, physics settings and nuclear-data libraries
+are outside the GDML output.
 
-> **Pre-release status.** This working tree is being prepared for submission
-> to *Computer Physics Communications*.  The source is released under the
-> BSD-3-Clause license; a versioned archival release and DOI are still pending.
+**Release 1.0.0.** The source is distributed under the BSD-3-Clause license.
+Use the tagged release and the accompanying validation records for reproducible
+work; the development branch may change after a release is issued.
 
 ## Requirements
 
@@ -43,14 +43,16 @@ qualified subset of universes, fills, transforms and square/hexagonal
 lattices.  A generated file is not automatically an equivalence proof.
 MCGeoBridge distinguishes:
 
-- **strict** results, for supported exact geometry with resolved references and
-  an accepted finite domain;
-- **qualified** results, which pass stated structural or Geant4 checks but lack
-  complete point-membership evidence; and
-- **degraded** results containing a reported approximation or fallback.
+- **exact-path** results: supported, fully resolved geometry for which the
+  declared finite-domain construction has no recorded approximation;
+- **structural checks**: reported GDML loading, navigation, or overlap evidence
+  that does not by itself establish complete point-membership agreement; and
+- **approximate** results: an identified discretization, fallback, or unsupported
+  semantic detail, excluded from exact-path claims.
 
-See `doc/mcnp2gdml_user_manual_zh.md` for the current user manual and
-`REPRODUCIBILITY.md` for commands that regenerate validation evidence.
+Read the English [user manual](doc/MCGeoBridge_user_manual.md) before applying
+the converter to a new model. `REPRODUCIBILITY.md` gives the commands and
+evidence boundaries for the released validation records.
 
 ## Repository layout
 
@@ -63,6 +65,6 @@ See `doc/mcnp2gdml_user_manual_zh.md` for the current user manual and
 ## Citation and license
 
 MCGeoBridge is distributed under the BSD-3-Clause license. Citation metadata
-and the archival release DOI will be added when the author list is confirmed.
+are provided in `CITATION.cff`; cite the release version used for a calculation.
 Third-party benchmark inputs retain their own notices and are distributed only
 when their licenses permit it; see `THIRD_PARTY_NOTICES.md`.

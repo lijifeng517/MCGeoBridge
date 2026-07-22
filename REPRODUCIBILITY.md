@@ -1,14 +1,14 @@
 # Reproducing MCGeoBridge validation evidence
 
-This document is the single entry point for the project's validation evidence.
-Commands are run from the repository root. The public release will pin the
-repository revision, operating-system image and Geant4 version.
+This document is the single entry point for the released validation evidence.
+Commands are run from the repository root. Record the release tag, operating
+system, Python version and (where used) Geant4 version with every rerun.
 
 Machine-readable geometry-validation artefacts are frozen in
 `reproducibility/validation_20260718/`: the nine-case layered
 regression records, the 70-case Geant4 load report, and source-derived PWR and
-FRIDGe navigation controls.  They are evidence records, not substitutes for a
-clean-clone rerun of the commands below.
+FRIDGe navigation controls. They are evidence records, not substitutes for a
+fresh-copy rerun of the commands below.
 
 ## 1. Core regression tests
 
@@ -55,18 +55,27 @@ python tools/summarize_layered_validation.py out/layered_validation_20260718 --o
 The output keeps global, cell-local and boundary-directed point counts
 separate, including active boundary pairs and skipped surface references.
 
-## 5. Independent Geant4 checks
+## 5. Conversion-cost record
 
-Geant4 checks require a separately configured Geant4 installation.  The
-release archive will include the checker source, build instructions, Geant4
-version, GDML input hash and raw log.  Reported checks distinguish XML/schema
+`reproducibility/release_1_0_0_conversion_performance.json` records three cold
+conversions for a small mixed-CSG deck, the ZPPR-20C assembly, and a public PWR
+spent-fuel canister. It reports conversion and GDML-writing time only; it is not
+a Geant4 loading or transport benchmark. The record identifies the operating
+system, Python version, output size, and emitted geometry counts.
+
+## 6. Independent Geant4 checks
+
+Geant4 checks require a separately configured Geant4 installation. The package
+includes checker source and build instructions. For a new run, archive the
+Geant4 version, GDML input hash, command and raw log with the result. Reported
+checks distinguish XML/schema
 integrity, GDML loading, sampled `G4VSolid::Inside()` classification, interior
 overlap sampling and boundary navigation.  Passing one check must not be
 reported as passing the others.
 
-## Release blockers
+## Reuse checklist
 
-Before a public archival release is frozen, the authors must confirm
-authorship/citation metadata, replace working paths with a versioned public
-release/DOI, audit redistribution rights for every third-party input and run
-the complete workflow from a clean clone. The source license is BSD-3-Clause.
+Before publishing a derived result, confirm that third-party inputs may be
+redistributed, retain their license notices, run the applicable workflow from a
+fresh copy of the tagged release, and archive the resulting commands and logs.
+The source license is BSD-3-Clause.

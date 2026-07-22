@@ -346,6 +346,51 @@ m1 1001 1
         self.assertGreater(report["totals"]["boundary_pairs"], 0)
         self.assertGreater(report["totals"]["active_boundary_pairs"], 0)
 
+    def test_general_plane_far_from_explicit_domain_preserves_retained_bbox(self):
+        """A finite P cutter must not miss a user-supplied domain far from it."""
+        cases = (
+            ("negative_axis", "-1", "1 P 1 0 0 2000"),
+            ("positive_axis", "1", "1 P 1 0 0 -2000"),
+            ("negative_oblique", "-1", "1 P 1 1 1 2000"),
+        )
+        for label, region, surface in cases:
+            with self.subTest(label=label):
+                deck = f"""general plane outside declared domain
+1 0 {region} imp:n=1
+
+{surface}
+"""
+                with tempfile.TemporaryDirectory() as tmpdir:
+                    source = Path(tmpdir) / f"{label}.i"
+                    report_path = Path(tmpdir) / f"{label}.validate.json"
+                    source.write_text(deck, encoding="utf-8")
+                    model = MModel()
+                    model.read_from_file(source)
+                    GModel._instance = None
+                    gdml = GModel()
+                    validate = {
+                        "samples": 20,
+                        "local_samples": 20,
+                        "boundary_samples": 0,
+                        "seed": 0,
+                        "eps": 1e-6,
+                        "cells": [1],
+                        "out_path": str(report_path),
+                    }
+                    mcnp2Gdml(
+                        model,
+                        gdml,
+                        [1],
+                        (-10.0, 10.0, -10.0, 10.0, -10.0, 10.0),
+                        0.1,
+                        False,
+                        False,
+                        validate,
+                    )
+                    report = json.loads(report_path.read_text(encoding="utf-8"))
+                self.assertEqual(report["totals"]["points"], 40)
+                self.assertEqual(report["totals"]["mismatches"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()

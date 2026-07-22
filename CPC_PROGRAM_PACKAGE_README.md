@@ -23,7 +23,7 @@ It is prepared for a Computer Programs in Physics (CPiP) submission to
 - `reproducibility/validation_20260718/` -- frozen layered-validation,
   Geant4-load, and navigation records cited by the manuscript.
 - `tools/` -- validation, integrity, corpus-summary, and figure utilities.
-- `doc/mcnp2gdml_user_manual_zh.md` -- user manual.
+- `doc/MCGeoBridge_user_manual.md` -- English user manual.
 - `LICENSE` and `THIRD_PARTY_NOTICES.md` -- licensing information.
 
 ## Installation and comprehensive sample run

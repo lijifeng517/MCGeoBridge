@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "description": "Median wall-clock time of three cold MCNP-to-GDML conversions using release 1.0.0. Timings measure conversion and GDML writing only, not Geant4 loading or transport.",
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows 11 10.0.26200",
+    "processor": "AMD64 Family 26 Model 68"
+  },
+  "repeats": 3,
+  "cases": [
+    {
+      "model": "Small mixed CSG",
+      "median_seconds": 0.0823,
+      "output_bytes": 7961,
+      "solids": 22,
+      "logical_volumes": 3,
+      "placed_volumes": 2
+    },
+    {
+      "model": "ZPPR-20C fast-reactor assembly",
+      "median_seconds": 0.1423,
+      "output_bytes": 183396,
+      "solids": 274,
+      "logical_volumes": 181,
+      "placed_volumes": 180
+    },
+    {
+      "model": "PWR spent-fuel canister",
+      "top_cells": "1051",
+      "median_seconds": 3.6389,
+      "output_bytes": 52063578,
+      "solids": 90875,
+      "logical_volumes": 78780,
+      "placed_volumes": 78779
+    }
+  ]
+}
