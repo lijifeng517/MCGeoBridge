@@ -322,7 +322,7 @@ m1 1001 1
     def test_layered_validation_reports_active_boundary_pairs(self):
         source = (
             Path(__file__).resolve().parents[1]
-            / "doc/MCGeoBridge_paper_draft/examples/example_7hole_disk/example_7hole_disk.i"
+            / "examples/seven_hole_disk/seven_hole_disk.i"
         )
         model = MModel()
         model.read_from_file(source)
