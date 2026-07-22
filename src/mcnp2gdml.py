@@ -1034,10 +1034,12 @@ def _run_validation(mcnp_model, cell_roots, cell_place, ctx, validate):
         )
 
     if out_path:
+        os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=2)
         print(f"[validate] report written to {out_path}")
     if geant4_points_out:
+        os.makedirs(os.path.dirname(geant4_points_out) or ".", exist_ok=True)
         with open(geant4_points_out, "w", encoding="utf-8") as f:
             f.write("solid\tx_cm\ty_cm\tz_cm\texpected_inside\tstrategy\tcell_id\n")
             for row in geant4_probe_rows:
@@ -4026,6 +4028,7 @@ if __name__ == "__main__":
         validate,
         return_debug=bool(args.write_manifest),
     )
+    os.makedirs(os.path.dirname(out_fpath) or ".", exist_ok=True)
     gdml_model.write_gdml(out_fpath)
     if args.write_manifest:
         bbox = debug["bbox"]
@@ -4067,6 +4070,7 @@ if __name__ == "__main__":
                 "note": "GDML represents geometry only; MCNP reflecting and white boundary semantics require a separately qualified transport implementation.",
             },
         }
+        os.makedirs(os.path.dirname(args.write_manifest) or ".", exist_ok=True)
         with open(args.write_manifest, "w", encoding="utf-8") as f:
             json.dump(manifest, f, indent=2)
         print(f"[info] Conversion manifest written to {args.write_manifest}")
