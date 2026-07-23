@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "description": "Ten isolated cold-process MCNP-to-GDML conversions. Timings measure parsing, IR/CSG lowering, GDML construction and GDML writing only; they exclude Geant4 loading, navigation and transport.",
+  "converter_sha256": "E8430B70C92206561E0BEB62F3DC02ECC3B1A9779D289FDB04DC81475FA2F6BA",
+  "quartile_method": "inclusive",
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 16,
+    "physical_memory_bytes": 16810905600,
+    "output_filesystem": "D:",
+    "environment_note": "AMD Ryzen 7 9700X (8 cores, 16 logical processors; base 3.80 GHz); 16 GiB RAM; ZHITAI TiPlus7100 1 TB NVMe SSD; NTFS; single-process isolated Python invocations.",
+    "repeats": 10
+  },
+  "cases": [
+    {
+      "label": "Small mixed CSG",
+      "input": "test\\CASE_10",
+      "top_cells": "",
+      "seconds": [
+        0.0929609999875538,
+        0.08662690001074225,
+        0.08413489995291457,
+        0.08499310002662241,
+        0.08849930000724271,
+        0.0891074999817647,
+        0.08641739998711273,
+        0.08822070003952831,
+        0.08924100000876933,
+        0.08794270001817495
+      ],
+      "median_seconds": 0.08808170002885163,
+      "minimum_seconds": 0.08413489995291457,
+      "maximum_seconds": 0.0929609999875538,
+      "q1_seconds": 0.08646977499302011,
+      "q3_seconds": 0.0889554499881342,
+      "iqr_seconds": 0.0024856749951140955,
+      "metrics": {
+        "bytes": 7961,
+        "solids": 22,
+        "logical_volumes": 3,
+        "placed_volumes": 2
+      }
+    },
+    {
+      "label": "ZPPR-20C fast-reactor assembly",
+      "input": "test\\ZPPR20C-B6.txt",
+      "top_cells": "",
+      "seconds": [
+        0.153310900030192,
+        0.14494970004307106,
+        0.1443036000127904,
+        0.14332150004338473,
+        0.1452294000191614,
+        0.1413679999532178,
+        0.1488163999747485,
+        0.14568040001904592,
+        0.1497903999988921,
+        0.14658439997583628
+      ],
+      "median_seconds": 0.14545490001910366,
+      "minimum_seconds": 0.1413679999532178,
+      "maximum_seconds": 0.153310900030192,
+      "q1_seconds": 0.14446512502036057,
+      "q3_seconds": 0.14825839997502044,
+      "iqr_seconds": 0.0037932749546598643,
+      "metrics": {
+        "bytes": 183396,
+        "solids": 274,
+        "logical_volumes": 181,
+        "placed_volumes": 180
+      }
+    },
+    {
+      "label": "PWR spent-fuel canister",
+      "input": "test\\engineering_cases\\NormalOperation_SpentFuel_mcnp",
+      "top_cells": "1051",
+      "seconds": [
+        3.6549076000228524,
+        3.601378299994394,
+        3.690021499991417,
+        3.602021500002593,
+        3.586897300032433,
+        3.5660603000433184,
+        3.590581399970688,
+        3.5720201999647543,
+        3.598630399967078,
+        3.585049999994226
+      ],
+      "median_seconds": 3.594605899968883,
+      "minimum_seconds": 3.5660603000433184,
+      "maximum_seconds": 3.690021499991417,
+      "q1_seconds": 3.5855118250037776,
+      "q3_seconds": 3.601860700000543,
+      "iqr_seconds": 0.016348874996765517,
+      "metrics": {
+        "bytes": 52063578,
+        "solids": 90875,
+        "logical_volumes": 78780,
+        "placed_volumes": 78779
+      }
+    }
+  ]
+}

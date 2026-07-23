@@ -57,11 +57,13 @@ separate, including active boundary pairs and skipped surface references.
 
 ## 5. Conversion-cost record
 
-`reproducibility/release_1_0_0_conversion_performance.json` records three cold
-conversions for a small mixed-CSG deck, the ZPPR-20C assembly, and a public PWR
-spent-fuel canister. It reports conversion and GDML-writing time only; it is not
-a Geant4 loading or transport benchmark. The record identifies the operating
-system, Python version, output size, and emitted geometry counts.
+`reproducibility/release_1_0_2_conversion_performance.json` records ten
+isolated cold-process conversions for a small mixed-CSG deck, the ZPPR-20C
+assembly, and a public PWR spent-fuel canister. The timed interval covers
+parsing, IR/CSG lowering, GDML construction and writing only; it is not a
+Geant4 loading, navigation or transport benchmark. The record includes the raw
+times, median, range, quartiles and IQR, together with Python, operating-system,
+processor, logical-CPU, memory, output-filesystem and hardware/storage metadata.
 
 ## 6. Independent Geant4 checks
 

@@ -6,7 +6,7 @@ preservation of MCNP cell-region membership within an explicit finite conversion
 domain. Transport sources, tallies, physics settings and nuclear-data libraries
 are outside the GDML output.
 
-**Release 1.0.1.** The source is distributed under the BSD-3-Clause license.
+**Release 1.0.2.** The source is distributed under the BSD-3-Clause license.
 Use the tagged release and the accompanying validation records for reproducible
 work; the development branch may change after a release is issued.
 
@@ -66,5 +66,7 @@ evidence boundaries for the released validation records.
 
 MCGeoBridge is distributed under the BSD-3-Clause license. Citation metadata
 are provided in `CITATION.cff`; cite the release version used for a calculation.
-Third-party benchmark inputs retain their own notices and are distributed only
-when their licenses permit it; see `THIRD_PARTY_NOTICES.md`.
+The archived v1.0.1 record is available at
+https://doi.org/10.5281/zenodo.21511720. Third-party benchmark inputs retain
+their own notices and are distributed only when their licenses permit it; see
+`THIRD_PARTY_NOTICES.md`.
